@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "../comptes",
+      "../extension",
+      "../maison",
+      "../travaux"
+    ]
+  }
+}
