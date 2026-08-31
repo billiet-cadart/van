@@ -80,8 +80,32 @@ elle se déclenche aussi bien par `/sauvegarder` que par les mots ci-dessus.
 
 ## 4. Ce qui est propre à ce dépôt
 
-- Les décisions sont des ADR numérotés dans `docs/adr/`, le vocabulaire est dans `docs/GLOSSARY.md` (qui ne contient volontairement ni chiffres ni décisions). Garder cette séparation.
-- ⚠️ Écart connu, non tranché : l'outil de prêt provisionne **50 000 €** pour le van, les ADR visent **37–42 k€**.
+- Les décisions sont des ADR numérotés dans `docs/adr/`, le vocabulaire est dans `docs/GLOSSARY.md` (qui ne contient volontairement ni chiffres ni décisions). Les notes de recherche marché qui ne sont pas encore des décisions vivent en dehors de `adr/` (ex. `docs/recherche-marche-sieges.md`). Garder cette séparation.
+- ⚠️ Écart budgétaire ouvert, encore plus flou depuis le passage au fourgon nu (ADR-0005) : l'outil de prêt provisionne **50 000 €** pour le van, l'ancien repère ADR de **37–42 k€** est périmé (il visait un véhicule déjà aménagé) et le nouveau total (achat porteur nu + aménagement) n'est pas encore chiffré.
+
+### Relais navigateur pour les recherches marché (leboncoin, etc.)
+
+Timothée a une extension Chrome avec Claude et un compte leboncoin connecté, mais **cette
+session-ci n'y a pas accès directement** — pas de contrôle du navigateur, et le fetch web
+classique se fait bloquer par leboncoin (403). La méthode de repli, à utiliser à chaque fois
+qu'une recherche demande d'aller voir des annonces réelles (leboncoin ou autre site qui bloque
+le fetch direct) :
+
+1. Rédiger un **prompt autonome et copiable**, prêt à être collé tel quel dans l'extension —
+   contexte minimal inclus (ne pas supposer que l'autre session a lu cette conversation), et une
+   consigne claire sur ce qu'il faut en rapporter (annonces trouvées, prix, année, kilométrage,
+   configuration sièges, etc.).
+2. Le donner à Timothée avec une phrase du genre « lance ce prompt dans l'extension Chrome et
+   colle-moi le résultat ».
+3. Traiter sa réponse collée comme le résultat d'une recherche web classique — même prudence sur
+   les chiffres (fourchette, source, ce qui reste à vérifier).
+
+🔴 **leboncoin et la plupart des sites de vente en ligne bloquent systématiquement le fetch/curl
+direct** (confirmé : 403 rencontré). Ne pas réessayer WebFetch dessus, ce sera toujours refusé.
+**Le relais Chrome ci-dessus est la méthode à utiliser systématiquement pour ces sites-là** —
+pas une solution de repli occasionnelle. Dès qu'une recherche vise des annonces (leboncoin ou
+équivalent), passer directement par un prompt à faire lancer dans l'extension, sans tenter le
+fetch direct au préalable.
 
 ## 5. La forme des documents
 

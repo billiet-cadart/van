@@ -1,5 +1,12 @@
 # Stratégie « Valeur » : Ducato-600 ancien dépouillé, pas la liquidité premium
 
+> 🗄️ **Périmé.** La cible a changé vers un fourgon **nu** à aménager soi-même
+> ([ADR-0005](0005-fourgon-nu-a-amenager-soi-meme.md)). Cette analyse comparait des
+> fourgons déjà aménagés par des carrossiers (Adria, Pilote, VW California) — elle ne
+> s'applique plus directement. Les critères de choix du porteur nu sont dans
+> [ADR-0006](0006-config-porteur-nu-sieges-cabine.md). Le raisonnement d'origine (marché
+> local, liquidité) garde sa valeur pour mémoire, non supprimé.
+
 Résout l'arbitrage laissé ouvert par l'ADR-0003 (Valeur vs Liquidité), sur la base des
 décotes réelles observées sur leboncoin (200 km autour de Meylan).
 

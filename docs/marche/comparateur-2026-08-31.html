@@ -1,0 +1,366 @@
+<title>Comparateur fourgons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Archivo+Expanded:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --page-bg:       #f9f9f7;
+    --surface:       #fcfcfb;
+    --text-primary:  #0b0b0b;
+    --text-secondary:#52514e;
+    --text-muted:    #898781;
+    --gridline:      #e1e0d9;
+    --baseline:      #c3c2b7;
+    --border:        rgba(11,11,11,0.10);
+    --bar-fill:      #2a78d6;
+    --bar-track:     #cde2fb;
+    --status-good:   #0ca30c;
+    --status-warn:   #fab219;
+    --status-warn-bg:#fff3d9;
+    --status-good-bg:#e3f6e3;
+    --chip-bg:       #efeee9;
+    --l3-color:      #eb6834;
+    --l3-bg:         rgba(235,104,52,0.14);
+    --l4-color:      #1baf7a;
+    --l4-bg:         rgba(27,175,122,0.14);
+    --amenage-color: #4a3aa7;
+    --amenage-bg:    rgba(74,58,167,0.12);
+    --nu-color:      #008300;
+    --nu-bg:         rgba(0,131,0,0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page-bg:       #0d0d0d;
+      --surface:       #1a1a19;
+      --text-primary:  #ffffff;
+      --text-secondary:#c3c2b7;
+      --text-muted:    #898781;
+      --gridline:      #2c2c2a;
+      --baseline:      #383835;
+      --border:        rgba(255,255,255,0.10);
+      --bar-fill:      #3987e5;
+      --bar-track:     #184f95;
+      --status-good:   #0ca30c;
+      --status-warn:   #fab219;
+      --status-warn-bg:#3a2f10;
+      --status-good-bg:#122912;
+      --chip-bg:       #232322;
+      --l3-color:      #d95926;
+      --l3-bg:         rgba(217,89,38,0.22);
+      --l4-color:      #199e70;
+      --l4-bg:         rgba(25,158,112,0.22);
+      --amenage-color: #9085e9;
+      --amenage-bg:    rgba(144,133,233,0.20);
+      --nu-color:      #0ca30c;
+      --nu-bg:         rgba(12,163,12,0.18);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page-bg:       #0d0d0d;
+    --surface:       #1a1a19;
+    --text-primary:  #ffffff;
+    --text-secondary:#c3c2b7;
+    --text-muted:    #898781;
+    --gridline:      #2c2c2a;
+    --baseline:      #383835;
+    --border:        rgba(255,255,255,0.10);
+    --bar-fill:      #3987e5;
+    --bar-track:     #184f95;
+    --status-good:   #0ca30c;
+    --status-warn:   #fab219;
+    --status-warn-bg:#3a2f10;
+    --status-good-bg:#122912;
+    --chip-bg:       #232322;
+    --l3-color:      #d95926;
+    --l3-bg:         rgba(217,89,38,0.22);
+    --l4-color:      #199e70;
+    --l4-bg:         rgba(25,158,112,0.22);
+    --amenage-color: #9085e9;
+    --amenage-bg:    rgba(144,133,233,0.20);
+    --nu-color:      #0ca30c;
+    --nu-bg:         rgba(12,163,12,0.18);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--page-bg);
+    color: var(--text-primary);
+    font-family: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 32px 20px 64px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+
+  header { margin-bottom: 28px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-muted); margin: 0 0 8px;
+  }
+  h1 {
+    font-family: "Archivo Expanded", Archivo, sans-serif;
+    font-weight: 700; font-size: clamp(28px, 4vw, 38px); line-height: 1.1;
+    margin: 0 0 10px; text-wrap: balance;
+  }
+  .subhead { color: var(--text-secondary); font-size: 15px; line-height: 1.5; max-width: 62ch; margin: 0; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--gridline);
+    border: 1px solid var(--gridline); border-radius: 10px; overflow: hidden; margin: 24px 0; }
+  .stat { background: var(--surface); padding: 14px 16px; }
+  .stat .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 4px; }
+  .stat .value { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 20px; }
+  .pillgroup { display: inline-flex; background: var(--chip-bg); border-radius: 999px; padding: 3px; gap: 2px; }
+  .pill {
+    border: none; background: transparent; color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600;
+    padding: 6px 14px; border-radius: 999px; cursor: pointer;
+  }
+  .pill[aria-pressed="true"] { background: var(--surface); color: var(--text-primary); box-shadow: 0 1px 2px var(--border); }
+  .toggle {
+    display: inline-flex; align-items: center; gap: 7px; font-size: 13px; color: var(--text-secondary);
+    cursor: pointer; user-select: none; margin-left: auto;
+  }
+  .toggle input { accent-color: var(--bar-fill); width: 15px; height: 15px; }
+
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--text-muted); margin-bottom: 14px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+  .list { display: flex; flex-direction: column; }
+  .row {
+    display: grid; grid-template-columns: minmax(180px, 260px) 1fr 92px; align-items: center;
+    gap: 16px; padding: 12px 10px; border-bottom: 1px solid var(--gridline);
+    border-radius: 8px; transition: background 120ms ease;
+  }
+  .row:hover { background: var(--chip-bg); }
+  .row.is-hidden { display: none; }
+
+  .meta { min-width: 0; }
+  .meta .name-line { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .meta a.name {
+    font-weight: 600; font-size: 14.5px; color: var(--text-primary); text-decoration: none;
+    border-bottom: 1px solid var(--baseline);
+  }
+  .meta a.name:hover { border-color: var(--bar-fill); color: var(--bar-fill); }
+  .tag { color: var(--text-muted); font-size: 12.5px; }
+  .badge-len {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.03em; padding: 1px 7px; border-radius: 5px;
+    background: var(--chip-bg); color: var(--text-secondary); border: 1px solid var(--gridline);
+  }
+  .badge-len[data-len="L3"] { background: var(--l3-bg); color: var(--l3-color); border-color: transparent; }
+  .badge-len[data-len="L4"] { background: var(--l4-bg); color: var(--l4-color); border-color: transparent; }
+  .badge-fit {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.03em; padding: 1px 7px; border-radius: 5px;
+    background: var(--chip-bg); color: var(--text-secondary); border: 1px solid transparent;
+  }
+  .badge-fit[data-fit="amenage"] { background: var(--amenage-bg); color: var(--amenage-color); }
+  .badge-fit[data-fit="nu"] { background: var(--nu-bg); color: var(--nu-color); }
+  .sub-line { font-size: 12.5px; color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-top: 3px; }
+  .flag-line {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600;
+    padding: 2px 8px 2px 6px; border-radius: 6px; margin-top: 5px;
+  }
+  .flag-line.warn { background: var(--status-warn-bg); color: #8a5a00; }
+  :root:not([data-theme="light"]) .flag-line.warn,
+  :root[data-theme="dark"] .flag-line.warn { color: var(--status-warn); }
+  .flag-line.good { background: var(--status-good-bg); color: var(--status-good); }
+
+  .bar-wrap { position: relative; height: 20px; border-radius: 4px; background: var(--bar-track); overflow: hidden; }
+  .bar-fill {
+    position: absolute; top: 0; left: 0; height: 100%; background: var(--bar-fill);
+    border-radius: 0 4px 4px 0; min-width: 4px;
+  }
+
+  .price { text-align: right; font-weight: 700; font-size: 14.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .tooltip {
+    position: fixed; pointer-events: none; z-index: 20; max-width: 260px;
+    background: var(--text-primary); color: var(--page-bg); font-size: 12.5px; line-height: 1.5;
+    padding: 9px 11px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    opacity: 0; transform: translateY(4px); transition: opacity 120ms ease, transform 120ms ease;
+  }
+  .tooltip.visible { opacity: 1; transform: translateY(0); }
+  .tooltip b { display: block; margin-bottom: 3px; }
+
+  footer { margin-top: 28px; font-size: 12px; color: var(--text-muted); line-height: 1.6; }
+  footer a { color: inherit; }
+
+  @media (max-width: 620px) {
+    .row { grid-template-columns: 1fr; }
+    .bar-wrap { order: 3; }
+    .price { order: 2; text-align: left; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Recherche marché · 31 août 2026</p>
+    <h1>22 fourgons, prix contre prix</h1>
+    <p class="subhead">Ducato / Boxer / Jumper, format « 600 » (L3) et Maxi (L4). Chaque jauge bleue représente le prix affiché par rapport au plus cher du lot.</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <div class="pillgroup" id="filters" role="group" aria-label="Filtrer par longueur">
+      <button class="pill" data-filter="all" aria-pressed="true">Tous</button>
+      <button class="pill" data-filter="L3" aria-pressed="false">L3</button>
+      <button class="pill" data-filter="L4" aria-pressed="false">L4</button>
+    </div>
+    <div class="pillgroup" id="fit-filters" role="group" aria-label="Filtrer par aménagement">
+      <button class="pill" data-fit-filter="all" aria-pressed="true">Aménagé + Nu</button>
+      <button class="pill" data-fit-filter="amenage" aria-pressed="false">Aménagé</button>
+      <button class="pill" data-fit-filter="nu" aria-pressed="false">Nu</button>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="hide-flagged">
+      Masquer les annonces à vérifier
+    </label>
+  </div>
+
+  <div class="legend">
+    <span><span class="swatch" style="background:var(--bar-fill)"></span>Prix affiché</span>
+    <span><span class="badge-len" data-len="L3">L3</span>≈ 5,99 m</span>
+    <span><span class="badge-len" data-len="L4">L4</span>≈ 6,36 m</span>
+    <span><span class="badge-fit" data-fit="amenage">Aménagé</span>intérieur habitable installé</span>
+    <span><span class="badge-fit" data-fit="nu">Nu</span>cargo vide ou usage pro (photos vérifiées)</span>
+    <span>⚠ à vérifier avant contact</span>
+    <span>✓ point positif confirmé</span>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Prix affichés = prix TTC annoncé (VAT récupérable pour un acheteur professionnel sur les annonces qui le précisent). Kilométrage et année déclarés par le vendeur, non vérifiés indépendamment. Source : recherche leboncoin du 31 août 2026 — les prix et la disponibilité bougent vite, à revérifier avant tout contact. Détail complet et photos archivées dans <code>docs/marche/</code> du dépôt. Un candidat GNV (3226785978) a été retiré : motorisation exclue par choix de la famille.
+  </footer>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+  const DATA = [
+    {id:"3249486543", model:"Ducato L3H2", tag:"Pro Lounge", price:19000, year:2020, km:116700, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null},
+    {id:"3227572786", model:"Ducato L3H2", tag:"2.3 140", price:18990, year:2021, km:96000, length:"L3", fit:"nu", vendor:"Pro (MCT Consulting)", ct:"Non précisé", amenagement:"Nu (attelage, caméra, GPS)", flag:null},
+    {id:"3230965149", model:"Ducato L3H2", tag:"13 m³", price:18960, year:2020, km:93319, length:"L3", fit:"nu", vendor:"Pro (Viel Négoce)", ct:"Sous garantie garage", amenagement:"Nu", flag:{type:"warn", text:"2 places / 2 portes confirmé (champ leboncoin) — cabine courte, pas 4 places"}},
+    {id:"3111078233", model:"Ducato L3H2", tag:"180 Power BVA", price:34788, year:2023, km:14718, length:"L3", fit:"nu", vendor:"Pro (Cretot Centre)", ct:"Occasion bon état (déclaré)", amenagement:"Nu (vérifié photo : parois bois + sièges arrière, pas de mobilier camping)", flag:null},
+    {id:"3234530816", model:"Ducato L3H2", tag:"140 ch", price:20000, year:2019, km:44142, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT valide, bon état", amenagement:"Aménagement en cours (vérifié photo : ossature bois + électricité posées), pas de banquette/lit fixe", flag:null},
+    {id:"3243353771", model:"Ducato L3H2", tag:"VASP", price:39500, year:2014, km:150000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Aménagement complet, 4 places homologuées VASP", flag:{type:"good", text:"4 places homologuées VASP d'origine"}},
+    {id:"3257719662", model:"Ducato L3H2", tag:"Maxi 180 cv", price:22000, year:2013, km:170000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Aménagé, salon en U → lit (pas de lit fixe)", flag:null},
+    {id:"3144086448", model:"Ducato L3H2", tag:"Van aménagé", price:25999, year:2015, km:110000, length:"L3", fit:"amenage", vendor:"Pro (Garage du Puits Simon)", ct:"CT valide jusqu'en 2028", amenagement:"Aménagé, présence lit fixe non confirmée", flag:null},
+    {id:"3236835638", model:"Boxer L3H2", tag:"aménagé", price:17900, year:2012, km:159000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Factures disponibles", amenagement:"Aménagé, banquette homologuée non confirmée", flag:null},
+    {id:"3240076135", model:"Boxer L3H2", tag:"à finir d'aménager", price:19000, year:2017, km:137113, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT valide jusqu'en 2026 seulement", amenagement:"Aménagé (vérifié photo : plateforme lit + rangements installés, plus avancé que \"nu équivalent\")", flag:{type:"warn", text:"CT valide 2026 seulement"}},
+    {id:"3248186538", model:"Boxer L3H2", tag:"3.0 HDi 180", price:13000, year:2013, km:192000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Factures disponibles", amenagement:"Nu", flag:null},
+    {id:"3148537724", model:"Boxer L3H2", tag:"quasi-neuf", price:29900, year:2025, km:9900, length:"L3", fit:"nu", vendor:"Pro (concession Cahors)", ct:"Sous garantie 12 mois", amenagement:"Nu", flag:null},
+    {id:"3234575793", model:"Jumper L3H2", tag:"2.2 HDi 110", price:10990, year:2013, km:69968, length:"L3", fit:"nu", vendor:"Pro (Perrière Charpente)", ct:"Carnet d'entretien disponible", amenagement:"Nu (vérifié photo : véhicule d'artisan charpentier, pas d'aménagement camping visible)", flag:null},
+    {id:"2869595583", model:"Jumper L3H2", tag:"quasi-neuf", price:33480, year:2023, km:7900, length:"L3", fit:"nu", vendor:"Pro (Auto-Pouliquen)", ct:"Garantie 6 mois", amenagement:"Nu", flag:null},
+    {id:"3202627305", model:"Jumper L3H2", tag:"BlueHDi 165", price:21990, year:2020, km:76488, length:"L3", fit:"nu", vendor:"Pro (Cobredia)", ct:"CT 05-06-2026, sous garantie", amenagement:"Nu", flag:null},
+    {id:"3250279944", model:"Jumper L3H2", tag:"Business 163", price:16900, year:2017, km:84900, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null},
+    {id:"3230949857", model:"Jumper L3H2", tag:"VASP aménagé", price:17500, year:2009, km:245653, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT valide jusqu'en 2027", amenagement:"Aménagement complet homologué VASP", flag:null},
+    {id:"3260522331", model:"Jumper L3H2", tag:"VASP Caravane", price:16500, year:2011, km:172000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT valide 2027 (à refaire avant vente)", amenagement:"Ex-ambulance, aménagé VASP", flag:null},
+    {id:"3218678796", model:"Boxer L4H2", tag:"Asphalt", price:19950, year:2020, km:82000, length:"L4", fit:"nu", vendor:"Particulier", ct:"CT valide 2027, carnet + factures", amenagement:"Nu, intérieur bois (plancher protecteur, pas un aménagement camping)", flag:null},
+    {id:"3235756663", model:"Jumper L4H2", tag:"semi-aménagé", price:14000, year:2008, km:134000, length:"L4", fit:"amenage", vendor:"Particulier", ct:"Contrôle technique à refaire (négatif). Places : champ leboncoin dit 1, mais les photos en montrent ≥6 (banquette arrière rapportée) — erreur de saisie probable, nombre légal à vérifier.", amenagement:"Semi-aménagé, pas de banquette homologuée", flag:{type:"warn", text:"CT à refaire (négatif)"}},
+    {id:"3172038406", model:"Ducato L4H2", tag:"Maxi 130", price:14990, year:2016, km:156000, length:"L4", fit:"nu", vendor:"Pro (Via Automobile)", ct:"CT valide", amenagement:"Nu (vérifié photos : aucun aménagement camping visible)", flag:null},
+  ];
+
+  const MAX_PRICE = Math.max(...DATA.map(d => d.price));
+  const fmt = n => n.toLocaleString('fr-FR');
+  const listEl = document.getElementById('list');
+  const statsEl = document.getElementById('stats');
+  const tooltip = document.getElementById('tooltip');
+
+  const sorted = [...DATA].sort((a, b) => b.price - a.price);
+
+  sorted.forEach(d => {
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.dataset.length = d.length;
+    row.dataset.fit = d.fit;
+    row.dataset.flagged = d.flag ? '1' : '0';
+
+    const pct = Math.max((d.price / MAX_PRICE) * 100, 2);
+
+    row.innerHTML = `
+      <div class="meta">
+        <div class="name-line">
+          <a class="name" href="https://www.leboncoin.fr/ad/utilitaires/${d.id}" target="_blank" rel="noopener">${d.model}</a>
+          <span class="badge-len" data-len="${d.length}">${d.length}</span>
+          <span class="badge-fit" data-fit="${d.fit}">${d.fit === 'amenage' ? 'Aménagé' : 'Nu'}</span>
+        </div>
+        <div class="tag">${d.tag}</div>
+        <div class="sub-line">${d.year} · ${fmt(d.km)} km</div>
+        ${d.flag ? `<div class="flag-line ${d.flag.type}">${d.flag.type === 'good' ? '✓' : '⚠'} ${d.flag.text}</div>` : ''}
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-fill" style="width:${pct}%"></div>
+      </div>
+      <div class="price">${fmt(d.price)} €</div>
+    `;
+
+    row.addEventListener('mousemove', e => {
+      tooltip.innerHTML = `<b>${d.model} · ${d.tag}</b>Vendeur : ${d.vendor}<br>${d.ct}<br>Aménagement : ${d.amenagement}`;
+      tooltip.style.left = Math.min(e.clientX + 16, window.innerWidth - 280) + 'px';
+      tooltip.style.top = Math.min(e.clientY + 16, window.innerHeight - 120) + 'px';
+      tooltip.classList.add('visible');
+    });
+    row.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
+
+    listEl.appendChild(row);
+  });
+
+  function renderStats(subset) {
+    const prices = subset.map(d => d.price);
+    const kms = subset.map(d => d.km);
+    const avgKm = Math.round(kms.reduce((a, b) => a + b, 0) / kms.length);
+    const flagged = subset.filter(d => d.flag && d.flag.type === 'warn').length;
+    statsEl.innerHTML = `
+      <div class="stat"><p class="label">Annonces</p><p class="value">${subset.length}</p></div>
+      <div class="stat"><p class="label">Fourchette de prix</p><p class="value">${fmt(Math.min(...prices))} – ${fmt(Math.max(...prices))} €</p></div>
+      <div class="stat"><p class="label">Km moyen</p><p class="value">${fmt(avgKm)} km</p></div>
+      <div class="stat"><p class="label">À vérifier</p><p class="value">${flagged}</p></div>
+    `;
+  }
+
+  let currentLengthFilter = 'all';
+  let currentFitFilter = 'all';
+  let hideFlagged = false;
+
+  function applyFilters() {
+    let visible = [];
+    document.querySelectorAll('.row').forEach(row => {
+      const matchesLength = currentLengthFilter === 'all' || row.dataset.length === currentLengthFilter;
+      const matchesFit = currentFitFilter === 'all' || row.dataset.fit === currentFitFilter;
+      const matchesFlag = !hideFlagged || row.dataset.flagged === '0';
+      const show = matchesLength && matchesFit && matchesFlag;
+      row.classList.toggle('is-hidden', !show);
+      if (show) visible.push(row);
+    });
+    const visibleIds = new Set(visible.map(r => r.querySelector('a.name').href.split('/').pop()));
+    renderStats(DATA.filter(d => visibleIds.has(d.id)));
+  }
+
+  document.getElementById('filters').addEventListener('click', e => {
+    const btn = e.target.closest('.pill');
+    if (!btn) return;
+    currentLengthFilter = btn.dataset.filter;
+    document.querySelectorAll('#filters .pill').forEach(p => p.setAttribute('aria-pressed', p === btn ? 'true' : 'false'));
+    applyFilters();
+  });
+
+  document.getElementById('fit-filters').addEventListener('click', e => {
+    const btn = e.target.closest('.pill');
+    if (!btn) return;
+    currentFitFilter = btn.dataset.fitFilter;
+    document.querySelectorAll('#fit-filters .pill').forEach(p => p.setAttribute('aria-pressed', p === btn ? 'true' : 'false'));
+    applyFilters();
+  });
+
+  document.getElementById('hide-flagged').addEventListener('change', e => {
+    hideFlagged = e.target.checked;
+    applyFilters();
+  });
+
+  renderStats(DATA);
+</script>

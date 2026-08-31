@@ -1,5 +1,10 @@
 # Fourgon aménagé d'occasion, pas un camping-car
 
+> ⚠️ **Partiellement périmé.** Le volet « pas un fourgon nu » ci-dessous est inversé par
+> l'[ADR-0005](0005-fourgon-nu-a-amenager-soi-meme.md) : la famille a désormais la bande
+> passante pour aménager elle-même. Le reste — le rejet du camping-car, l'argument de
+> liquidité — reste valable.
+
 ## Décision
 
 Pour cet achat-tremplin (phase petits enfants + maison en travaux, revente à ~5-6 ans),
