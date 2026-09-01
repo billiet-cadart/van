@@ -435,6 +435,129 @@ explicitement « BlueHDi ») sont concernés par le départage en faveur de Rena
 prix/âge/km équivalents. **Non vérifié sur fiche technique précise (VIN/motorisation) —
 à confirmer avant décision finale**, l'année seule est une approximation.
 
+## Dimensions intérieures L2/L3/L4 et lit fixe transversal (1er septembre 2026)
+
+Recherche déclenchée par un doute sur l'intérêt d'élargir la recherche aux formats plus longs
+que le « 600 » (L3H2). Sources : agrégateurs professionnels (comptoir-utilitaire.com,
+vandimensions.com, vehikit.com citant les données constructeur) et forums d'aménagement —
+**pas d'accès direct aux fiches PDF constructeur**, chiffres à recouper avant une décision
+engageante.
+
+### Ducato/Boxer/Jumper (X250/X290), hauteur H2
+
+| Code | Empattement | Longueur utile intérieure | Largeur intérieure (plancher) | Largeur entre passages de roue | Hauteur intérieure |
+|---|---|---|---|---|---|
+| L1H2 | 3000 mm | 2670 mm | 1870 mm | 1422 mm | 1932 mm |
+| L2H2 | 3450 mm | 3120 mm | 1870 mm | 1422 mm | 1932 mm |
+| **L3H2 (= « 600 »)** | 4035 mm | **3705 mm** | 1870 mm | 1422 mm | 1932 mm |
+| L4H2 | 4035 mm | **4070 mm** | 1870 mm | 1422 mm | 1932 mm |
+
+Source : comptoir-utilitaire.com/dimensions-interieures-fiat-ducato/
+
+✅ **Fait clé pour la question « faut-il dépasser le L3 » : la largeur intérieure (1870mm) et la
+largeur entre passages de roue (1422mm) sont IDENTIQUES du L1 au L4** — seule la longueur change
+(empattement identique L3/L4 à 4035mm ; le L4 rallonge seulement le porte-à-faux arrière de
+~365mm). Donc passer en L4 (ou plus long) **n'apporte aucun gain de largeur** pour le lit fixe
+transversal parents — ça n'ajoute que ~37cm de longueur utile pour le reste de l'implantation
+(banquette-lit, couloir, soute). Si le point qui inquiète est une largeur de lit trop juste, un
+porteur plus long sur cette plateforme ne le résout pas.
+
+### Master / Crafter — pas d'équivalent exact du « 600 »
+
+| Modèle | Longueur hors tout | Longueur utile intérieure | Largeur intérieure | Largeur entre passages de roue |
+|---|---|---|---|---|
+| Master L3H2 (le plus proche du « 600 ») | 6198 mm | 3733 mm | 1765 mm | 1380 mm |
+| Master L4H2 propulsion (+long) | non trouvée | 4383 mm | 1765 mm | 1380/1080 mm* |
+| Crafter L2H2 (le plus proche du « 600 ») | 5910 mm | 3450 mm | 1832 mm | 1380 mm |
+| Crafter L3H2 (+long) | 6940 mm | 4300 mm | 1832 mm | 1380 mm |
+
+*roues simples/jumelées. Sources : vehikit.com/fr/dimensions/renault/master/,
+vandimensions.com/database/volkswagen/crafter-2017
+
+⚠️ Ni Master ni Crafter n'ont de code pile calé sur les ~5,99m/3705mm du Ducato/Boxer/Jumper
+600 : le Master L3H2 est 200mm plus long hors tout pour seulement 28mm de longueur utile en
+plus ; le Crafter L2H2 est 88mm plus court hors tout mais offre 255mm de longueur utile en
+**moins** que le Ducato 600. Les deux sont aussi plus étroits entre passages de roue (1380mm vs
+1422mm) — moins favorable pour le lit transversal, pas plus.
+
+### Lit fixe transversal : largeur disponible vs besoin — LIMITE
+
+⚠️ **1422mm (largeur entre passages de roue, Ducato/Boxer/Jumper) est limite pour un couchage
+transversal 2 adultes** : au-dessus du minimum documenté (140cm) mais 38mm sous le repère confort
+(150-160cm) cité par les sources camping-car/forums (campingcarlesite.com, superbaroudeur.com).
+
+⚠️ **Point non tranché par cette recherche, à vérifier avant de conclure** : ce chiffre suppose un
+matelas posé au niveau des passages de roue. La pratique courante en aménagement van est de
+surélever le plan de couchage au-dessus des passages de roue (qui deviennent alors du rangement
+en dessous) pour retrouver la largeur pleine du plancher (1870mm) sur la zone de couchage — largement
+suffisante. **Pas confirmé par cette recherche** que cette solution s'applique bien à ce porteur —
+à vérifier avant de considérer le lit transversal comme un point bloquant.
+
+⚠️ **Terme à clarifier — deux dimensions distinctes du lit fixe transversal, à ne pas confondre** :
+- sa **largeur de couchage** (dans l'axe travers du véhicule — borne la longueur du corps allongé,
+  c'est ce que couvre le tableau ci-dessus) ;
+- sa **profondeur** (dans l'axe long du véhicule — mange de la longueur utile disponible pour le
+  reste de l'implantation : banquette-lit, couloir, soute).
+
+Cette recherche n'a pas trouvé de repère fiable pour la **profondeur**, indépendant du confort des
+dormeurs — à creuser si elle devient bloquante pour le budget de longueur global.
+
+### Couloir de circulation : aucun repère van-spécifique trouvé
+
+⚠️ Aucun chiffre spécifique aux vans aménagés trouvé dans les sources consultées — seulement des
+normes bâtiment généralistes (70-100cm), pas transposables telles quelles. Repère empirique cité :
+~50-60cm réels dans un van de cette largeur une fois les meubles posés. À revérifier directement
+sur les forums d'aménagement (trafic-amenage.com) si ce point devient bloquant pour le budget de
+longueur.
+
+### Le L2H2 supporte-t-il aussi les 4 places ? Oui — précédent réel trouvé (1er septembre 2026)
+
+⚠️ **Remet potentiellement en cause la lecture de l'ADR-0003** (« 4 places carte grise : FERME,
+impose de fait le format 600 ») : cette conclusion comparait des vans **courts et étroits**
+(Trafic/T6/Jumpy, ≤5,4m) au **L3H2 large**, jamais un porteur large mais plus **court** (L2H2,
+même plateforme Ducato/Boxer/Jumper). Recherche du 1er septembre 2026 :
+
+- **Aucune source** (guides pro CARAPACE, Le Van Migrateur, forums) ne documente de seuil
+  réglementaire liant longueur du véhicule et nombre de places homologables. Les contraintes
+  citées portent sur l'ancrage au châssis (résistance à l'arrachement, règlement ONU R17), le
+  chemin d'évacuation d'urgence (450mm, NF EN 1646-1) et le PTAC — indépendantes du L-code.
+- **Précédent concret trouvé** : un **Boxer L2H2 2018 converti et homologué à 4 places**
+  (banquette Schnierle SL3) — exactement le montage envisagé (ADR-0006/0007), sur le porteur le
+  plus court. Le propriétaire décrit un agencement « au centimètre » : faisable, mais sans marge
+  — la largeur de banquette (120cm) entre en tension avec le coin cuisine.
+  Source : trafic-amenage.com/forum/viewtopic.php?t=60881
+- **Conclusion** : la contrainte 4-places est une question de structure/largeur/ancrage, **pas**
+  de longueur réglementaire. Le L2H2 est donc un candidat légalement viable — mais avec nettement
+  moins de marge d'implantation que le L3H2 (3120mm de longueur utile contre 3705mm, soit -585mm).
+
+### Longueur hors tout L2H2, et repères conduite/stationnement (1er septembre 2026)
+
+| Code | Longueur hors tout | Longueur utile intérieure | Diamètre de braquage (entre trottoirs) |
+|---|---|---|---|
+| L2H2 | 5,413 m | 3120 mm | ~13,1 m (source secondaire, à revérifier) |
+| L3H2 (« 600 ») | ~5,998 m | 3705 mm | **14,30 m** (fiche constructeur Stellantis) |
+| L4H2 | ~6,363 m | 4070 mm | **15,30 m** (fiche constructeur Stellantis) |
+
+Sources : accessoirement.fr/dimensions-exterieures-fiat-ducato-l2h2/,
+media.stellantis.com (fiche technique Ducato)
+
+✅ **Repère chiffré pour la question « conduite/stationnement » posée le 1er septembre 2026** :
+l'écart de braquage L3H2→L4H2 (+1,00m) est du même ordre que L2H2→L3H2 (−1,2m environ, chiffre
+L2H2 à confirmer). Le ressenti terrain (trafic-amenage.com, plusieurs fils) est cohérent : le
+**L4 est systématiquement décrit comme nettement plus pénible** (demi-tours, petites routes,
+barrières de parking), le **L2H2 cité comme « meilleur compromis » habitabilité/maniabilité**, le
+L3H2 en position intermédiaire sans alerte majeure mais avec des limites mentionnées sur les
+barrières de parking/péage.
+
+⚠️ **Nuance sur le stationnement** : la norme française de place de parking (NF P91-100/91-120)
+fixe une longueur minimale de **5m** — même le L2H2 (5,41m) la dépasse déjà. Aucun des trois
+formats ne « rentre » dans une place standard : la différence entre L2/L3/L4 porte sur la
+**maniabilité** (braquage, demi-tours), pas sur le fait de rentrer dans une place classique.
+
+⚠️ Aucun texte réglementaire officiel (DREAL/arrêté) trouvé sur le lien longueur/nombre de
+places — seulement guides professionnels et retours d'expérience concordants, à traiter comme un
+faisceau d'indices plutôt qu'une certitude absolue.
+
 ## Sources consultées
 
 - leboncoin.fr (annonces cabine approfondie Ducato/Boxer ; annonces fourgons nus et aménagés
@@ -447,3 +570,10 @@ prix/âge/km équivalents. **Non vérifié sur fiche technique précise (VIN/mot
   (banquettes-lits homologuées, prix)
 - démarchesadministratives.fr, camionamenage.fr, retro.fr, lesavanturiers.fr, homologations.eu
   (coûts de dossier DREAL RTI/VASP)
+- comptoir-utilitaire.com (dimensions intérieures L1-L4 Ducato/Boxer/Jumper), vehikit.com,
+  vandimensions.com (dimensions Master/Crafter), campingcarlesite.com, superbaroudeur.com
+  (repères de largeur de couchage transversal)
+- accessoirement.fr (dimensions extérieures L2H2), media.stellantis.com (fiche technique
+  officielle Ducato, braquage), carapacestore.fr, levanmigrateur.com (homologation places
+  assises), securinorme.com (normes de place de parking), trafic-amenage.com (précédent Boxer
+  L2H2 4 places, ressenti conduite L1/L2/L3/L4)

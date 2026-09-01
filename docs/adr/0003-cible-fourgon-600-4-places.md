@@ -1,5 +1,11 @@
 # Cible d'achat : fourgon « 600 », 4 places fermes, couchages souples
 
+⚠️ **Justification partiellement périmée, voir [ADR-0011](0011-confirmation-format-600-arbitrage-marge-maniabilite.md)** :
+la ligne ci-dessous « 4 places carte grise : FERME → impose le format 600 » s'est révélée
+incomplète (un porteur plus court, L2H2, permet aussi les 4 places). La cible « 600 » reste
+confirmée, mais pour une autre raison — arbitrage marge d'implantation / maniabilité, pas
+obligation réglementaire. Le raisonnement d'origine ci-dessous est gardé pour mémoire.
+
 Synthèse de l'arbre de décision, après confrontation aux données du marché (leboncoin,
 rayon 200 km autour de Meylan).
 

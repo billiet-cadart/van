@@ -136,9 +136,12 @@ L'appellation leboncoin pour le van/fourgon aménagé (catégorie Caravaning), d
 glissent) — vérifier le texte de l'annonce.
 
 **Format « 600 »** :
-Fourgon aménagé de ~5,99 m sur porteur large (Ducato & cousins, Transit, Crafter). C'est
-le plus court qui offre 4 places carte grise. Point de compromis réaliste entre compacité
-et famille de 4.
+Fourgon aménagé de ~5,99 m sur porteur large (Ducato & cousins, Transit, Crafter),
+correspondant au code longueur **L3H2** chez Ducato/Boxer/Jumper. *(Définition corrigée, voir
+[ADR-0011](adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md))* : ce n'est **pas**
+« le plus court qui offre 4 places carte grise » — un porteur plus court (L2H2) le permet aussi
+(précédent réel trouvé). Le 600 est retenu comme point d'équilibre entre marge d'implantation et
+maniabilité de conduite, pas par obligation réglementaire liée à la longueur.
 
 **Siège enfant fixé ceinture** :
 La famille n'exige PAS l'ISOFIX : un siège enfant sanglé à une ceinture homologuée
