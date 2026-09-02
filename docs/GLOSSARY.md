@@ -176,3 +176,63 @@ novembre 2025) prévoit de porter cette limite à **4,25 t sur permis B** pour l
 **Pas encore transposée en droit français** à ce jour — échéance légale 2029 au plus tard,
 aucune date française fixée. Ne pas compter dessus pour l'instant, mais à suivre si le projet
 s'étale dans le temps.
+✅ *Vérifié le 2 septembre 2026* : le numéro et la date de la directive sont exacts, et la
+non-transposition en France est confirmée. Deux précisions : l'**échéance de transposition est le
+26 novembre 2028** (2029 est la date d'*application* probable en France, pas l'échéance), et la
+directive laisse les États choisir entre **une formation, un examen, ou les deux** — le « 7-14h
+sans nouvel examen » est une hypothèse sur la transposition française, pas une disposition du
+texte européen.
+
+**Crit'Air (classe) / ZFE** :
+Le certificat qualité de l'air classe un véhicule de 1 à 5 selon sa motorisation et sa norme
+Euro, telles qu'elles figurent sur la carte grise. Les zones à faibles émissions (ZFE)
+interdisent la circulation des classes les plus élevées sur un périmètre et des horaires
+donnés. Deux propriétés à retenir, parce qu'elles surprennent : un **diesel n'est jamais
+Crit'Air 1**, et la grille des utilitaires légers **n'est pas décalée** par rapport à celle des
+voitures. La classe suit la **date de première immatriculation**, pas le millésime affiché dans
+une annonce, et **passer un véhicule en VASP ne l'améliore pas**.
+_À ne pas confondre avec_ : la norme Euro (une caractéristique du moteur) — la classe Crit'Air
+est ce qu'en fait la réglementation française.
+_Fait local (vérifié le 2 septembre 2026)_ : Meylan est dans le périmètre de la ZFE grenobloise.
+Chiffres, calendrier, sanction encourue et dérogations → [zfe-grenoble.md](zfe-grenoble.md).
+
+**Dérogation ZFE** :
+Autorisation de circuler malgré une classe Crit'Air interdite. **Ce n'est pas un droit** : c'est
+une décision de la collectivité, sur demande et sur justificatifs, généralement à durée limitée
+et propre à chaque métropole — elle ne s'exporte donc pas d'une ville à l'autre. À distinguer de
+la classe Crit'Air elle-même, qui est une caractéristique du véhicule et ne se négocie pas.
+_À éviter_ : « exemption » (qui suggère un statut acquis).
+
+**CTTE / VASP** :
+Les deux mentions possibles du champ « carrosserie » de la carte grise dans ce dossier. **CTTE**
+= camionnette, c'est-à-dire un utilitaire — l'état d'un fourgon nu à l'achat, et **pendant tout
+l'aménagement**. **VASP** = véhicule automoteur spécialisé, dont relève l'autocaravane — l'état
+visé une fois la réception obtenue. Le passage de l'un à l'autre n'est pas administratif au sens
+d'un formulaire : il suppose un véhicule présenté, inspecté et reçu.
+_À retenir_ : ce n'est pas seulement une ligne de carte grise, ça change le régime applicable
+(ZFE notamment, où le régime utilitaire est le plus dur).
+
+**RTI (réception à titre isolé)** :
+La procédure par laquelle un véhicule modifié est examiné **un par un** par la DREAL, faute
+d'entrer dans une homologation de série. C'est la voie obligée pour un fourgon aménagé
+soi-même. Le mot « isolé » ne dit rien de la difficulté : il dit seulement que l'homologation
+porte sur cet exemplaire-là.
+_À éviter_ : « faire homologuer » employé seul, qui ne distingue pas la RTI du véhicule de la
+certification d'une installation (gaz) ou de celle d'une pièce (siège).
+
+**PV d'essai** :
+Le procès-verbal établi par un laboratoire agréé attestant qu'un élément a passé un essai
+physique — typiquement, pour un siège : résistance du siège, résistance de la ceinture, ancrage
+de la ceinture. Trois notions distinctes se cachent derrière le mot, et les confondre coûte cher :
+le **PV** lui-même, le **document d'homologation** que remet un revendeur, et l'**autorisation
+d'utiliser ce PV** à son propre nom dans un dossier. Un PV couvre une **combinaison testée**
+(pièce + siège + véhicule), pas une pièce isolée : la question utile n'est donc jamais « y a-t-il
+un PV » mais « ma combinaison est-elle dans son périmètre ».
+_À éviter_ : « crash-test » (imagé, mais ne distingue pas les trois essais).
+
+**Plaque de transformation** :
+Seconde plaque d'identification apposée à côté de la plaque constructeur d'origine — qui reste en
+place — et déclarant qui a transformé le véhicule, sur quel VIN, à quelle date et à quel titre.
+Gravée, donc non modifiable après coup : son texte se fait valider avant d'être gravé.
+_À ne pas confondre avec_ : la plaque constructeur (celle du fabricant du châssis), ni avec la
+plaque d'immatriculation.

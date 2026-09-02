@@ -9,9 +9,20 @@ obligation réglementaire. Le raisonnement d'origine ci-dessous est gardé pour 
 Synthèse de l'arbre de décision, après confrontation aux données du marché (leboncoin,
 rayon 200 km autour de Meylan).
 
-_Note : la contrainte ZFE / Crit'Air a été retirée — les ZFE sont en cours d'abandon
-(mi-2026). Plus de plancher d'âge réglementaire ; le bas du marché (vans anciens) est
-de nouveau jouable, ce qui renforce la stratégie « valeur »._
+🔴 **Note ZFE périmée — vérifiée et corrigée le 2 septembre 2026.** Elle disait : *« la
+contrainte ZFE / Crit'Air a été retirée — les ZFE sont en cours d'abandon (mi-2026). Plus de
+plancher d'âge réglementaire ; le bas du marché (vans anciens) est de nouveau jouable, ce qui
+renforce la stratégie “valeur” »*. **C'est faux.** La suppression des ZFE a été votée
+(Assemblée nationale le 14 avril 2026, Sénat le 15 avril) puis **censurée par le Conseil
+constitutionnel le 21 mai 2026** comme cavalier législatif : les ZFE restent en vigueur, et
+seul un texte dédié pourrait les remettre en cause. Pire pour ce dossier : **Meylan est dans
+le périmètre de la ZFE grenobloise**, où les **Crit'Air 3, 4, 5 et non classés sont interdits
+depuis le 1er janvier 2025** (7h-19h en semaine), la verbalisation étant seulement suspendue
+jusqu'au **30 juin 2027**. Le plancher d'âge réglementaire existe donc toujours : en diesel,
+Crit'Air 2 exige une **1ʳᵉ immatriculation à partir du 1er janvier 2011**. Détail, grille
+officielle et conséquences sur les candidats →
+[verification-2026-09-02.md](../verification-2026-09-02.md). **Ce que ça fait courir comme
+risque concret — sanction, horaires, dérogation VASP** → [zfe-grenoble.md](../zfe-grenoble.md).
 
 ## La cible
 

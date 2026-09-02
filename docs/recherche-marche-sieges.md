@@ -4,12 +4,57 @@ Note de travail vivante, mise à jour au fil de l'exploration du marché. Nourri
 décision de l'[ADR-0006](adr/0006-config-porteur-nu-sieges-cabine.md), n'en est pas une
 elle-même. Budget volontairement laissé de côté pour l'instant (voir README).
 
+> 🔴 **Sur tout ce qui touche à l'homologation, la source qui fait foi est
+> [dossier-dreal-38.md](dossier-dreal-38.md)** — échange direct du 2 septembre 2026 avec le
+> service qui instruira réellement notre dossier. Il a corrigé **trois affirmations** de cette
+> note : le moment du dépôt du dossier, les conditions de pose de la banquette, et le
+> remplacement de la banquette avant par un siège individuel. Les passages concernés ci-dessous
+> portent la correction. Devant les forums et les guides commerciaux, c'est lui qui gagne.
+
 ## ✅ Sièges avant pivotants : simple et pas cher — sous une condition
 
 Il existe des **embases pivotantes homologuées** pour Ducato/Boxer/Jumper à partir de
 2006 (châssis X250) : marques RIB/Scopema, ~200-400 €/siège, homologation européenne
 n°93SG0316-00 déjà acquise sur la pièce. Pose a priori simple (parfois une adaptation
 du frein à main côté conducteur).
+
+✅ **Revérifié le 2 septembre 2026 sur fiche produit fabricant — un peu mieux qu'annoncé.**
+Prix réels **206 à 280 € TTC** par siège (RIB/Scopema, réf. 640017 conducteur / 640018
+passager), soit sous la fourchette ci-dessus. Compatibilité confirmée sur **X250 (2006-2014) et
+X290 (2014-2026)**, et en plus sur **Opel Movano X290 (2021+)** et Toyota ProAce Max (2023+) —
+qui sont des clones Sevel. L'impossibilité sur banquette est confirmée mot pour mot par le
+fabricant : *« il n'est pas possible d'installer une embase tournante si votre véhicule est
+équipé d'une banquette avant »*.
+✅ **Voie supplémentaire trouvée** : un revendeur documente explicitement le remplacement d'une
+banquette 2 places par **caisson + glissières + embase pivotante + siège RIB** — une option
+« pièce carrossier neuve » à côté de la voie « siège d'origine d'occasion » décrite plus bas.
+⚠️ Le numéro d'homologation **93SG0316-00** ci-dessus n'a pas été retrouvé ; la fiche consultée
+porte la référence **CBTO16G2**. La pièce est bien homologuée — mais le numéro exact est à
+relever sur le PV de celle qu'on achètera, pas à recopier d'ici.
+
+🔴 **Exigence découverte le 2 septembre 2026 : l'embase appelle son propre PV d'essai.** La DREAL
+Isère : *« si vous installez des embases tournantes, cela modifie l'ancrage du siège et nécessite
+donc un PV d'essai »*. Le PV du siège d'origine ne couvre plus l'ensemble une fois l'embase
+intercalée.
+
+En pratique on ne commande **jamais** d'essai destructif pour un véhicule donné (laboratoires
+UTAC/TÜV, coût sans rapport avec un projet individuel) : **on se place dans le périmètre d'un PV
+déjà existant**, celui que le fabricant de l'embase a fait établir. C'est exactement ce qu'éclaire
+la condition « siège réglable en hauteur, non électrique » — ce n'est pas une clause commerciale,
+**c'est la frontière du domaine testé**.
+
+📌 **Conséquence pratique à l'achat** : demander au revendeur le document d'homologation
+**R14/R16/R17 mentionnant nommément le type de châssis et la référence de siège couverts**, et
+vérifier que notre combinaison y figure. Une mention « homologation CE — conforme aux normes en
+vigueur » sur une fiche produit ne suffit pas à le prouver (constaté sur une fiche revendeur
+réelle, heode.fr, embase RIB à 195,70 € TTC).
+
+🔴 **Reste ouvert** : la DREAL 38 exigera-t-elle en plus, comme pour la banquette, l'**autorisation
+nominative** du fabricant d'utiliser ce PV ? Elle ne l'a pas dit, et rien n'indique qu'elle serait
+plus souple ici que là. **Question à leur poser** → [dossier-dreal-38.md](dossier-dreal-38.md) § 5.
+⚠️ Trois notions à ne pas confondre dans les échanges avec un revendeur : le **document
+d'homologation** (ce que la FAQ Scopema promet via le revendeur), le **PV d'essai** au sens DREAL,
+et l'**autorisation d'en faire usage** à notre nom.
 
 ⚠️ **Condition qui devient un critère de recherche** : ça ne marche que sur des
 **sièges avant individuels (baquets)**. *« Pour les banquettes doubles sur Ducato, il
@@ -68,10 +113,15 @@ longueur), on installe une banquette homologuée après achat :
   (T5/T6, Trafic, Transit Custom) — **pas confirmé compatible/existant pour un
   Ducato/Boxer/Jumper 600**.
 
-⚠️ Point d'attention commun aux deux : le dossier DREAL doit être déposé **avant**
-l'isolation/l'aménagement intérieur — l'inspecteur doit pouvoir voir les renforts et
-points d'ancrage sous le plancher. Prévoir l'étape sièges/banquette en tout début de
-chantier, pas en dernier.
+🗄️ *Un point d'attention figurait ici — « le dossier DREAL doit être déposé **avant**
+l'isolation/l'aménagement intérieur, l'inspecteur doit pouvoir voir les renforts et points
+d'ancrage sous le plancher ; prévoir l'étape sièges/banquette en tout début de chantier ».*
+🔴 **C'est faux, démenti par la DREAL Isère elle-même le 2 septembre 2026** : « le dossier est
+à déposer une fois les travaux terminés, nous devons voir le véhicule dans son état final. Les
+éléments non visibles seront de votre responsabilité. » Le chantier se déroule donc de bout en
+bout, dossier en dernier — mais il faut se constituer soi-même la preuve photo de tout ce qui
+sera caché. Conséquences complètes (planning, phase CTTE allongée) →
+[dossier-dreal-38.md](dossier-dreal-38.md).
 
 ## Banc-lit convertible ≥190 cm — état du marché (recherche du 30 août 2026)
 
@@ -92,12 +142,22 @@ principe très ordinaire.
 
 ### Candidat en tête : Scopema Altaïr 3P (194 cm)
 
+📐 **Cotes complètes de cette banquette — emprise au sol pliée (≈ 785 mm) et dépliée (1 790 /
+1 860 / 1 940 mm), largeurs, hauteur d'assise, et ce que ça donne dans les 3 705 mm du L3H2** :
+voir [dimensions-l3h2.md](dimensions-l3h2.md), § 1 bis (lues sur le plan coté officiel Scopema,
+2 septembre 2026).
+
+
 - Banquette 3 places, ceintures 3 points **intégrées**, homologation européenne (+ Amérique du
   Nord en option). **Fiche technique officielle consultée (PDF Scopema) : 3 longueurs de couchage
   exactement 179 / 186 / 194 cm** — la version 194 cm dépasse le critère des 190 cm. Largeurs :
   1 place 600 mm, 2 places 860-1200 mm, 3 places 1200-1500 mm.
 - **Prix pièce observé : ~4 000 à 6 500 €** selon largeur/version (hors pose ; un revendeur —
   Van Loisir — annonce 6 500 € mais pour une version 185 cm, à ne pas confondre avec la 194 cm).
+  ⚠️ **Corrigé le 2 septembre 2026** : les 6 500 € de Van Loisir sont un prix **pose comprise**
+  (banquette en couchage 1 850 × 1 200, plus la pose, un lino gris et les barres de seuil
+  aluminium) — la borne haute de la fourchette n'est donc pas un prix pièce, et la fourchette
+  « hors pose » reste en réalité mal bornée vers le haut.
 - **Sur la compatibilité véhicule** : la fiche technique officielle ne liste **aucun modèle de
   véhicule** — c'est un système générique sur rails (module 1150 mm, 8 kg), posé au sol et
   compatible avec des épaisseurs de plancher de 19 à 34 mm. Ce n'est donc pas une question de
@@ -135,7 +195,16 @@ analyse de 34 devis) donne deux prix concrets, posés :
   double » ≥190 cm, pas juste des places fixes).
 - Source : trafic-amenage.com/forum/viewtopic.php?t=55288
 
-### Remplacer la banquette passager par un siège individuel — plus simple que prévu
+### Remplacer la banquette passager par un siège individuel — 🔴 accord constructeur exigé
+
+🔴 **Cette section s'intitulait « plus simple que prévu ». La DREAL Isère a démenti ce titre le
+2 septembre 2026** : *« Il faudra l'autorisation du constructeur, car rien n'indique que le
+châssis soit réellement capable d'accueillir le siège à la place de la banquette sans aucune
+modification. Certains éléments (type airbag) peuvent aussi être impactés, et doivent donc être
+approuvés par le constructeur du véhicule. »* Le raisonnement ci-dessous — deux configurations
+d'usine, donc opération anodine — reste factuellement exact sur la mécanique, **mais il ne suffit
+pas administrativement**, et l'argument airbag n'avait pas été vu. Détail et conséquences →
+[dossier-dreal-38.md](dossier-dreal-38.md).
 
 Recherche du 31 août 2026, déclenchée par l'examen d'une annonce réelle (Citroën Jumper 3 places,
 banquette passager). Sur Ducato/Boxer/Jumper (plateforme commune depuis 2006, châssis X250/X290),
@@ -152,13 +221,27 @@ n'est pas un bricolage, c'est passer d'une config d'usine à une autre.
   l'alternative si on ne trouve pas de pièce d'origine.
 - Combiné à une embase pivotante (~200-400 €/siège, déjà documentée plus haut) : **~500-1 000 €
   au total** pour passer un 3-places-banquette en 2 sièges avant individuels pivotants.
-- ⚠️ **Point non confirmé** : la démarche exacte pour faire refléter le changement (3→2 places)
-  sur la carte grise. Probablement une mise à jour déclarative simple puisque c'est une config
-  déjà homologuée par le constructeur, mais pas vérifié noir sur blanc — à confirmer avec la
-  DREAL/le service carte grise avant d'acheter la pièce. Signaler aussi à l'assureur par
-  précaution (recommandation vue dans un cas comparable sur Renault Trafic, prudence à
-  généraliser).
-- Sources : trafic-amenage.com/forum/viewtopic.php?t=57863,
+  ⚠️ **À majorer de l'accord constructeur : 50-250 €** selon les marques (source secondaire,
+  levanmigrateur.com — à confirmer auprès de Stellantis). Le coût n'est pas le problème ; le
+  délai et l'issue, si.
+- 🗄️ *« Point non confirmé : la démarche exacte pour faire refléter le changement (3→2 places)
+  sur la carte grise — probablement une mise à jour déclarative simple puisque c'est une config
+  déjà homologuée par le constructeur. »* **Réponse obtenue, et ce n'est pas déclaratif** : la
+  DREAL 38 exige l'**autorisation écrite du constructeur**, au motif que rien ne garantit que le
+  châssis accepte le siège sans modification et que l'**airbag** peut être impacté. Signaler à
+  l'assureur reste recommandé par précaution.
+- 🔴 **Ce point change le poids d'un critère de recherche.** Sur les 4 annonces où la cabine était
+  visible lors de la revue du 31 août, **aucune n'avait de sièges avant individuels** — la
+  conversion était devenue la voie par défaut du dossier. Elle porte désormais une condition
+  suspensive. **Le contournement à évaluer en premier : chercher un porteur déjà en 2 places
+  avant d'origine** (configuration de série sur toutes les longueurs L1→L4, confirmée sur fiche
+  constructeur → [verification-2026-09-02.md](verification-2026-09-02.md)). Cela supprime d'un
+  coup l'accord constructeur, la question airbag et le délai associé.
+- ⚠️ **Si une embase pivotante est posée sur le siège ainsi remplacé**, elle modifie l'ancrage et
+  appelle son propre PV d'essai (voir le § embases pivotantes en tête de document) — les deux
+  sujets se cumulent sur le même siège.
+- Sources : courriel DREAL Isère du 2 septembre 2026 (**primaire**),
+  trafic-amenage.com/forum/viewtopic.php?t=57863,
   forum.trafic-amenage.com/viewtopic.php?t=51805, e-direct-auto.com (pièces Boxer/Jumper/Ducato)
 
 ### Auto-installation : possible, mais pas pour tout de la même façon
@@ -180,12 +263,24 @@ Le projet vise à installer un maximum soi-même. Ça se découpe en trois cas d
     confirmer directement avec eux). Schnierle et AOC, à l'inverse, réservent la vente **et** les
     papiers d'homologation à leur réseau d'installateurs agréés — même légal, ça bloque en
     pratique si le fabricant refuse de vendre la pièce avec son PV.
-  - **Ça dépend aussi de la DREAL locale** : certaines acceptent une attestation de pose
-    auto-signée, d'autres sont plus strictes — à vérifier avec la DREAL du département
-    d'immatriculation avant de s'engager sur cette voie pour la banquette.
-  - **Critère de choix supplémentaire en faveur de Scopema/Scora** (au-delà du prix) : ils
-    laisseraient la porte ouverte à l'auto-installation, contrairement à Schnierle/AOC.
-  - Sources : trafic-amenage.com/forum/viewtopic.php?t=56559 (échange avec la DREAL, cas
+  - 🗄️ *« Ça dépend aussi de la DREAL locale — certaines acceptent une attestation de pose
+    auto-signée, d'autres sont plus strictes, à vérifier avec la DREAL du département. »*
+    ✅ **Question désormais tranchée pour l'Isère** (réponse écrite du 2 septembre 2026) : il faut
+    **3 PV distincts** — résistance siège, résistance ceinture, ancrage ceinture — **et**, s'ils
+    ne sont pas au nom du demandeur, *« l'autorisation d'utiliser ces PV par les constructeurs
+    des sièges »*. La DREAL 38 ajoute que *« dans les faits, seuls les professionnels ont cette
+    autorisation »*. C'est la version stricte. → [dossier-dreal-38.md](dossier-dreal-38.md)
+  - 🗄️ *« Critère de choix supplémentaire en faveur de Scopema/Scora : ils laisseraient la porte
+    ouverte à l'auto-installation. »* **Ce critère perd son poids** — d'une part la pose des
+    sièges et de la banquette est confiée à un professionnel dans le projet depuis le début,
+    d'autre part le verrou identifié par la DREAL 38 n'est pas la pose mais l'autorisation
+    nominative d'usage des PV, que le fabricant réserve de toute façon aux pros. Le départage
+    entre fabricants se refait donc sur le prix, les cotes et le couchage ≥190 cm.
+  - 📌 **La bonne question à l'installateur** n'est pas « savez-vous poser » mais **« me
+    fournissez-vous les 3 PV, et détenez-vous l'autorisation du fabricant des sièges de les
+    utiliser à mon nom ? »**
+  - Sources : courriel DREAL Isère du 2 septembre 2026 (**primaire**),
+    trafic-amenage.com/forum/viewtopic.php?t=56559 (échange avec une autre DREAL, cas
     Schnierle), neozone.org (guide homologation par ses soins)
 
 ### REIMO — écarté
@@ -407,12 +502,29 @@ Fichiers sources conservés dans [docs/marche/annonces/3226785978/](marche/annon
 Volkswagen** plutôt que **PSA** — pas une exclusion, un critère de départage entre
 candidats par ailleurs équivalents.
 
-Précision technique : sur le trio Ducato/Boxer/Jumper, seuls **Boxer et Jumper depuis
-leur restylage ~2014** ont un moteur PSA (BlueHDi). Le **Ducato garde un moteur Fiat**
-(MultiJet) sur toute sa carrière — il reste donc **neutre**, à égalité avec Renault/VW,
-et n'est pas concerné par la préférence ni par la réserve. Avant 2014, Boxer/Jumper
-partageaient aussi le moteur Fiat, donc seuls les Boxer/Jumper **récents (moteur PSA)**
-sont concernés par le départage en faveur de Renault/VW.
+🔴 **Précision technique corrigée le 2 septembre 2026 — l'ancienne version triait mal.** Elle
+disait : *« seuls Boxer et Jumper depuis leur restylage ~2014 ont un moteur PSA (BlueHDi) […]
+Avant 2014, Boxer/Jumper partageaient aussi le moteur Fiat, donc seuls les Boxer/Jumper récents
+sont concernés »*. **Faux dès 2006.** Répartition réelle des blocs sur la plateforme X250/X290 :
+
+| Moteur | Origine | Monté sur |
+|---|---|---|
+| 2.2 HDi (« Puma », DW12) | **conception PSA-Ford** | Boxer / Jumper **dès 2006** — jamais le Ducato |
+| 2.3 MultiJet (F1A) | Iveco / FPT | Ducato uniquement |
+| 3.0 HDi / MultiJet (F1C) | Iveco / FPT | **les trois marques** |
+| 2.0 puis 2.2 BlueHDi (DW10, DW12) | PSA | Boxer / Jumper, X290 2014-2023 |
+| 2.2 MultiJet 3 (« B22 ») | Fiat / FPT | **toutes les marques Stellantis à partir de 2024** |
+
+Donc : un **Boxer/Jumper 2.2 HDi de 2006-2014 est bien à moteur PSA** (concerné par le
+départage) ; un **Boxer/Jumper 3.0 HDi 180 est à moteur Iveco/FPT** (neutre) ; le **Ducato n'a
+jamais reçu le 2.2 PSA** — « moteur Fiat sur toute sa carrière » est confirmé, à la nuance de
+vocabulaire près que ce sont des blocs **Iveco/FPT**, ce qui explique qu'un Boxer 3.0 partage le
+moteur du Ducato.
+
+✅ **Le bon critère de tri n'est donc pas l'année, c'est le bloc moteur affiché dans l'annonce** :
+2.2 HDi / BlueHDi = PSA ; 2.3 ou 3.0 MultiJet/HDi = Iveco-FPT ; 2.2 MultiJet à partir de 2024 =
+Fiat/FPT quelle que soit la marque. Détail →
+[verification-2026-09-02.md](verification-2026-09-02.md).
 
 Conséquence pratique : la recherche s'élargit aux **Renault Master** et **VW Crafter**,
 déjà compatibles avec la contrainte 4-places-large du glossaire (Transit et Crafter y
@@ -424,16 +536,20 @@ Ducato/Boxer/Jumper (X250/X290) — à reprendre si un de ces porteurs devient s
 
 ⚠️ **L'archive de 22 annonces (ci-dessus) a été constituée avant ce critère, en
 Ducato/Boxer/Jumper uniquement** — Master et Crafter n'y figurent pas encore, à élargir
-dans un prochain tour. Repère pour départager les Boxer/Jumper déjà archivés : le
-passage au moteur PSA (BlueHDi) date de leur restylage **~2014** ; avant cette date,
-Boxer/Jumper partageaient le moteur Fiat, comme le Ducato en a toujours un. Sur les 22
-annonces : les Boxer/Jumper **antérieurs à 2014** (3236835638 - 2012, 3248186538 - 2013,
-3234575793 - 2013, 3230949857 - 2009, 3260522331 - 2011, 3235756663 - 2008) sont donc
-probablement à moteur Fiat, neutres vis-à-vis du critère. Ceux **de 2014 ou après**
-(3240076135, 3148537724, 2869595583, 3202627305, 3250279944, 3218678796, et tout modèle
-explicitement « BlueHDi ») sont concernés par le départage en faveur de Renault/VW à
-prix/âge/km équivalents. **Non vérifié sur fiche technique précise (VIN/motorisation) —
-à confirmer avant décision finale**, l'année seule est une approximation.
+dans un prochain tour.
+
+🗄️ *Un repère de départage par année figurait ici — « les Boxer/Jumper antérieurs à 2014 sont
+probablement à moteur Fiat, neutres ; ceux de 2014 ou après sont concernés » — avec la liste des
+annonces classées de part et d'autre. **Il est faux** (voir la correction ci-dessus : le 2.2 HDi
+des Boxer/Jumper est un bloc PSA-Ford dès 2006). Conséquences sur les candidats réels : le
+**Jumper 2.2 HDi 110 de 2013** (3234575793) et les **Boxer 2.2 de 2009/2010** étaient classés
+« neutres » à tort ; le **Boxer 3.0 HDi 180 de 2013** (3248186538) est bien neutre, mais parce
+que le 3.0 est un bloc Iveco, pas parce qu'il est antérieur à 2014.*
+
+✅ **Nouveau repère** : trier sur la cylindrée/appellation moteur de l'annonce, pas sur l'année —
+2.2 HDi ou BlueHDi = PSA ; 2.3 ou 3.0 MultiJet/HDi = Iveco-FPT. Reste vrai dans tous les cas :
+**l'annonce n'est pas une fiche technique**, la motorisation exacte est à confirmer (VIN, carte
+grise) avant décision finale.
 
 ## Dimensions intérieures L2/L3/L4 et lit fixe transversal (1er septembre 2026)
 
@@ -502,13 +618,21 @@ suffisante. **Pas confirmé par cette recherche** que cette solution s'applique 
 Cette recherche n'a pas trouvé de repère fiable pour la **profondeur**, indépendant du confort des
 dormeurs — à creuser si elle devient bloquante pour le budget de longueur global.
 
-### Couloir de circulation : aucun repère van-spécifique trouvé
+### Couloir de circulation : ✅ il y a bien un repère, et il est normatif (2 septembre 2026)
 
-⚠️ Aucun chiffre spécifique aux vans aménagés trouvé dans les sources consultées — seulement des
-normes bâtiment généralistes (70-100cm), pas transposables telles quelles. Repère empirique cité :
-~50-60cm réels dans un van de cette largeur une fois les meubles posés. À revérifier directement
-sur les forums d'aménagement (trafic-amenage.com) si ce point devient bloquant pour le budget de
-longueur.
+🗄️ *Cette section concluait « aucun chiffre spécifique aux vans aménagés trouvé — seulement des
+normes bâtiment généralistes (70-100cm), pas transposables ; repère empirique ~50-60cm ». La
+vérification du 2 septembre 2026 a trouvé la bonne source.*
+
+✅ **NF EN 1646-1 impose un chemin d'évacuation de 450 mm minimum**, réductible à **300 mm sur
+500 mm de longueur au maximum** jusqu'à 950 mm de hauteur (450 mm au-delà). Ce n'est pas un
+repère de confort mais une exigence du dossier VASP.
+
+→ Conséquence pour l'implantation : dans le tableau « largeur de banquette contre largeur de
+couloir » de [dimensions-l3h2.md](dimensions-l3h2.md), **toutes les largeurs envisagées passent**,
+y compris la 2 places de 1 200 mm qui laisse 500 mm. La contrainte réelle n'est donc pas la
+largeur de la banquette : c'est de **ne pas rogner ce couloir avec un meuble en face**.
+Source → [verification-2026-09-02.md](verification-2026-09-02.md).
 
 ### Le L2H2 supporte-t-il aussi les 4 places ? Oui — précédent réel trouvé (1er septembre 2026)
 

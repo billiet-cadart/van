@@ -76,6 +76,16 @@ est une réponse plus robuste.
   éléments fixes par définition. Le VASP est donc obligatoire ici, indépendamment du choix
   gaz/électrique (voir [recherche-marche-sieges.md](../recherche-marche-sieges.md)) — la seule
   question encore ouverte est la composition du dossier, pas s'il faut en faire un.
+- ✅ **VASP et malus confirmés sur source primaire (2 septembre 2026)** : l'obligation VASP tient
+  à la définition européenne de l'autocaravane (règlement (UE) 2018/858, annexe I point 5.1), qui
+  exige **sièges + table, couchage, équipement de cuisson et rangements fixés à demeure** — ce
+  layout coche les quatre, et le choix gaz/électrique n'y change rien (une plaque à induction est
+  un équipement de cuisson au même titre qu'un réchaud). Côté malus : le déclenchement sur
+  transformation d'un utilitaire en véhicule de tourisme est en vigueur **depuis le 1er juillet
+  2020**, et le plafond du malus CO2 est de **80 000 € en 2026** (seuil abaissé à 108 g/km) — le
+  risque est donc au moins aussi lourd que les ~30 000 € cités ci-dessous, et viser le VASP
+  complet est bien la parade. Cotes de la banquette Altaïr également revérifiées sur le plan coté
+  fabricant : exactes → [verification-2026-09-02.md](../verification-2026-09-02.md).
 - ⚠️ **Point nouveau à surveiller** : ajouter des places assises peut faire basculer le véhicule
   de la catégorie utilitaire (VU) à voiture particulière (VP), avec un **malus écologique** à la
   clé si le dossier n'est pas en VASP (catégorie camping-car). Le projet visant de toute façon un

@@ -82,6 +82,15 @@ Jumper d'occasion. Démarche administrative exacte pour la carte grise (2 places
 encore confirmée — à vérifier avec la DREAL/le service carte grise avant d'acheter la pièce, et à
 signaler à l'assureur par précaution. Détails → [recherche-marche-sieges.md](../recherche-marche-sieges.md).
 
+🔴 **Complément du 2 septembre 2026 — la démarche administrative est désormais connue, et elle
+n'est pas déclarative.** La DREAL Isère exige l'**autorisation écrite du constructeur** pour
+passer de 3 à 2 places avant : *« rien n'indique que le châssis soit réellement capable
+d'accueillir le siège à la place de la banquette sans aucune modification. Certains éléments (type
+airbag) peuvent aussi être impactés »*. Le raisonnement ci-dessus (deux configs d'usine, ~500-1 000 €)
+reste juste mécaniquement, mais la voie porte une **condition suspensive** et un surcoût de
+50-250 €. **La décision reste ouverte**, avec un contournement à évaluer d'abord : viser un porteur
+déjà en 2 places avant d'origine. → [dossier-dreal-38.md](../dossier-dreal-38.md)
+
 ## Conséquences
 
 - Critère de recherche ajouté : **vérifier la configuration cabine d'origine** de
@@ -90,7 +99,9 @@ signaler à l'assureur par précaution. Détails → [recherche-marche-sieges.md
 - ⚠️ **Banquette arrière : deux voies concurrentes, pas encore départagées** — cabine
   approfondie d'origine (mais mange visiblement beaucoup de longueur utile, à
   contre-courant d'ADR-0002) vs banquette rapportée après achat sur fourgon standard
-  (préserve la longueur, mais dossier DREAL à prévoir avant l'isolation). Détail et
+  (préserve la longueur ; 🗄️ *« dossier DREAL à prévoir avant l'isolation »* — **faux, corrigé le
+  2 septembre 2026** : la DREAL Isère veut le véhicule dans son **état final**, dossier déposé
+  travaux terminés → [dossier-dreal-38.md](../dossier-dreal-38.md)). Détail et
   fourchettes de prix → [recherche-marche-sieges.md](../recherche-marche-sieges.md).
 - Longueur et hauteur cibles inchangées : format « 600 » (~5,99 m), hauteur H2
   (~2,60 m) — reportées telles quelles de l'ADR-0002/ADR-0003. ⚠️ Elles visaient à

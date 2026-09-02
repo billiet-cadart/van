@@ -37,6 +37,10 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
 | [docs/adr/0010](docs/adr/0010-cuisine-chauffage-gaz.md) | Cuisine au gaz, chauffage au diesel |
 | [docs/adr/0011](docs/adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md) | Format 600 (L3H2) confirmé — ni L4H2 (aucun gain de largeur), ni L2H2 (trop juste) ; arbitrage marge/maniabilité, pas obligation des 4 places |
 | [docs/recherche-marche-sieges.md](docs/recherche-marche-sieges.md) | Note vivante — sièges, banquette-lit, VASP/gaz, dimensions L2/L3/L4, prix et pièges observés |
+| [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md) | 🔴 **Source qui fait foi sur l'homologation** — réponses écrites de la DREAL Isère (2 sept. 2026) : dépôt du dossier **en fin de chantier**, accord constructeur pour 3→2 places, 3 PV pour la banquette, R10 sur tout l'électronique, plaque de transformation, délais réels. Et les décisions/actions qui en découlent |
+| [docs/dimensions-l3h2.md](docs/dimensions-l3h2.md) | Cotes de référence du format cible — Sevel, Master, Transit, banquette Scopema, et ce qui reste à mesurer sur le véhicule |
+| [docs/verification-2026-09-02.md](docs/verification-2026-09-02.md) | 🔴 Contrôle de toutes les affirmations du dépôt contre les sources primaires — ce qui est confirmé, les 8 corrections apportées (dont ZFE et braquage L4), et ce qui n'est pas vérifiable sans le relais navigateur |
+| [docs/zfe-grenoble.md](docs/zfe-grenoble.md) | Note vivante — ce qu'on risque vraiment si le van est hors critère : sanction, horaires, dérogation VASP, et les deux questions à poser à la Métropole |
 
 ## Le raisonnement, étape par étape
 
@@ -47,10 +51,47 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
 5. **La recherche s'élargit aux fourgons déjà aménagés** (ADR-0007) : au **prix nu** si l'aménagement existant ne colle pas aux critères cabine cibles (ADR-0006) — il n'a alors aucune valeur retenue, bon ou mauvais — sinon le véhicule s'évalue sur ses propres mérites. Le risque à surveiller n'est pas le démontage des meubles mais l'état de la carrosserie (trous, fenêtres, lanterneaux) laissé par l'aménagement précédent. Le camping-car reste hors de cette voie : sa cellule n'est pas un aménagement démontable.
 6. **Ce n'est plus un achat-tremplin** (ADR-0008) : la famille compte garder ce van, sauf imprévu. Le coût de possession et la liquidité de revente — jusqu'ici LA métrique de décision — passent au second plan ; ce qui compte devient la fiabilité et l'entretien sur un horizon long.
 7. **Layout retenu : lit fixe parents à l'arrière + banquette-table qui se transforme en lit pour les enfants** (≥190 cm, ADR-0009) — remplace le couchage d'appoint souple du point 3 pour l'usage quotidien enfants, qui reste disponible pour un usage exceptionnel (invité, imprévu). Pas dimensionné pour durer jusqu'à l'adolescence par choix assumé : le jour où ça ne suffit plus, la famille revendra ou retouchera l'aménagement à ce moment-là.
-8. **Conformité complète, sans raccourci** (ADR-0009/0010) : VASP obligatoire vu le lit fixe et la banquette homologuée retenus. Cuisson au gaz (certifiée Qualigaz/Bureau Veritas), chauffage au diesel pressenti (homologué E/R10) plutôt que gaz — jamais de raccourci sur l'une ou l'autre certification, même si ça coûte plus cher ou prend plus de temps. Le but est d'être en règle pour la route et le contrôle technique, pas seulement d'éviter une amende.
+8. **Conformité complète, sans raccourci** (ADR-0009/0010) : VASP obligatoire vu le lit fixe et la banquette homologuée retenus. Cuisson au gaz (certifiée Qualigaz/Bureau Veritas), chauffage au diesel pressenti (homologué E/R10) plutôt que gaz — jamais de raccourci sur l'une ou l'autre certification, même si ça coûte plus cher ou prend plus de temps. Le but est d'être en règle pour la route et le contrôle technique, pas seulement d'éviter une amende. ⚠️ *Précision du 2 septembre 2026* : le **R10 ne concerne pas que le chauffage** — la DREAL Isère l'exige sur **tout équipement électronique fonctionnant en circulation** (régulateur solaire, frigo, convertisseur, chargeur). C'est donc un critère d'achat sur toute la ligne électrique, à vérifier sur fiche produit avant de commander → [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md).
 9. **Format 600 (L3H2) reconfirmé, pour une autre raison que celle d'origine** (ADR-0011) : ni plus long (L4H2 — même largeur intérieure, +37cm seulement, nettement moins maniable), ni plus court (L2H2 — légal pour les 4 places, mais trop juste en pratique, confirmé par un précédent réel). Le 600 est un arbitrage marge d'implantation / maniabilité, pas une obligation légale.
 
 ## ⚠️ Dette de vérification avant tout achat
+
+- 🔴 **Nouveau critère de premier rang : la configuration cabine d'origine (2 septembre 2026).**
+  La DREAL Isère exige l'**accord écrit du constructeur** pour remplacer une banquette avant
+  2 places par un siège individuel — l'opération n'est pas déclarative comme le dépôt le
+  supposait, et l'**airbag** en est le motif. Or **4 annonces sur 4** dont la cabine était
+  visible ont une banquette avant : la conversion était devenue la voie par défaut, elle porte
+  désormais une condition suspensive (+50-250 €, délai et issue inconnus). **À trancher avant le
+  prochain tour de recherche** : soit on instruit l'accord Stellantis, soit on fait de
+  « 2 places avant d'origine » un critère de tri dur — la configuration existe en série sur
+  toutes les longueurs. → [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md)
+
+- 🔴 **Le dossier DREAL se dépose en fin de chantier, pas au début (corrigé le 2 septembre 2026).**
+  Trois documents du dépôt affirmaient l'inverse (« avant l'isolation, pour que l'inspecteur voie
+  les ancrages »). La DREAL Isère veut le véhicule **dans son état final**, et ce qu'elle ne peut
+  pas voir reste sous notre responsabilité. Deux conséquences : il faut **photographier et coter
+  tout ce qui sera caché** au fur et à mesure du chantier, et la **phase CTTE couvre désormais
+  tout l'aménagement + 1 à 2 mois d'instruction** — c'est le régime ZFE le plus dur, celui qui
+  interdit aussi le stationnement à Meylan.
+
+- 🔴 **Crit'Air / ZFE : contrainte réactivée (vérifié le 2 septembre 2026).** L'[ADR-0003](docs/adr/0003-cible-fourgon-600-4-places.md)
+  avait retiré ce critère en disant les ZFE « en cours d'abandon ». **C'est faux** : la
+  suppression votée en avril 2026 a été **censurée par le Conseil constitutionnel le 21 mai
+  2026**, et **Meylan est dans le périmètre de la ZFE grenobloise** — Crit'Air 3, 4, 5 et non
+  classés interdits depuis le 1er janvier 2025 (7h-19h en semaine), verbalisation suspendue
+  jusqu'au 30 juin 2027 seulement. En diesel, Crit'Air 2 exige une **1ʳᵉ immatriculation à partir
+  du 1er janvier 2011**, et passer en VASP n'améliore pas la classe. **10 des 38 candidats actifs
+  du dossier marché sont concernés — les 10 moins chers.** Et sur l'horizon 10-15 ans de
+  l'[ADR-0008](docs/adr/0008-van-definitif-pas-tremplin.md), même le Crit'Air 2 est visé
+  (2028 utilitaires, 2030 véhicules particuliers dans cette métropole). **À trancher avant le
+  prochain tour de recherche.**
+  ✅ *Risque instruit le 2 septembre 2026* → [docs/zfe-grenoble.md](docs/zfe-grenoble.md) : la
+  sanction est bornée (**68 € par infraction**, pas de point, aucun effet sur le CT, l'assurance
+  ou le droit de garder le véhicule), la ZFE voitures ne vaut **qu'en semaine 7h-19h** et **ne
+  touche pas le stationnement**, et une **dérogation VASP existe à Grenoble** — donc déjà sur
+  notre trajectoire. Restent : une dérogation révocable (~3 ans, décision locale), les autres
+  métropoles (le Grand Paris **exclut** les camping-cars), et la phase de chantier où le van est
+  encore CTTE — régime plus dur, qui interdit aussi le stationnement.
 
 - 🗄️ *Repère périmé, corrigé le 31 août 2026* : cette dette disait de revérifier « 4 places carte grise » sur chaque véhicule comme contrainte ferme éliminatoire. Elle datait d'avant la confirmation terrain que le 4-places-d'origine est quasi introuvable (ci-dessous). Depuis que la voie par défaut est « 3 places + conversion sièges + ajout banquette » (ADR-0006/ADR-0007) — confirmée par la revue des 5 premières annonces, voir [recherche-marche-sieges.md](docs/recherche-marche-sieges.md) — **tout candidat retenu passera par une nouvelle carte grise de toute façon**, quel que soit son nombre de places actuel. Ce n'est donc plus un critère de tri à l'achat, seulement un repère pour détecter une anomalie sur l'annonce (véhicule déjà modifié sans déclaration, déjà classé voiture particulière, cabine approfondie 7 places vendue comme compacte…).
   ⚠️ Recherche terrain (30 août 2026) : le 4 places d'origine est quasi introuvable sur ce format (0 résultat leboncoin avec ce filtre) — confirme que la voie « 3 places + ajout homologué » (ADR-0006) est la norme, pas l'exception.

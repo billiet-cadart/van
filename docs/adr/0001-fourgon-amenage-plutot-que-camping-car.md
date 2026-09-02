@@ -45,6 +45,13 @@ Vérifié, pas supposé :
   ~5-7 %/an). Un camping-car vieux acheté bas ne perd plus grand-chose en absolu — son
   vrai défaut est la **liquidité**, pas la décote. (yescapa)
 
+✅ **Revérifié le 2 septembre 2026** : les deux chiffres clés sont exacts — occasion 2024 à
+**65 710 ventes, −4 %** (68 463 en 2023) et prix moyen des intégraux d'occasion **53 565 € →
+48 745 €, soit −9 %**. Ajout qui renforce l'argument : dans le même temps le **neuf a progressé
+de +17 %** (11 623 immatriculations de camping-cars), ce qui confirme la « suroffre de neuf »
+invoquée ci-dessus. Les fourchettes de décote (~20 / 15 / 5-7 %) n'ont pas été recontrôlées à la
+source. Détail → [verification-2026-09-02.md](../verification-2026-09-02.md).
+
 ## Facteur décisif : la liquidité
 
 Le van coûte plus de cash à l'entrée, mais c'est une **prime de liquidité**, pas une

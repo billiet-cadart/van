@@ -14,6 +14,13 @@ diesel, la cuisson restant au gaz.
 
 - **Cuisson : au gaz.**
 - **Chauffage : au diesel** (Webasto/Eberspächer/Autoterm ou équivalent homologué E/R10).
+  ⚠️ **Référence réglementaire corrigée (2 septembre 2026)** : R10 seul ne suffit pas — c'est le
+  règlement de **compatibilité électromagnétique**, exigé sur beaucoup d'appareils du dossier
+  (frigo, régulateur de charge…). Le règlement propre aux **systèmes de chauffage** des véhicules
+  M/N/O est le **règlement ONU n° 122**. Un chauffage à combustion doit satisfaire **R10 *et*
+  R122**, et c'est le **certificat R122** que le dossier DREAL attend. Sans effet sur la décision
+  (les trois marques citées sont homologuées) — mais c'est la pièce à exiger du vendeur, et le
+  bon mot-clé pour écarter les chauffages génériques.
   ✅ **Tranché (31 août 2026)** : l'usage ski qui motivait le gaz au départ reste incertain, mais
   la famille ne veut pas attendre de le savoir pour se décider — voir *Pourquoi*.
 

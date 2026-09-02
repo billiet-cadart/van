@@ -20,9 +20,26 @@ Le format 600 (L3H2) est confirmé comme cible, mais la raison change :
   identique du L1 au L4 sur cette plateforme), pour seulement +37 cm de longueur utile (4070 mm
   contre 3705 mm). Se conduit nettement moins bien (braquage 15,30 m contre 14,30 m, ressenti
   terrain unanimement négatif sur les forums d'aménagement).
+  ⚠️ **Justification chiffrée corrigée le 2 septembre 2026 — la décision, elle, ne change pas.**
+  Les deux chiffres de braquage ci-dessus sont faux. La fiche constructeur donne, en diamètre
+  entre trottoirs : **14,14 m** (33/35 L3H2), **14,4 m** (4-35/4-40 L3H2) et **14,4 m** (4-35/4-40
+  L4H2) — recoupé sur fiche technique tierce. C'est cohérent : **L3 et L4 ont le même empattement
+  (4035 mm)**, le L4 n'allonge que le **porte-à-faux arrière** (1015 → **1380 mm**), qui
+  n'influe pas sur le braquage. Un L3H2 en gamme lourde braque donc exactement comme un L4H2.
+  Le L4 reste écarté, mais pour ce qui le pénalise réellement : **+36 cm de porte-à-faux
+  arrière** (déport en sortie de virage, talonnage sur bateaux et rampes) et 6,36 m hors tout,
+  pour +37 cm de longueur utile seulement. Détail →
+  [verification-2026-09-02.md](../verification-2026-09-02.md).
 - **L2H2 écarté** : légalement viable pour les 4 places — un précédent réel existe (Boxer L2H2
   converti et homologué 4 places, banquette Schnierle SL3). **La contrainte 4 places n'impose donc
-  pas le 600**, contrairement à ce que disait l'ADR-0003. Mais le L2H2 offre 585 mm de longueur
+  pas le 600**, contrairement à ce que disait l'ADR-0003.
+  ⚠️ **Requalifié le 2 septembre 2026** : le fil de forum retrouvé décrit bien un **Boxer L2H2
+  de 2018** aménagé pour une famille de 4 avec une **Schnierle SL3 de 120 cm**, mais son auteur
+  écrit *« je **vise** l'homologation VASP »* — il n'y a **pas** de réception obtenue ni de
+  nombre de places carte grise documenté. C'est un **projet documenté**, pas un précédent
+  homologué. La conclusion juridique tient quand même, mais elle repose sur l'**absence de règle**
+  liant longueur et nombre de places (les contraintes portent sur l'ancrage, la largeur et le
+  PTAC), pas sur ce cas. Mais le L2H2 offre 585 mm de longueur
   utile en moins (3120 mm contre 3705 mm), et ce même précédent décrit un agencement « au
   centimètre », avec tension entre la banquette et le coin cuisine — jugé trop juste pour
   l'implantation retenue (lit fixe + banquette-lit + circulation + cuisine, ADR-0009).
