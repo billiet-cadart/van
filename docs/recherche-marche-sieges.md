@@ -244,6 +244,186 @@ n'est pas un bricolage, c'est passer d'une config d'usine à une autre.
   trafic-amenage.com/forum/viewtopic.php?t=57863,
   forum.trafic-amenage.com/viewtopic.php?t=51805, e-direct-auto.com (pièces Boxer/Jumper/Ducato)
 
+### Retours d'expérience de gens qui l'ont fait — dépouillement forums du 3 septembre 2026
+
+Recherche ciblée sur les récits de personnes ayant **réellement** remplacé une banquette avant
+2 places par un siège individuel, et/ou posé une embase pivotante. L'essentiel vient de
+**trafic-amenage.com** (le forum francophone le plus fourni sur le sujet, une dizaine de fils),
+complété par deux forums britanniques (fiatforum, motorhomefun).
+
+🔴 **Constat d'ensemble, à poser d'emblée : beaucoup de fils, peu de récits complets.** La
+quasi-totalité s'arrête avant la partie administrative — « je vais le faire », puis plus rien.
+**Aucun REX trouvé ne parcourt notre chaîne entière** (banquette → siège individuel → embase
+pivotante → accord constructeur → carte grise → VASP). Ce qui suit est donc un assemblage de
+morceaux vérifiés séparément, **pas un exemple à copier**.
+
+#### ✅ Ce que plusieurs personnes qui l'ont fait confirment
+
+- **Mécaniquement, c'est un non-événement** : entraxes et boulons identiques entre banquette et
+  siège individuel, aucun perçage, **15 min à 1 h** de pose selon les récits (fourchette large
+  parce que les auteurs ne comptent pas la même chose).
+- **Prix de la pièce, valeurs réellement payées** : **~90 €** pour un siège trouvé à la casse
+  (Jumper 2010) — cohérent avec les 80-200 € déjà notés plus haut ; ~500 £ sur eBay UK (marché
+  bien plus tendu là-bas). En concession, la pièce n'est de toute façon pas vendue seule.
+- ⚠️ **L'attache de ceinture est soudée au siège, et elle a un côté.** *« Les fixations sont les
+  mêmes, par contre si tu achètes un siège conducteur français tu auras l'attache de la ceinture
+  du mauvais côté. »* Il faut un siège **passager** français (ou un siège conducteur d'un
+  véhicule anglais). Piège invisible sur une photo d'annonce de pièce détachée — critère à
+  vérifier avant d'acheter.
+
+#### 🔴 Le point neuf, absent du dossier jusqu'ici : le prétensionneur de la place centrale
+
+La banquette porte **deux** ceintures avec prétensionneurs pyrotechniques ; le siège individuel
+n'en a qu'une. Le connecteur resté en l'air allume le **voyant airbag** — et voyant airbag allumé
+signifie **airbags inactifs en cas de choc** *et* **contre-visite au contrôle technique**.
+
+- Le bricolage courant sur les forums : **une résistance de 1,5 Ω** (2,2 Ω côté britannique, voire
+  une ampoule 12 V de clignotant en dépannage) sur le connecteur libre, pour simuler le
+  prétensionneur manquant. *« J'ai posé le siège, j'ai rebranché 1 prétensionneur, et j'ai mis une
+  résistance de 1,5 ohm sur le second connecteur. »* Plusieurs témoins confirment que le voyant
+  s'éteint.
+- La solution propre : **reconfiguration au boîtier de diagnostic** pour désactiver le second
+  prétensionneur — mais les concessions rechignent à la faire.
+- ⚠️ **Pour nous, la résistance n'est pas une option.** Le véhicule passera devant la DREAL puis,
+  le cas échéant, devant un expert d'assurance : un calculateur d'airbag trompé par une résistance
+  bricolée ne se défend ni dans un dossier RTI ni après un sinistre. À transformer en **question
+  précise au concessionnaire** au moment de la demande d'accord constructeur.
+- 📌 Ce point **donne raison à la DREAL 38** : son objection « certains éléments (type airbag)
+  peuvent être impactés » n'était pas une formule de précaution, c'est le problème réel et
+  documenté de cette modification.
+
+#### ⚠️ Deux contre-témoignages : ce n'est pas « oui » partout
+
+- **Boxer phase 3** : un membre a interrogé la DREAL *et* le constructeur → réponse, **le
+  remplacement de la banquette par un siège d'origine n'est pas possible** sur ce modèle. La voie
+  proposée à la place : un **siège de carrossier homologué (type Scopema)**, souvent **moins cher
+  que la pièce d'origine** — qui n'est pas vendue séparément en concession. Ça montre que la
+  réponse **ne se déduit pas** du fait que la version 2 places existe au catalogue : elle dépend
+  du modèle et du millésime, et se demande véhicule par véhicule.
+- **Master 2** : l'organisme d'homologation consulté (AOC) a répondu « plus possible sur ce
+  modèle ». Le demandeur a renoncé, et son motif est instructif : ce n'est pas le contrôle
+  technique qui l'inquiétait, mais **l'expert d'assurance après un accident grave**.
+
+#### ⚠️ La DREAL varie d'un département à l'autre — dit noir sur blanc
+
+Sur le même fil : certains inspecteurs acceptent un **siège d'origine d'occasion** en bon état,
+d'autres exigent un **siège neuf avec facture**. *« C'est un peu la loterie — mieux vaut en
+discuter directement avec sa DREAL régionale. »* Un intervenant cite **~1 300 €** pour une pose
+professionnelle documentée (siège passager + embase conducteur).
+➡️ Corollaire pour nous : notre échange direct avec la DREAL 38
+([dossier-dreal-38.md](dossier-dreal-38.md)) vaut plus que n'importe lequel de ces fils, y compris
+ceux qui sont plus optimistes.
+
+#### ✅ Pivoter le siège conducteur en gardant la banquette : testé, ça ne marche pas
+
+Un membre a acheté l'embase, l'a montée sur un Ducato équipé d'une banquette : *« ça n'a pas
+marché du tout »* — la banquette empêche la rotation — et il a **revendu l'embase** à quelqu'un
+sans banquette. Un modérateur : *« normalement la banquette gêne, sauf si elle pivote aussi. »*
+Sa solution de repli a été d'adapter un siège **au dos** du siège conducteur pour faire une 3e
+place au coin repas — plus encombrant qu'un pivot.
+➡️ Confirme le § embases en tête de document : il n'existe pas de demi-solution « on pivote juste
+le conducteur, on garde la banquette ».
+
+#### ✅/🔴 Une embase pivotante **double** pour banquette existe — mais pas pour la France
+
+Contrairement à ce que dit le fabricant RIB/Scopema (« pas possible sur banquette »), un artisan
+britannique — **Custom Shop Designs** — vend une embase pivotante pour **banquette 2 places**
+Ducato/Boxer/Jumper, **en version LHD (conduite à gauche)** : **369,99 £**, +50 mm de hauteur
+d'assise, pose annoncée ~1 h sur les ancrages d'origine sans perçage, système de verrouillage
+quart-de-tour, essais d'ancrage de ceinture ECE R14 / directive 76/115/CEE. Revendue aussi par
+Combe Valley Campers.
+
+- 🔴 **Inexploitable dans notre dossier**, pour trois raisons cumulées rapportées par des gens qui
+  ont essayé : **Fiat France n'autorise pas son montage → pas de VASP** ; la **DREAL ne reconnaît
+  plus les essais britanniques depuis le Brexit** ; et **~165 £ de frais d'import** s'ajoutent au
+  prix. Un professionnel français dit avoir abandonné l'idée d'en importer.
+- Retours d'usage britanniques mitigés : « game changer » avec glissières pour les uns, « pas si
+  pratique, instable en position retournée » pour les autres.
+- 📌 À retenir : « on ne peut pas faire pivoter une banquette » est vrai **administrativement en
+  France**, pas mécaniquement. Ne pas reformuler ça en impossibilité technique dans nos notes.
+
+#### L'accord constructeur Fiat : des REX existent, mais pas sur les sièges
+
+- Procédure rapportée : compte gratuit sur **fiatprofessional-converters.com**, demande en ligne,
+  **~270 €** (à recouper — cohérent avec la fourchette 50-250 € de levanmigrateur, mais c'est une
+  source secondaire de plus, pas une confirmation). Contacts relevés sur forum :
+  homologationgroupefiat@fcagroup.com, 01 30 16 71 93 — *« la personne au téléphone est très
+  aimable »*, mais l'accès à la plateforme est décrit comme laborieux pour un particulier.
+- La liste de documents est calibrée pour des carrossiers : plans cotés, photos d'une
+  transformation strictement identique, calcul de répartition des masses, pesée du véhicule.
+- 🔴 **Tous les REX trouvés portent sur des découpes de carrosserie** (lanterneaux, baies), **aucun
+  sur un changement de siège**, et **aucun délai de réponse** n'est indiqué nulle part. La
+  condition suspensive de l'[ADR-0006](adr/0006-config-porteur-nu-sieges-cabine.md) **n'est donc
+  pas levée par les forums** — ni dans un sens ni dans l'autre.
+
+#### La voie prestataire — repérage du 3 septembre 2026
+
+Question posée : *si un professionnel s'en charge, est-on sûr que ça passe ?* Ce qui a été trouvé,
+à considérer comme du **repérage commercial non recoupé** (pages de vente, aucun devis obtenu, rien
+de vérifié auprès des clients de ces entreprises) :
+
+- **Equipage Camper Van** (Flourens, 31 — banlieue de Toulouse, ~450 km) : annonce explicitement le
+  **remplacement de banquettes avant par des sièges individuels**, et surtout *« nous prenons en
+  charge toutes les démarches d'homologation auprès de la DREAL »*, carte grise mise à jour avec le
+  nombre de places exact, véhicule qui reste en CTTE. **À partir de 2 600 € TTC.**
+  ⚠️ Les modèles cités sur la page sont surtout des **compacts** (Trafic, Transit Custom, Jumpy,
+  T5/T6) — la compatibilité **Ducato/Boxer/Jumper X250/X290 reste à confirmer**, c'est la première
+  question à leur poser. 06 11 63 77 75, contact@equipage-camper-van.com.
+- **Custovan** (~20 km de Grenoble) : travaille avec des ingénieurs et des **laboratoires d'essai
+  agréés** pour valider les éléments structurels, notamment la pose de **sièges homologués sur
+  rails Schnierle** — déjà croisé plus haut dans le § banquette arrière. Le plus proche
+  géographiquement, et déjà dans notre périmètre.
+- **Endo Design** (Beynost, 01 — près de Lyon) : pose de banquettes **et d'embases pivotantes**,
+  homologation VASP, et accompagnement des gens qui aménagent eux-mêmes — profil intéressant vu
+  notre choix d'auto-installation.
+- **Alpes Camping-Car** (Triors, 26) : accompagnement jusqu'à l'homologation VASP.
+
+📌 **Ce que la voie prestataire change, et ce qu'elle ne change pas.** Elle ne dispense pas de
+l'accord constructeur si la modification utilise une **pièce d'origine** — l'exigence porte sur le
+véhicule, pas sur qui tient la clé. Elle change de **route** : le professionnel monte un **siège de
+carrossier homologué** (Scopema et consorts) livré avec son **PV d'essai nommant le type de
+châssis**, et c'est ce PV qui couvre l'ensemble. C'est exactement la solution que la DREAL et le
+constructeur ont proposée au demandeur du fil Boxer phase 3 après lui avoir refusé la pièce
+d'origine.
+🔴 **Point à faire trancher par la DREAL 38 avant tout engagement** : *avec un siège homologué posé
+par un professionnel et un PV nommant le châssis, l'accord constructeur reste-t-il exigé ?* Tant
+que cette réponse manque, la voie prestataire est **probable mais pas acquise**, et son prix
+(2 600 € et plus) ne s'engage pas à l'aveugle. → [dossier-dreal-38.md](dossier-dreal-38.md)
+
+- Sources : equipage-camper-van.com/siege, custovan.fr, artizanvan.fr, allvan.fr (annuaire
+  Sud-Est), trafic-amenage.com/forum/viewtopic.php?t=55274
+
+#### Une astuce fréquente sur les forums, écartée
+
+*« Tu peux remettre une banquette pour passer à la DREAL (on en trouve à la casse), quitte à
+remettre le siège après. »* Citée plusieurs fois, y compris par des modérateurs. **Non retenue** :
+c'est présenter à l'homologation un véhicule différent de celui qui roulera, avec exactement le
+risque d'assurance que décrit le fil Master 2 ci-dessus.
+
+#### Sources
+
+Toutes consultées le 3 septembre 2026. Ce sont des **forums** : témoignages non vérifiables
+individuellement, à traiter comme des indices convergents, pas comme des preuves — et la DREAL 38
+prime sur tous en cas de contradiction.
+
+- trafic-amenage.com/forum/viewtopic.php?t=67242 (Ducato 2020 L3H2 — même véhicule et même
+  département que notre cible ; côté de l'attache de ceinture)
+- trafic-amenage.com/forum/viewtopic.php?t=47481 (Boxer phase 3 — refus constructeur, piste
+  Scopema, résistance ceinture, pose 15 min)
+- trafic-amenage.com/forum/viewtopic.php?t=51805 (variabilité DREAL, ~1 300 € pose pro)
+- trafic-amenage.com/forum/viewtopic.php?p=284548 et ?p=164596 (résistance 1,5 Ω sur
+  prétensionneur, voyant airbag)
+- trafic-amenage.com/forum/viewtopic.php?t=66000 (Master 2 — renoncement, motif assurance)
+- trafic-amenage.com/forum/viewtopic.php?t=62595 (pivot conducteur + banquette : échec constaté)
+- trafic-amenage.com/forum/viewtopic.php?t=47031 (embase double UK, Fiat France, Brexit)
+- trafic-amenage.com/forum/viewtopic.php?t=57059 (accord constructeur Fiat, contacts, documents)
+- customshopdesigns.com (embase double banquette LHD, 369,99 £), combevalleycampers.co.uk
+- fiatforum.com/threads/double-seat-swivel-or-change-to-single-seat.509716,
+  motorhomefun.co.uk/forum/threads/change-passenger-2-seats-to-single-seat.298696 (REX
+  britanniques : prix eBay, prétensionneur central, côté ceinture)
+- levanmigrateur.com/tout-savoir-sur-lautorisation-constructeur-pour-lhomologation-vasp
+  (procédure Fiat en ligne, 270 € — secondaire)
+
 ### Auto-installation : possible, mais pas pour tout de la même façon
 
 Le projet vise à installer un maximum soi-même. Ça se découpe en trois cas différents :

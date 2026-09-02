@@ -254,6 +254,17 @@ sensiblement ce délai.
    même) : *une embase du commerce homologuée R14/R16/R17, posée par nos soins, avec le document
    d'homologation fourni par le revendeur — cela suffit-il, ou exigez-vous en plus une
    autorisation nominative du fabricant, comme pour la banquette arrière ?*
+   ✅ **Courriel rédigé le 3 septembre 2026**, 🔴 **pas encore envoyé** →
+   [dreal/courriel-questions-2026-09-03.md](dreal/courriel-questions-2026-09-03.md). Il pose
+   quatre questions, pas une : l'embase (ci-dessus), plus **trois questions nouvelles** issues du
+   dépouillement des retours d'expérience du 3 septembre
+   ([recherche-marche-sieges.md](recherche-marche-sieges.md)) — (a) l'accord constructeur
+   reste-t-il exigé si un **professionnel** pose un **siège de carrossier homologué** dont les PV
+   nomment le châssis, plutôt qu'une pièce d'origine ? (b) quelle preuve attendent-ils sur le
+   **prétensionneur de la place centrale** devenu orphelin ? (c) confirmation qu'un porteur
+   **déjà en 2 sièges avant d'origine** annule tout le sujet. La réponse à (a) conditionne la voie
+   prestataire (à partir de ~2 600 € TTC), celle à (c) oriente directement la recherche de
+   véhicule.
 4. **Avant tout achat d'embase** : exiger du revendeur le document d'homologation R14/R16/R17
    **mentionnant nommément le type de châssis et la référence de siège couverts** — vérifier que
    notre combinaison y figure. Ne pas se contenter d'une mention « homologation CE » générique.

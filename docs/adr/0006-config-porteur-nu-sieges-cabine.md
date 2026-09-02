@@ -91,6 +91,18 @@ reste juste mécaniquement, mais la voie porte une **condition suspensive** et u
 50-250 €. **La décision reste ouverte**, avec un contournement à évaluer d'abord : viser un porteur
 déjà en 2 places avant d'origine. → [dossier-dreal-38.md](../dossier-dreal-38.md)
 
+⚠️ **Complément du 3 septembre 2026 — dépouillement des retours d'expérience sur forums.** Les
+récits de gens qui l'ont réellement fait confirment que la partie mécanique est triviale (mêmes
+boulons, 15 min à 1 h, siège de casse dès ~90 €), mais font apparaître **deux points que le
+dossier n'avait pas** : (1) le **prétensionneur de la place centrale** reste orphelin et allume le
+voyant airbag — le contournement des forums est une résistance de 1,5 Ω, inacceptable pour un
+véhicule qui passe en DREAL et devant un assureur ; (2) sur **Boxer phase 3**, un demandeur s'est
+vu **refuser** cette substitution par la DREAL et le constructeur, avec renvoi vers un siège de
+carrossier homologué. La réponse dépend donc du modèle et du millésime, et **aucun REX trouvé ne
+va jusqu'à l'accord Fiat pour un changement de siège** : la condition suspensive n'est pas levée.
+→ [recherche-marche-sieges.md](../recherche-marche-sieges.md) § « Retours d'expérience de gens qui
+l'ont fait »
+
 ## Conséquences
 
 - Critère de recherche ajouté : **vérifier la configuration cabine d'origine** de
