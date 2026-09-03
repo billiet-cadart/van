@@ -3,6 +3,10 @@
 Note de recherche technique (pas une décision). Constituée le 2 septembre 2026, à la demande
 de cotes « le plus précis possible » sur le format cible ([ADR-0011](adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md)).
 
+⚠️ **Ce document ne compile que ce qui est apparu dans le suivi marché** — ce n'est pas la liste
+des porteurs possibles. Qui est dans la sélection, qui n'y est pas et pourquoi (Transit, Sprinter,
+Daily) → [recherche-marche-sieges.md](recherche-marche-sieges.md), § « Périmètre des porteurs ».
+
 Trois familles de porteurs apparaissent dans le suivi marché ([marche/recap-2026-08-31.md](marche/recap-2026-08-31.md)) :
 la plateforme **Sevel Sud** (Fiat Ducato / Peugeot Boxer / Citroën Jumper, châssis X250 depuis
 mi-2006, X290 depuis 2014 — **carrosserie identique**), le **Renault Master / Opel Movano**, et le
@@ -316,6 +320,28 @@ traction existe bien en L3H2** (la table la liste), et la **charge admissible su
 Non compilé : les gabarits Sprinter ne se codent pas en L1-L4/H1-H3 mais en empattement + hauteur de
 toit, et la correspondance avec « L3H2 » n'est pas directe. Un seul candidat Sprinter au dossier
 marché (#8, 2008, 375 000 km). À faire si un Sprinter devient sérieusement candidat.
+
+## 4 bis. Iveco Daily — jamais examiné
+
+🔴 **Angle mort assumé, relevé le 3 septembre 2026.** Le Daily n'apparaît **nulle part** dans le
+dépôt comme porteur : ni cote, ni annonce, ni raison de l'écarter. Iveco n'y est cité que comme
+**motoriste** du Sevel (blocs F1A/F1C du Ducato) — ce qui a pu masquer son absence en tant que
+véhicule.
+
+Ce n'est donc pas une décision, c'est un trou. Ce qu'il faudrait vérifier avant de le retenir ou
+de l'écarter — **rien de tout cela n'est établi ici** :
+
+- **Architecture** : le Daily est un châssis-échelle à propulsion, là où le Sevel est un
+  monocoque à traction. Conséquences plausibles sur la hauteur de plancher, la hauteur intérieure
+  utile et le comportement à vide — **à vérifier sur fiche constructeur, pas à supposer**.
+- **Largeur entre passages de roue** — le chiffre qui décide du lit transversal (1 422 mm au
+  Sevel, déjà limite).
+- **PTAC et permis** : la gamme Daily monte largement au-dessus de 3,5 t. Au-delà, c'est un autre
+  permis, une autre assurance et d'autres limitations de vitesse.
+- **Crit'Air et coût d'entretien** sur un horizon 10-15 ans ([ADR-0008](adr/0008-van-definitif-pas-tremplin.md)).
+- **Tout le dossier sièges est à refaire** : embases RIB/Scopema, interchangeabilité des sièges
+  avant, accord constructeur — tout a été validé sur la seule plateforme Sevel
+  ([recherche-marche-sieges.md](recherche-marche-sieges.md)).
 
 ## 5. Ce qu'il reste à mesurer sur le véhicule (avant tout dessin d'implantation)
 

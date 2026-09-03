@@ -750,6 +750,58 @@ que le 3.0 est un bloc Iveco, pas parce qu'il est antérieur à 2014.*
 **l'annonce n'est pas une fiche technique**, la motorisation exacte est à confirmer (VIN, carte
 grise) avant décision finale.
 
+## Périmètre des porteurs : qui est dans la sélection, qui n'y est pas (3 septembre 2026)
+
+Question posée le 3 septembre : *pourquoi pas de Mercedes, d'Iveco ou de Ford dans la sélection ?*
+Vérification faite, **il n'y avait pas de réponse écrite** — et les trois cas ne sont pas du tout
+au même stade. Ce paragraphe corrige ça. Ce n'est pas une décision : c'est le constat qu'il en
+manque une.
+
+| Porteur | Statut réel | Sur quoi ça repose |
+|---|---|---|
+| **Sevel** — Ducato / Boxer / Jumper | La cible | ADR-0003 / ADR-0011 ; **100 % de l'archive marché** ; tout le dossier sièges validé dessus |
+| **Renault Master / VW Crafter** | Dans le périmètre depuis le 31 août | Critère de préférence moteur ; des Master figurent déjà parmi les candidats. ⚠️ Rien de vérifié côté sièges |
+| **Ford Transit** | **Défavorisé sur pièces, jamais formellement écarté** | Coté et vérifié ([dimensions-l3h2.md](dimensions-l3h2.md) § 3) — mais aucune recherche d'annonce jamais faite |
+| **Mercedes Sprinter** | **Pas écarté — pas compilé** | [dimensions-l3h2.md](dimensions-l3h2.md) § 4 ; un seul passé au dossier marché, éliminé sur ses propres chiffres |
+| **Iveco Daily** | **Jamais regardé** | Rien. Angle mort → [dimensions-l3h2.md](dimensions-l3h2.md) § 4 bis |
+
+**Ford Transit — ce que disent les chiffres.** Le glossaire le cite comme porteur valide pour les
+4 places, et ses cotes sont au dossier. Elles ne plaident pas pour lui : **à encombrement extérieur
+quasi identique** (5 981 contre 5 998 mm), il offre **211 mm de longueur utile en moins**, **86 mm
+de largeur intérieure en moins** et 1,5 m³ de volume en moins, parce que son porte-à-faux arrière
+est plus long (1 208 contre 1 015 mm). Les versions propulsion tombent à **1 786 mm** de hauteur
+intérieure. C'est un motif sérieux vu l'[ADR-0009](adr/0009-layout-lit-fixe-banquette-lit.md) — il
+faut loger un lit fixe **et** une banquette-lit de 190 cm dans la longueur utile, et 21 cm en moins
+se paient directement là. ⚠️ **Mais ce raisonnement n'a jamais été écrit comme une décision**, et
+aucune annonce Transit n'a jamais été cherchée.
+
+**Mercedes Sprinter — un seul est passé, et il s'est éliminé tout seul.** Le dossier marché en
+contient un (#8, 3194008684, 9 800 €, **2008, 375 000 km**, Crit'Air 3) : écarté sur son âge, son
+kilométrage et sa vignette, pas sur sa marque. Ses cotes ne sont pas compilées pour une raison
+technique — les gabarits Sprinter se codent en empattement + hauteur de toit, pas en L1-L4/H1-H3,
+donc la correspondance avec « L3H2 » n'est pas directe.
+
+🔴 **La vraie raison de fond : la recherche a été formulée en vocabulaire Sevel.** Le dossier
+marché s'intitule *« Fiat Ducato / Peugeot Boxer / Citroën Jumper (L3H2) »*, et le format cible
+s'appelle le **« 600 »** — qui est un **code de gamme Sevel**, pas une catégorie de marché. Ni le
+Transit, ni le Sprinter, ni le Daily n'ont de « 600 » : chercher ce mot-là écarte mécaniquement les
+autres familles. L'[ADR-0011](adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md) a
+confirmé le **format**, comme arbitrage marge d'implantation / maniabilité — il n'a jamais tranché
+la **marque**. En pratique, la seconde a suivi la première sans que personne ne le décide.
+
+⚠️ **Élargir n'est pas gratuit, et c'est l'argument le plus solide pour ne pas le faire à la
+légère.** Tout le dossier sièges est adossé à la plateforme Sevel : compatibilité des embases
+RIB/Scopema (annoncée explicitement pour X250/X290), interchangeabilité des sièges avant, accord
+constructeur Stellantis, repérage des prestataires. Un porteur d'une autre famille **rouvre ce
+dossier en entier** — et la seule donnée hors Sevel qu'on ait est un **refus** (Master 2, « plus
+possible sur ce modèle »).
+
+📌 **À trancher, et ce n'est ni fait ni tranchable ici** : soit on assume que la cible est la
+plateforme Sevel et **on l'écrit dans un ADR**, avec les cotes du Transit comme motif chiffré ;
+soit on ouvre un tour de recherche multi-marques avant de refermer. Aujourd'hui, c'est ni l'un ni
+l'autre — **la restriction s'applique sans avoir été décidée**, ce qui est exactement le genre de
+chose que ce dépôt cherche à éviter.
+
 ## Dimensions intérieures L2/L3/L4 et lit fixe transversal (1er septembre 2026)
 
 Recherche déclenchée par un doute sur l'intérêt d'élargir la recherche aux formats plus longs

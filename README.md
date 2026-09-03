@@ -70,6 +70,22 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
   carrossier homologué **existe** pour cette position sur X250/X290, ce que personne n'a vérifié.
   → [docs/fabricants/questions-sieges-2026-09-03.md](docs/fabricants/questions-sieges-2026-09-03.md)
 
+- 🔴 **La marque du porteur n'a jamais été décidée — elle a été héritée (relevé le 3 septembre 2026).**
+  Question posée : *pourquoi pas de Mercedes, d'Iveco ou de Ford dans la sélection ?* Il n'y avait
+  pas de réponse écrite, et les trois cas ne sont pas au même stade. Le **Transit** est coté et
+  défavorisé sur les chiffres (**211 mm de longueur utile en moins et 86 mm de largeur en moins
+  pour le même encombrement extérieur** — ce qui se paie directement sur le lit fixe + la
+  banquette-lit de 190 cm de l'ADR-0009), mais ce n'est écrit nulle part comme une décision et
+  aucune annonce Transit n'a jamais été cherchée. Le **Sprinter** n'est pas écarté, seulement « non
+  compilé » : le seul passé au dossier s'est éliminé sur son âge et son kilométrage, pas sur sa
+  marque. L'**Iveco Daily** n'a **jamais** été regardé. La cause de fond : la recherche est
+  formulée en vocabulaire Sevel — le « 600 » est un **code de gamme Fiat/Peugeot/Citroën**, pas une
+  catégorie de marché, et le chercher écarte mécaniquement les autres familles. **À trancher** :
+  soit on assume la plateforme Sevel et on l'écrit dans un ADR (les cotes du Transit en donnent le
+  motif chiffré), soit on ouvre un tour multi-marques — sachant qu'élargir **rouvre tout le dossier
+  sièges**, adossé au seul X250/X290.
+  → [docs/recherche-marche-sieges.md](docs/recherche-marche-sieges.md), § « Périmètre des porteurs »
+
 - 🔴 **Le dossier DREAL se dépose en fin de chantier, pas au début (corrigé le 2 septembre 2026).**
   Trois documents du dépôt affirmaient l'inverse (« avant l'isolation, pour que l'inspecteur voie
   les ancrages »). La DREAL Isère veut le véhicule **dans son état final**, et ce qu'elle ne peut
