@@ -48,7 +48,7 @@ pistes se complètent, aucune ne remplace l'autre.
 | Interlocuteur | Peut répondre | Ne peut pas répondre |
 |---|---|---|
 | **RIB / Scopema** (embases, sièges) | La pièce existe-t-elle pour ce châssis ; que nomme le PV ; à qui l'autorisation d'usage est délivrée | Si la DREAL 38 s'en contentera |
-| **Stellantis / Fiat Professional** | L'accord constructeur existe-t-il pour un changement de siège ; prix, délai, pièces à fournir ; que faire du prétensionneur orphelin | Ce que la DREAL exige par ailleurs |
+| **Stellantis** — Fiat, Peugeot, Citroën, Opel, même châssis Sevel | L'accord constructeur existe-t-il pour un changement de siège ; prix, délai, pièces à fournir ; que faire du prétensionneur orphelin ; **et la réponse est-elle la même sur les trois marques** | Ce que la DREAL exige par ailleurs |
 | **Installateurs (Custovan, Endo Design…)** | Ce qu'ils ont **réellement** fait passer à la DREAL 38, et à quel prix | Rien d'opposable — c'est leur pratique, pas une règle |
 
 ---
@@ -102,11 +102,27 @@ Contact : formulaire scopema.com, et `configurateur.scopema.com` déjà repéré
 > Merci par avance,
 > Timothée Billiet
 
-## 2. Stellantis / Fiat Professional — l'accord constructeur
+## 2. Stellantis — l'accord constructeur
 
-**Priorité 2.** C'est l'action 11 du dossier DREAL, jamais engagée. Deux raisons d'y aller
-maintenant plutôt qu'après l'achat : sur **Boxer phase 3**, un demandeur s'est vu répondre que le
-remplacement **n'est pas possible** — la réponse n'est donc pas acquise ; et **aucun retour
+**Priorité 2.** C'est l'action 11 du dossier DREAL, jamais engagée.
+
+📌 **Pourquoi un seul constructeur ici** : ce n'en est pas un parmi d'autres, **c'est les trois
+marques de la cible**. Ducato, Boxer et Jumper sont le **même véhicule** (plateforme Sevel
+X250/X290), et Fiat, Peugeot, Citroën et Opel appartiennent tous à Stellantis. Écrire à
+« Fiat » ou à « Peugeot » séparément, ce serait écrire deux fois au même groupe pour le même
+châssis. Les 22 annonces de l'archive marché sont **toutes** sur cette plateforme.
+
+🔴 **Mais rien ne prouve que le groupe réponde d'une seule voix, et c'est justement à demander.**
+Deux indices contraires au dossier : la doctrine notée est explicitement **Peugeot** (*« autorise
+cette modification uniquement avec une pièce d'origine du même châssis »*), tandis que les seuls
+contacts trouvés sont **Fiat** ; et le refus documenté sur les forums portait sur un **Boxer**,
+donc un Peugeot. Si la réponse diffère d'une marque à l'autre **à véhicule mécaniquement
+identique**, alors le badge devient un critère d'achat — c'est un résultat concret, pas un détail
+administratif. D'où la question 6 ci-dessous.
+
+Deux raisons d'y aller maintenant plutôt qu'après l'achat : sur **Boxer phase 3**, un demandeur
+s'est vu répondre que le remplacement **n'est pas possible** — la réponse n'est donc pas acquise ;
+et **aucun retour
 d'expérience trouvé ne porte sur un changement de siège** (tous concernent des découpes de
 carrosserie), donc ni le délai ni l'issue ne sont connus.
 
@@ -115,6 +131,10 @@ pas une décision sur un véhicule. C'est justement ce qu'on veut savoir avant d
 
 Contacts relevés au dossier (source forum, à revérifier) : `fiatprofessional-converters.com`
 (compte gratuit, demande en ligne, ~270 €), `homologationgroupefiat@fcagroup.com`, 01 30 16 71 93.
+⚠️ **Ces trois contacts sont Fiat**, et `fcagroup.com` est le domaine de l'ancien groupe FCA,
+d'avant la fusion. **On n'a aucun point d'entrée Peugeot ni Citroën** — si la question 6 révèle
+des guichets séparés, il faudra les trouver. À vérifier en premier auprès de Fiat : est-ce ce
+guichet qui traite aussi les Boxer et les Jumper ?
 
 > **Objet** : Autorisation constructeur — passage de 3 à 2 places avant sur Ducato X250/X290
 >
@@ -136,9 +156,40 @@ Contacts relevés au dossier (source forum, à revérifier) : `fiatprofessional-
 > reconfiguration du calculateur d'airbag par le réseau est-elle prévue, et à quel coût ? (Je
 > précise que je ne retiendrai aucun montage simulant le prétensionneur par une résistance.)
 > 5. Y a-t-il des millésimes ou des versions sur lesquels cette modification n'est **pas** autorisée ?
+> 6. Enfin, ces réponses valent-elles **à l'identique pour les Peugeot Boxer et Citroën Jumper** de
+> même châssis, et passe-t-on par le **même guichet** pour les trois marques ? Je n'ai pas encore
+> arrêté la marque du véhicule, et une différence de traitement entre marques orienterait mon achat.
 >
 > Merci par avance,
 > Timothée Billiet
+
+## 2 bis. Et les autres constructeurs — Renault, VW ?
+
+**Pas maintenant, mais pas hors sujet non plus.** Le critère de préférence moteur du 31 août a
+fait entrer **Renault Master** et **VW Crafter** dans le périmètre de recherche, et le dépôt
+signale noir sur blanc que *« rien n'est vérifié pour Master ou Crafter »* côté sièges : embases
+RIB/Scopema, interchangeabilité des sièges avant, banquette Altaïr — **tout a été validé sur la
+seule plateforme Sevel**. Si l'un de ces porteurs passe en tête, **les questions des § 1 et 2 se
+reposent intégralement**, à Renault ou à VW cette fois.
+
+Trois raisons de ne pas le faire dès aujourd'hui :
+
+- L'archive des 22 annonces est **100 % Ducato/Boxer/Jumper** — aucun Master ni Crafter n'est
+  encore un candidat réel, la question serait théorique.
+- Ni le Master ni le Crafter n'ont d'équivalent exact du « 600 »
+  ([../recherche-marche-sieges.md](../recherche-marche-sieges.md), § dimensions) : ils sont entrés
+  dans le périmètre comme départage moteur, pas comme cible.
+- Le seul indice hors Stellantis qu'on ait n'est pas encourageant : sur **Master 2**, l'organisme
+  d'homologation consulté a répondu *« plus possible sur ce modèle »*. Rien n'indique que Renault
+  soit plus souple que Stellantis — c'est même le seul refus franc du dossier.
+
+⚠️ **Piège de lecture d'annonce à connaître avant d'élargir** : le badge ne dit pas qui est le
+constructeur. Un **Opel Movano d'avant 2021 est un Renault Master rebadgé** ; à partir de 2021,
+c'est un Sevel — donc la marque à qui s'adresser, *et* la compatibilité des embases, basculent au
+milieu de la gamme. Même logique pour Nissan (Interstar / NV400 = Master) et pour le Toyota ProAce
+Max (2023+, déjà noté comme clone Sevel). **À vérifier sur le châssis, jamais sur le logo.**
+⚠️ Cette parenté des marques est de la connaissance générale, pas une source du dépôt — à recouper
+sur la carte grise du véhicule si elle devient décisive.
 
 ## 3. Fabricants de banquettes arrière — la même question, en une phrase
 
@@ -195,7 +246,8 @@ Les trois questions à leur poser, dans cet ordre :
 | Interlocuteur | Priorité | Statut | Réponse |
 |---|---|---|---|
 | RIB / Scopema | 1 | à contacter | — |
-| Stellantis / Fiat Professional | 2 | à contacter | — |
+| Stellantis (Fiat / Peugeot / Citroën) | 2 | à contacter | — |
+| Renault, VW | — | **seulement si** un Master ou un Crafter passe en tête | — |
 | Custovan | 1 bis (appel) | à contacter | — |
 | Endo Design | 1 bis (appel) | à contacter | — |
 | Scora / Schnierle / BV Production | 3 | à contacter | — |

@@ -725,6 +725,13 @@ déjà compatibles avec la contrainte 4-places-large du glossaire (Transit et Cr
 faite jusqu'ici (embases pivotantes RIB/Scopema, interchangeabilité des sièges avant,
 compatibilité Scopema Altaïr) a été validée spécifiquement sur la plateforme
 Ducato/Boxer/Jumper (X250/X290) — à reprendre si un de ces porteurs devient sérieux.
+📌 **Y compris l'accord constructeur** : il se demanderait alors à Renault ou à VW, pas à
+Stellantis — et le seul indice qu'on ait hors Sevel est un **refus** (Master 2). Quand et à qui
+reposer les questions →
+[fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md) § 2 bis.
+⚠️ **Le badge ne dit pas qui est le constructeur** : un Opel Movano d'avant 2021 est un Master
+rebadgé, à partir de 2021 c'est un Sevel — la marque à interroger *et* la compatibilité des
+embases basculent au milieu de la gamme. Même chose pour Nissan Interstar/NV400 (= Master).
 
 ⚠️ **L'archive de 22 annonces (ci-dessus) a été constituée avant ce critère, en
 Ducato/Boxer/Jumper uniquement** — Master et Crafter n'y figurent pas encore, à élargir

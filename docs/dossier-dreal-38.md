@@ -290,7 +290,11 @@ sensiblement ce délai.
     générique sur la procédure — c'est justement ce qu'on cherche avant de choisir un porteur.
     Deux points à couvrir : l'autorisation existe-t-elle pour un changement de sièges avant (elle a
     été **refusée** à un demandeur sur Boxer phase 3), et que préconise le constructeur pour le
-    **prétensionneur central orphelin**. Courriel rédigé →
+    **prétensionneur central orphelin**. 📌 **Troisième point, ajouté le 3 septembre** : demander
+    si la réponse vaut **à l'identique sur les trois marques** (Ducato, Boxer, Jumper sont le même
+    châssis Sevel, mais le seul refus connu est un Boxer et la doctrine notée au dossier est
+    Peugeot). Si les marques divergent à véhicule identique, **le badge devient un critère
+    d'achat**. Courriel rédigé →
     [fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md).
 
 12. **Interroger directement les fabricants et les installateurs**, en parallèle de l'attente DREAL
