@@ -52,6 +52,9 @@ réelle, heode.fr, embase RIB à 195,70 € TTC).
 🔴 **Reste ouvert** : la DREAL 38 exigera-t-elle en plus, comme pour la banquette, l'**autorisation
 nominative** du fabricant d'utiliser ce PV ? Elle ne l'a pas dit, et rien n'indique qu'elle serait
 plus souple ici que là. **Question à leur poser** → [dossier-dreal-38.md](dossier-dreal-38.md) § 5.
+📌 **L'autre moitié de cette question se pose au fabricant, pas à la DREAL** : délivre-t-il cette
+autorisation à un particulier, ou seulement à un installateur agréé ? →
+[fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md).
 ⚠️ Trois notions à ne pas confondre dans les échanges avec un revendeur : le **document
 d'homologation** (ce que la FAQ Scopema promet via le revendeur), le **PV d'essai** au sens DREAL,
 et l'**autorisation d'en faire usage** à notre nom.
@@ -389,6 +392,15 @@ d'origine.
 par un professionnel et un PV nommant le châssis, l'accord constructeur reste-t-il exigé ?* Tant
 que cette réponse manque, la voie prestataire est **probable mais pas acquise**, et son prix
 (2 600 € et plus) ne s'engage pas à l'aveugle. → [dossier-dreal-38.md](dossier-dreal-38.md)
+
+🔴 **Et cette question repose elle-même sur une prémisse jamais vérifiée** (relevé le 3 septembre
+2026) : elle suppose qu'un **siège de carrossier homologué existe pour la position passager avant
+sur X250/X290**, avec un PV nommant le châssis. Le seul indice au dossier est l'ensemble
+« caisson + glissières + embase pivotante + siège RIB » documenté par un revendeur (§ embases en
+tête de document) — jamais confirmé chez le fabricant. **Si la pièce n'existe pas, la réponse de la
+DREAL ne changera rien et cette voie tombe.** Questions rédigées pour les fabricants (RIB/Scopema,
+Stellantis) et pour les deux installateurs les plus proches →
+[fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md).
 
 - Sources : equipage-camper-van.com/siege, custovan.fr, artizanvan.fr, allvan.fr (annuaire
   Sud-Est), trafic-amenage.com/forum/viewtopic.php?t=55274

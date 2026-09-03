@@ -65,6 +65,10 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
   prochain tour de recherche** : soit on instruit l'accord Stellantis, soit on fait de
   « 2 places avant d'origine » un critère de tri dur — la configuration existe en série sur
   toutes les longueurs. → [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md)
+  📌 *Piste ouverte le 3 septembre 2026, sans attendre la DREAL* : interroger directement les
+  fabricants et deux installateurs isérois — la question posée à la DREAL suppose qu'un siège de
+  carrossier homologué **existe** pour cette position sur X250/X290, ce que personne n'a vérifié.
+  → [docs/fabricants/questions-sieges-2026-09-03.md](docs/fabricants/questions-sieges-2026-09-03.md)
 
 - 🔴 **Le dossier DREAL se dépose en fin de chantier, pas au début (corrigé le 2 septembre 2026).**
   Trois documents du dépôt affirmaient l'inverse (« avant l'isolation, pour que l'inspecteur voie

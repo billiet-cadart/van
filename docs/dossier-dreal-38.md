@@ -283,8 +283,26 @@ sensiblement ce délai.
    `Pièce 06 - Tableau justificatifs réglementaires M1_MOD.pdf`.
 10. **Récupérer le pack `.zip` officiel** de constitution du dossier sur `ecologie.gouv.fr` et en
     extraire la liste exacte des pièces — c'est elle qui fixe la numérotation à respecter.
-11. **Confirmer auprès de Stellantis** le coût et le délai réels de l'accord constructeur, si la
-    décision 1 s'oriente vers la conversion.
+11. **Confirmer auprès de Stellantis** le coût, le délai et la faisabilité réels de l'accord
+    constructeur — **et ne plus attendre la décision 1 pour le faire**. Le dossier a longtemps
+    conditionné cette démarche au choix de la conversion ; c'est l'inverse qui est utile, puisque
+    c'est la réponse de Stellantis qui permet de trancher. ⚠️ Sans VIN, n'attendre qu'une réponse
+    générique sur la procédure — c'est justement ce qu'on cherche avant de choisir un porteur.
+    Deux points à couvrir : l'autorisation existe-t-elle pour un changement de sièges avant (elle a
+    été **refusée** à un demandeur sur Boxer phase 3), et que préconise le constructeur pour le
+    **prétensionneur central orphelin**. Courriel rédigé →
+    [fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md).
+
+12. **Interroger directement les fabricants et les installateurs**, en parallèle de l'attente DREAL
+    et sans engager de frais → [fabricants/questions-sieges-2026-09-03.md](fabricants/questions-sieges-2026-09-03.md).
+    🔴 **Raison principale : la question 1 posée à la DREAL repose sur une prémisse jamais
+    vérifiée** — l'existence d'un siège de carrossier homologué dont le PV nomme le châssis
+    X250/X290 pour la position passager avant. Si cette pièce n'existe pas, la réponse de la DREAL
+    ne change rien et la voie prestataire tombe avec elle. Seul le fabricant peut le dire.
+    Seconde raison : l'affirmation *« dans les faits, seuls les professionnels ont cette
+    autorisation des constructeurs des sièges »* porte sur ce que **font les fabricants** — elle se
+    vérifie chez eux, pas auprès de la DREAL. Les deux appels les plus rapides sont **Custovan**
+    (~20 km) et **Endo Design**, qui déposent réellement des dossiers en Isère.
 
 ---
 
