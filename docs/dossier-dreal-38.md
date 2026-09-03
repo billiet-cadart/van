@@ -254,7 +254,7 @@ sensiblement ce délai.
    même) : *une embase du commerce homologuée R14/R16/R17, posée par nos soins, avec le document
    d'homologation fourni par le revendeur — cela suffit-il, ou exigez-vous en plus une
    autorisation nominative du fabricant, comme pour la banquette arrière ?*
-   ✅ **Courriel rédigé le 3 septembre 2026**, 🔴 **pas encore envoyé** →
+   ✅ **Courriel envoyé le 3 septembre 2026**, ⏳ **réponse en attente** →
    [dreal/courriel-questions-2026-09-03.md](dreal/courriel-questions-2026-09-03.md). Il pose
    quatre questions, pas une : l'embase (ci-dessus), plus **trois questions nouvelles** issues du
    dépouillement des retours d'expérience du 3 septembre

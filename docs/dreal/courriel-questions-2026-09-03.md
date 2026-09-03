@@ -5,7 +5,10 @@ Reprend l'action 3 du § 5 (embase tournante) et y ajoute deux questions nées d
 retours d'expérience du 3 septembre → [recherche-marche-sieges.md](../recherche-marche-sieges.md).
 
 **Destinataire** : `vehicules38@developpement-durable.gouv.fr`
-**Statut** : 🗄️ rédigé, **pas encore envoyé**. Aucune réponse à ce jour.
+**Statut** : ✅ **envoyé le 3 septembre 2026**. ⏳ En attente de réponse — le 2 septembre, la
+réponse était venue le jour même, mais rien ne garantit le même délai ici : les quatre questions
+sont plus techniques et peuvent demander un arbitrage interne. **Reporter la réponse dans
+[dossier-dreal-38.md](../dossier-dreal-38.md) dès réception**, c'est elle qui fera foi.
 
 ---
 
