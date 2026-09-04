@@ -174,7 +174,9 @@ grille utilitaire n'est **pas** décalée d'un cran par rapport à la grille voi
 camping-car l'affirmait — l'annexe officielle dit le contraire). Un porteur passé en VASP garde
 donc la classe que lui donne sa norme Euro : le passage en VASP **n'améliore pas** le Crit'Air.
 
-→ Conséquence sur le dossier marché : **10 des 38 candidats actifs** sont en 1ʳᵉ immatriculation
+→ Conséquence sur le dossier marché *(recompté le 5 septembre 2026 : **8 sur 74**, sur la date de
+1ʳᵉ immatriculation lue dans les annonces archivées et non sur le millésime)* :
+**10 des 37 candidats actifs** de l'époque étaient en 1ʳᵉ immatriculation
 antérieure à 2011, donc **Crit'Air 3 ou pire** — et ce sont les 10 moins chers (2 800 à
 12 800 €). Détail reporté dans [marche/recap-2026-08-31.md](marche/recap-2026-08-31.md).
 Et pour un van visé comme **définitif sur 10-15 ans** ([ADR-0008](adr/0008-van-definitif-pas-tremplin.md)),
@@ -322,7 +324,8 @@ Tout ce qui repose sur des annonces réelles. leboncoin refuse le fetch direct (
 - Le « 0 résultat avec le filtre 4 places » du 30 août 2026.
 - Le constat des 17 annonces aménagées se négociant à 16-25 k€ (fondement chiffré de
   l'[ADR-0007](adr/0007-elargir-recherche-amenage-negocie-nu.md)).
-- La disponibilité actuelle des 38 candidats actifs, et leurs prix.
+- La disponibilité actuelle des candidats actifs (37 à cette date, **74 au 5 septembre 2026**), et
+  leurs prix.
 
 Restent aussi non vérifiés, faute de source accessible en accès libre :
 

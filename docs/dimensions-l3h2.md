@@ -281,10 +281,15 @@ Ducato déjà acquise. Le candidat Movano 2018 du dossier marché est bien un Ma
 ⚠️ **Conséquence directe pour nous** : le Master L3H2 est 20 cm plus long, tourne 1,6 m plus large,
 et offre **10 cm de moins en largeur intérieure** — donc ≈ 1,63–1,67 m de couchage transversal réel
 au lieu de 1,73–1,77 m. Si le lit transversal est retenu, **le Master est le porteur le plus
-pénalisé** des trois. Or 12 des 38 candidats actifs du dossier marché sont des Master/Movano : c'est
+pénalisé** des trois. Or 12 des 37 candidats actifs du dossier marché sont des Master/Movano : c'est
 un critère de tri à appliquer, pas un détail.
+♻️ **Recompté le 5 septembre 2026, et la proportion a empiré** : **27 Master/Movano sur 74
+candidats**, soit plus d'un tiers, contre 36 Sevel (Ducato/Boxer/Jumper), 10 Transit et 1 Sprinter.
+Le lot du 5 septembre était très majoritairement composé de Master de concession.
 ⚠️ Les versions **propulsion** (RS/RJ) perdent encore ~10 cm de hauteur intérieure (1 798 mm) — à
-vérifier sur toute annonce Master lourde.
+vérifier sur toute annonce Master lourde. 🔴 *Trois candidats sont concernés au 5 septembre 2026 :
+`3170746271` (« PROPULSION RJ3500 », donc roues jumelées en prime), `3193732404` (« RWD ») et
+`3189230655` — tous trois signalés dans le comparateur.*
 
 ## 3. Ford Transit L3H2 (2014+)
 

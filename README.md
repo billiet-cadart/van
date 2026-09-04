@@ -9,6 +9,8 @@ plus un achat-tremplin en vue d'une revente à 5-6 ans.
 **prix nu** si l'aménagement existant ne colle pas aux critères cabine cibles (sinon, évalué à
 part) (ADR-0007). Cabine idéale : 2 sièges avant pivotants + banquette arrière servant de salon ;
 à défaut, on complète/modifie les sièges nous-mêmes si l'homologation reste simple et pas chère.
+Motorisation **diesel uniquement** (ADR-0014) — gaz (ADR-0012), électrique (ADR-0013) et essence
+sont tous éliminatoires.
 Budget : mis de côté pour l'instant (à rechiffrer plus tard — achat porteur + aménagement —
 l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé comme tel).**
 
@@ -36,8 +38,16 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
 | [docs/adr/0009](docs/adr/0009-layout-lit-fixe-banquette-lit.md) | Layout arrière : lit fixe parents + banquette-lit convertible pour les enfants (≥190 cm) |
 | [docs/adr/0010](docs/adr/0010-cuisine-chauffage-gaz.md) | Cuisine au gaz, chauffage au diesel |
 | [docs/adr/0011](docs/adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md) | Format 600 (L3H2) confirmé — ni L4H2 (aucun gain de largeur), ni L2H2 (trop juste) ; arbitrage marge/maniabilité, pas obligation des 4 places |
+| [docs/adr/0012](docs/adr/0012-exclure-porteurs-motorisation-gaz.md) | 🔴 Critère éliminatoire : pas de porteur GNV/GNC/GPL — ne concerne **pas** le gaz de cuisine (ADR-0010) |
+| [docs/adr/0013](docs/adr/0013-exclure-porteurs-electriques.md) | 🔴 Critère éliminatoire : pas de porteur électrique — charge utile, autonomie, batterie invérifiable sur un van gardé 10-15 ans |
+| [docs/adr/0014](docs/adr/0014-diesel-uniquement.md) | 🔴 **Diesel uniquement** — un critère positif unique qui chapeaute les ADR-0012 et 0013, l'essence n'existant pas sur ce segment en Europe |
+| [docs/adr/0015](docs/adr/0015-methode-recherche-marche.md) | Méthode de recherche marché : une seule passe, **les fichiers HTML+photos comme seul livrable** (pas de compte rendu), liste des annonces déjà archivées jointe au prompt |
+| [docs/adr/0016](docs/adr/0016-annonces-ecartees-sortent-de-archive.md) | Une annonce écartée pour un motif définitif **sort de l'archive** ; ce qu'on garde, c'est la ligne qui dit pourquoi → [annonces-exclues.md](docs/marche/annonces-exclues.md) |
+| [docs/adr/0017](docs/adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md) | Le **« 2 places avant » sort des critères de recherche** : 2 annonces sur 105, et la prime demandée dépasse les ~2 600 € de conversion. Devient une ligne de budget |
 | [docs/recherche-marche-sieges.md](docs/recherche-marche-sieges.md) | Note vivante — sièges, banquette-lit, VASP/gaz, dimensions L2/L3/L4, prix et pièges observés |
-| [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md) | 🔴 **Source qui fait foi sur l'homologation** — réponses écrites de la DREAL Isère (2 sept. 2026) : dépôt du dossier **en fin de chantier**, accord constructeur pour 3→2 places, 3 PV pour la banquette, R10 sur tout l'électronique, plaque de transformation, délais réels. Et les décisions/actions qui en découlent |
+| [docs/marche/](docs/marche/README.md) | L'archive des annonces (105 au 5 septembre 2026), les critères de tri, et le [comparateur](docs/marche/comparateur-2026-08-31.html) des **74 candidats actifs** — avec le nombre de **places à l'avant** par annonce |
+| [docs/marche/annonces-exclues.md](docs/marche/annonces-exclues.md) | Les annonces écartées et **pourquoi** — la liste à recoller dans chaque prompt de recherche pour ne pas les retélécharger |
+| [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md) | 🔴 **Source qui fait foi sur l'homologation** — réponses écrites de la DREAL Isère (2 **et 3** sept. 2026) : dépôt du dossier **en fin de chantier**, accord constructeur pour 3→2 places **et comment s'en passer**, 3 PV pour la banquette, autorisation nominative pour **tout** PV, porteur 2 places d'usine confirmé, R10 sur tout l'électronique, plaque de transformation, délais réels. Et les décisions/actions qui en découlent |
 | [docs/dimensions-l3h2.md](docs/dimensions-l3h2.md) | Cotes de référence du format cible — Sevel, Master, Transit, banquette Scopema, et ce qui reste à mesurer sur le véhicule |
 | [docs/verification-2026-09-02.md](docs/verification-2026-09-02.md) | 🔴 Contrôle de toutes les affirmations du dépôt contre les sources primaires — ce qui est confirmé, les 8 corrections apportées (dont ZFE et braquage L4), et ce qui n'est pas vérifiable sans le relais navigateur |
 | [docs/zfe-grenoble.md](docs/zfe-grenoble.md) | Note vivante — ce qu'on risque vraiment si le van est hors critère : sanction, horaires, dérogation VASP, et les deux questions à poser à la Métropole |
@@ -56,15 +66,32 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
 
 ## ⚠️ Dette de vérification avant tout achat
 
-- 🔴 **Nouveau critère de premier rang : la configuration cabine d'origine (2 septembre 2026).**
+- 🗄️ **Critère rétrogradé le 5 septembre 2026 : la configuration cabine d'origine.** Elle a été
+  le critère de premier rang du 2 au 5 septembre ; elle ne l'est plus
+  ([ADR-0017](docs/adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md)) — 2 annonces sur
+  105, 0 sur les 44 du dernier lot, et une prime demandée qui dépasse le coût de la conversion.
+  Le sujet des sièges reste entier, mais il se traite **au budget**, plus à la recherche. Le
+  raisonnement d'origine, qui garde sa valeur :
   La DREAL Isère exige l'**accord écrit du constructeur** pour remplacer une banquette avant
-  2 places par un siège individuel — l'opération n'est pas déclarative comme le dépôt le
+  2 places par un **siège d'origine** — l'opération n'est pas déclarative comme le dépôt le
   supposait, et l'**airbag** en est le motif. Or **4 annonces sur 4** dont la cabine était
-  visible ont une banquette avant : la conversion était devenue la voie par défaut, elle porte
-  désormais une condition suspensive (+50-250 €, délai et issue inconnus). **À trancher avant le
-  prochain tour de recherche** : soit on instruit l'accord Stellantis, soit on fait de
-  « 2 places avant d'origine » un critère de tri dur — la configuration existe en série sur
-  toutes les longueurs. → [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md)
+  visible ont une banquette avant : la conversion était devenue la voie par défaut.
+  ♻️ *Vérifié en grand le 5 septembre 2026* : sur les **44 annonces** du nouveau lot, cabines
+  regardées une par une, **43 sur 43 exploitables sont en banquette ou indéterminées, aucune en
+  2 sièges séparés**. Le constat de départ tient donc à l'échelle du marché, pas seulement sur
+  quatre annonces.
+  ✅ **Second échange DREAL, 3 septembre** : l'accord constructeur **tombe** si l'on passe par un
+  **siège de carrossier homologué dont les PV nomment le châssis** (donc via un professionnel), et
+  un porteur **déjà en 2 places avant d'usine** annule tout le sujet — confirmé d'un « Exactement ».
+  ⚠️ Mais ce dernier est **rare** : 2 annonces sur 68 archivées — **toujours 2, sur 105 archivées
+  et 74 candidats actifs au 5 septembre 2026**, et le lot de 44 annonces capturé ce jour-là,
+  pourtant ciblé sur ce critère et trié sur les photos de cabine, n'en a apporté **aucun**.
+  ✅ *Correction du 5 septembre* : les deux sont désormais **confirmés sur photo** (`3230965149`
+  et le Sprinter `3194008684`, dont le doute « à confirmer » est levé) — le second a le champ
+  « places » **vide**, il serait passé à la trappe d'un filtre de recherche. Et deux points restent ouverts —
+  le **prétensionneur orphelin** dans le cas « sans accord constructeur », et l'**autorisation
+  nominative d'utiliser le PV de l'embase pivotante**, qui remet en cause l'auto-pose.
+  → [docs/dossier-dreal-38.md](docs/dossier-dreal-38.md) § 1 bis
 
 - 🔴 **Le dossier DREAL se dépose en fin de chantier, pas au début (corrigé le 2 septembre 2026).**
   Trois documents du dépôt affirmaient l'inverse (« avant l'isolation, pour que l'inspecteur voie
@@ -80,8 +107,10 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
   2026**, et **Meylan est dans le périmètre de la ZFE grenobloise** — Crit'Air 3, 4, 5 et non
   classés interdits depuis le 1er janvier 2025 (7h-19h en semaine), verbalisation suspendue
   jusqu'au 30 juin 2027 seulement. En diesel, Crit'Air 2 exige une **1ʳᵉ immatriculation à partir
-  du 1er janvier 2011**, et passer en VASP n'améliore pas la classe. **10 des 38 candidats actifs
-  du dossier marché sont concernés — les 10 moins chers.** Et sur l'horizon 10-15 ans de
+  du 1er janvier 2011**, et passer en VASP n'améliore pas la classe. **10 des 37 candidats actifs
+  du dossier marché sont concernés — les 10 moins chers.** ♻️ *Recompté le 5 septembre 2026 :
+  **8 sur 74**, et sur la **date de 1ʳᵉ immatriculation** relevée dans les annonces archivées, plus
+  sur le millésime.* Et sur l'horizon 10-15 ans de
   l'[ADR-0008](docs/adr/0008-van-definitif-pas-tremplin.md), même le Crit'Air 2 est visé
   (2028 utilitaires, 2030 véhicules particuliers dans cette métropole). **À trancher avant le
   prochain tour de recherche.**
@@ -97,6 +126,7 @@ l'ancien repère de 37–42 k€ visait un véhicule déjà aménagé et payé c
   ⚠️ Recherche terrain (30 août 2026) : le 4 places d'origine est quasi introuvable sur ce format (0 résultat leboncoin avec ce filtre) — confirme que la voie « 3 places + ajout homologué » (ADR-0006) est la norme, pas l'exception.
 - Le calcul de décote de la stratégie « Liquidité » surestimait sa perte (comparaison T5 anciens vs T6 récents, générations différentes). Biais noté ; ne change pas la conclusion — mais cette stratégie elle-même est périmée, voir ADR-0004.
 - ✅ **Format « 600 » / H2 confirmé disponible sur le marché du fourgon nu** (recherche du 30 août 2026, annonces Ducato/Boxer/Jumper L3H2 réelles) — voir [recherche-marche-sieges.md](docs/recherche-marche-sieges.md). Reste ouvert : la config sièges avant (individuels vs banquette) n'apparaît pas dans les champs structurés des annonces — à vérifier par véhicule.
+  ✅ *Levé en partie le 5 septembre 2026* : la config sièges est désormais **portée par annonce** dans le comparateur, sous forme d'un chip de couleur, avec sa source — photo de cabine, texte de l'annonce, ou simple champ déclaré. Sur 74 candidats : **2 en sièges séparés**, 63 en banquette, 6 indéterminés, 3 à « 1 place » déclarée.
 - Le budget total (achat porteur + aménagement) n'est pas chiffré — voir la section écart ci-dessous. Repère marché disponible pour le porteur nu seul : **5-20 k€ occasion (2008-2020), 30-45 k€ quasi-neuf** (recherche du 30 août 2026, ordre de grandeur non moyenné rigoureusement).
 
 ## 🔴 Le van est le premier levier d'arbitrage du foyer

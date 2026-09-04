@@ -5,10 +5,16 @@ Reprend l'action 3 du § 5 (embase tournante) et y ajoute deux questions nées d
 retours d'expérience du 3 septembre → [recherche-marche-sieges.md](../recherche-marche-sieges.md).
 
 **Destinataire** : `vehicules38@developpement-durable.gouv.fr`
-**Statut** : ✅ **envoyé le 3 septembre 2026**. ⏳ En attente de réponse — le 2 septembre, la
-réponse était venue le jour même, mais rien ne garantit le même délai ici : les quatre questions
-sont plus techniques et peuvent demander un arbitrage interne. **Reporter la réponse dans
-[dossier-dreal-38.md](../dossier-dreal-38.md) dès réception**, c'est elle qui fera foi.
+**Statut** : ✅ **envoyé le 3 septembre 2026 à 00 h 29, répondu le jour même à 15 h 21** (Corentin
+Jaloux, chef de cellule véhicules, UD-I). Le délai du 2 septembre s'est reproduit malgré des
+questions plus techniques.
+
+🗄️ **Ce document est clos** : il ne conserve que le texte des questions posées. **Les réponses et
+leur analyse sont dans [dossier-dreal-38.md](../dossier-dreal-38.md) § 1 bis** — c'est là qu'elles
+font foi. En résumé : Q1 ✅ l'accord constructeur tombe si les PV du siège nomment le châssis ;
+Q2 ⚠️ réponse à côté de la question, trou à combler ; Q3 🔴 autorisation nominative exigée pour
+**tout** PV, embase comprise ; Q4 ✅ « Exactement » — un porteur 2 places d'usine annule tout le
+sujet hormis l'embase.
 
 ---
 

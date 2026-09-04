@@ -103,6 +103,37 @@ va jusqu'à l'accord Fiat pour un changement de siège** : la condition suspensi
 → [recherche-marche-sieges.md](../recherche-marche-sieges.md) § « Retours d'expérience de gens qui
 l'ont fait »
 
+✅ **Complément du 4 septembre 2026 — la condition suspensive est levée, et le critère « 2 places
+avant d'origine » est confirmé par écrit.** La DREAL 38 a répondu le 3 septembre à 15 h 21 aux
+quatre questions complémentaires (réponses reportées le 4 septembre → [dossier-dreal-38.md](../dossier-dreal-38.md)
+§ 1 bis) :
+
+1. **L'accord constructeur est contournable** : *« Si nous retrouvons bien le couple siège utilisé /
+   type de châssis du véhicule, nous pouvons effectivement nous passer de l'accord constructeur. »*
+   L'exigence du 2 septembre portait donc sur l'emploi d'une **pièce d'origine hors de sa
+   configuration d'usine**, pas sur la modification en elle-même. Un siège de carrossier homologué
+   dont les PV nomment le châssis suffit.
+2. **Un porteur déjà en 2 places avant d'origine annule tout le sujet** — confirmé d'un mot,
+   *« Exactement »*, hormis la question de l'embase. Le contournement évoqué le 2 septembre n'est
+   donc plus une hypothèse : c'est **un critère de recherche validé par le service instructeur**.
+   ⚠️ Mais il est rare : **2 annonces sur 68** archivées le déclarent, et 27 ne renseignent pas le
+   champ — tri prioritaire, jamais filtre excluant.
+3. 🔴 **Le point dur s'est déplacé sur l'embase pivotante** : *« Les PV sont la propriété
+   intellectuelle de l'entreprise qui a payé pour les réaliser. Pour chaque PV, il faut donc une
+   autorisation d'utilisation. »* Doctrine générale, embase comprise — et le 2 septembre la même
+   DREAL écrivait que « dans les faits, seuls les professionnels ont cette autorisation ».
+   **L'auto-pose de l'embase, tenue pour acquise jusqu'ici (~206-280 € TTC/siège), n'est plus
+   acquise.**
+4. ⚠️ **Un trou subsiste** : la réponse sur le **prétensionneur orphelin** de la place centrale
+   (*« couvert par l'accord constructeur »*) ne vaut que dans le cas où l'on a cet accord —
+   c'est-à-dire le cas que la réponse 1 permet d'éviter. À reposer avant d'engager la voie
+   prestataire.
+
+**La décision reste donc ouverte, mais sur un choix reformulé** — porteur 2 places d'usine (rare,
+mais net) / siège de carrossier posé par un pro (dispense d'accord constructeur, ~2 600 € TTC,
+prétensionneur non tranché) / siège d'origine + accord Stellantis (délai et issue incertains, mais
+prétensionneur explicitement couvert).
+
 ## Conséquences
 
 - Critère de recherche ajouté : **vérifier la configuration cabine d'origine** de

@@ -1,8 +1,8 @@
-# Dossier DREAL Isère — procédure réelle et réponses obtenues (2 septembre 2026)
+# Dossier DREAL Isère — procédure réelle et réponses obtenues (2 et 3 septembre 2026)
 
 Note vivante. **Source primaire de rang supérieur à tout le reste du dépôt sur ces questions** :
-échange direct par courriel avec le service qui instruira réellement notre dossier, le
-2 septembre 2026. Tout ce qui vient de forums, de guides commerciaux ou de retours d'expérience
+échange direct par courriel avec le service qui instruira réellement notre dossier, les
+2 et 3 septembre 2026 — **deux tours de questions-réponses**. Tout ce qui vient de forums, de guides commerciaux ou de retours d'expérience
 d'autres départements cède devant ce document.
 
 **Interlocuteur** : UD-I/CT3S/Véhicules, DREAL Auvergne-Rhône-Alpes,
@@ -11,8 +11,11 @@ d'autres départements cède devant ce document.
 par l'assistante de l'UD-I. **Réponse le jour même**, avec la mention *« N'hésitez pas si vous
 avez d'autres questions »* : ce canal est réactif, autant s'en servir avant d'engager des frais.
 
-Deux courriels reçus : les réponses point par point à nos trois questions, et un courriel type
-« Dossier RTI Autocaravane + PJ » décrivant toute la procédure.
+**Premier tour (2 septembre)** : deux courriels reçus — les réponses point par point à nos trois
+questions, et un courriel type « Dossier RTI Autocaravane + PJ » décrivant toute la procédure.
+**Second tour (3 septembre)** : quatre questions complémentaires envoyées à 00 h 29,
+**réponse le jour même à 15 h 21** — reportée au § 1 bis. Le canal a donc répondu deux fois en
+moins de 48 h, sur des questions techniques : le mobiliser à nouveau coûte peu.
 
 ⚠️ Les deux pièces jointes du second courriel (`pièce 15_Rapport_technique_chauffage.odt` et
 `Pièce 06 - Tableau justificatifs réglementaires M1_MOD.pdf`) **ne sont pas encore versées au
@@ -20,7 +23,7 @@ dépôt** — à télécharger depuis la boîte mail et à ranger dans `docs/dre
 
 ---
 
-## 1. Les trois réponses obtenues
+## 1. Les trois réponses du 2 septembre 2026
 
 ### 🔴 Le dossier se dépose **en fin de chantier**, pas au début
 
@@ -89,6 +92,11 @@ défaut du dossier ; elle porte désormais une condition suspensive.
 Ordre de grandeur de l'accord constructeur : **50 à 250 €** selon les marques (source secondaire,
 levanmigrateur.com — à confirmer auprès de Stellantis).
 
+✅ **Condition suspensive levée le 3 septembre 2026** : la DREAL a précisé qu'avec un **siège de
+carrossier homologué dont les PV nomment le type de châssis**, on peut « se passer de l'accord
+constructeur ». L'exigence ci-dessus porte donc sur l'emploi d'une **pièce d'origine hors de sa
+configuration d'usine**, pas sur la modification en elle-même. → § 1 bis, question 1.
+
 ### ⚠️ Embase tournante : elle modifie l'ancrage, donc elle appelle un PV
 
 > *« Attention également si vous installez des embases tournantes, cela modifie l'ancrage du
@@ -102,15 +110,115 @@ le **périmètre d'un PV déjà existant**, celui que le fabricant de l'embase a
 la condition « siège réglable en hauteur, non électrique » des embases RIB/Scopema : ce n'est pas
 une clause commerciale, **c'est la frontière du domaine testé**.
 
-🔴 **Ce qui reste ouvert** : la DREAL 38 exigera-t-elle, pour l'embase comme pour la banquette,
-l'**autorisation nominative** du fabricant en plus du document d'homologation ? Elle ne l'a pas
-dit — mais rien n'indique qu'elle appliquerait une doctrine plus souple ici que là. **Question à
-leur poser** (voir § 5).
+🔴 **Réponse obtenue le 3 septembre 2026, et c'est oui — doctrine générale, pas cas par cas** :
+*« Les PV sont la propriété intellectuelle de l'entreprise qui a payé pour les réaliser. Pour
+chaque PV, il faut donc une autorisation d'utilisation. »* L'autorisation nominative vaut donc
+pour **tout PV du dossier**, embase comprise. Combinée à la phrase du 2 septembre — « dans les
+faits, seuls les professionnels ont cette autorisation » — **elle compromet l'auto-pose de
+l'embase**. → § 1 bis, question 3.
 
 ⚠️ Trois choses à ne pas confondre dans les échanges avec un revendeur :
 un **document d'homologation** (ce que la FAQ Scopema promet via le revendeur), un **PV d'essai**
-au sens DREAL, et l'**autorisation d'utiliser ce PV** à notre nom. Seul le troisième est le
-verrou identifié sur la banquette.
+au sens DREAL, et l'**autorisation d'utiliser ce PV** à notre nom. Le troisième est le verrou —
+identifié d'abord sur la banquette, puis étendu par la réponse du 3 septembre à **tout PV du
+dossier**.
+
+---
+
+## 1 bis. Les quatre réponses du 3 septembre 2026
+
+Questions envoyées le 3 septembre à 00 h 29, **réponse le jour même à 15 h 21** (Corentin Jaloux,
+chef de cellule véhicules, UD-I). Texte des questions →
+[dreal/courriel-questions-2026-09-03.md](dreal/courriel-questions-2026-09-03.md).
+
+### ✅ Q1 — Siège de carrossier homologué : l'accord constructeur tombe
+
+> *« Si nous retrouvons bien le couple siège utilisé / type de châssis du véhicule, nous pouvons
+> effectivement nous passer de l'accord constructeur. »*
+
+**C'est la levée de la condition suspensive de l'[ADR-0006](adr/0006-config-porteur-nu-sieges-cabine.md).**
+La question posée distinguait deux lectures possibles de l'exigence du 2 septembre : porte-t-elle
+sur la modification elle-même, ou seulement sur l'emploi d'une pièce d'origine hors configuration
+d'usine ? **C'est la seconde.** Ce qui compte pour la DREAL est de retrouver, dans les PV,
+le **couple « siège utilisé / type de châssis »**.
+
+⚠️ **Ce n'est pas une dispense, c'est un changement de pièce justificative** : on troque un accord
+Stellantis (délai inconnu, issue incertaine, aucun REX trouvé sur un changement de siège) contre un
+PV de fabricant de siège nommant le châssis. C'est exactement la solution que la DREAL et le
+constructeur avaient proposée au demandeur du fil « Boxer phase 3 » après lui avoir refusé la pièce
+d'origine ([recherche-marche-sieges.md](recherche-marche-sieges.md)).
+
+📌 **Corollaire à ne pas manquer** : ce PV est un PV comme un autre, donc soumis à la réponse Q3
+ci-dessous — il faut **l'autorisation nominative de l'utiliser**. La voie « siège de carrossier »
+mène donc en pratique au **professionnel installateur**, seul à détenir ces autorisations selon la
+DREAL elle-même.
+
+### ⚠️ Q2 — Prétensionneur orphelin : réponse à côté de la question posée
+
+> *« Ce point sera effectivement couvert par l'accord constructeur »*
+
+La question demandait quelle preuve la DREAL attend sur le prétensionneur de la place centrale
+laissé sans emploi (voyant airbag allumé = airbags inactifs + contre-visite au CT). La réponse
+répond **dans le cas où l'on a l'accord constructeur** — c'est-à-dire précisément le cas que la
+réponse Q1 permet d'éviter.
+
+🔴 **Trou identifié, à faire combler** : *si l'on prend la voie Q1 (siège de carrossier homologué,
+sans accord constructeur), qu'est-ce qui couvre le prétensionneur orphelin ?* Les deux réponses se
+recouvrent mal, et c'est le point le plus lourd techniquement de tout le dossier sièges. Le
+bricolage documenté sur les forums (résistance de 1,5 Ω pour éteindre le voyant) reste exclu :
+indéfendable devant la DREAL comme devant un expert d'assurance.
+
+### 🔴 Q3 — Embase tournante posée par nos soins : autorisation nominative exigée
+
+> *« Les PV sont la propriété intellectuelle de l'entreprise qui a payé pour les réaliser. Pour
+> chaque PV, il faut donc une autorisation d'utilisation. »*
+
+**Réponse plus large que la question.** Elle n'énonce pas une règle sur les embases, mais une
+**doctrine générale sur les PV** : chaque PV versé au dossier appelle une autorisation
+d'utilisation de la part de l'entreprise qui l'a financé. Le document d'homologation fourni par le
+revendeur ne suffit donc pas.
+
+Rapproché de la phrase du 2 septembre — *« dans les faits, seuls les professionnels ont cette
+autorisation des constructeurs des sièges »* — cela **remet en cause l'auto-pose de l'embase**,
+qui était jusqu'ici tenue pour acquise (~206-280 € TTC la pièce, pose simple).
+
+📌 **Question à poser au revendeur avant tout achat**, et elle est nouvelle : *RIB/Scopema
+délivre-t-il une autorisation d'utilisation de son PV à un particulier, ou seulement à ses
+installateurs agréés ?* La réponse décide si l'embase reste une opération à ~250 €/siège ou si
+elle bascule chez un professionnel.
+
+### ✅ Q4 — Porteur déjà en 2 sièges avant d'origine : confirmé
+
+> *« Exactement »*
+
+Réponse à : *« si j'achète un véhicule ainsi configuré d'usine, aucune des questions ci-dessus ne
+se pose, hormis celle de l'embase tournante — pouvez-vous me le confirmer ? »*
+
+✅ **Un porteur d'usine en 2 places avant efface Q1 et Q2 d'un coup** : ni accord constructeur, ni
+PV de siège à faire autoriser, ni prétensionneur orphelin. Il ne reste que l'embase (Q3), qui ne
+dépend pas du choix du porteur.
+
+**C'est la réponse la plus opérationnelle des quatre** : elle transforme « 2 places avant
+d'origine » en critère de recherche de premier rang, validé par écrit par le service instructeur.
+🗄️ **Rétrogradé le 5 septembre 2026** — la réponse DREAL reste vraie, c'est le marché qui ne suit
+pas : le critère sort des critères de recherche pour devenir une ligne de budget
+([ADR-0017](adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md)). Ce qui devient
+prioritaire à sa place, c'est le **trou Q2** ci-dessous.
+⚠️ Sur les 68 annonces archivées, **2 seulement** déclarent 2 places (et 27 ne renseignent pas le
+champ) → [marche/recap-2026-08-31.md](marche/recap-2026-08-31.md). Le critère est juste, mais rare :
+à utiliser comme tri prioritaire, **jamais comme filtre excluant**.
+🔴 **Et depuis le 4 septembre, il n'en reste qu'une** : la seconde (3234530816) a été écartée pour
+sa motorisation GNC → [ADR-0012](adr/0012-exclure-porteurs-motorisation-gaz.md).
+
+♻️ **Mise à jour du 5 septembre 2026 — elles sont de nouveau deux, et confirmées sur photo.**
+Le tri par les **photos de cabine** (et non par le champ « places ») a levé le doute sur le Sprinter
+`3194008684`, archivé le 2 septembre : deux sièges avant individuels, visibles sur la photo. Son
+champ `seats` est **vide** — un filtre « 2 places » l'aurait écarté sans qu'on le sache. Avec le
+Ducato `3230965149`, lui aussi confirmé sur photo, cela fait **2 candidats actifs** sur
+**74**, et **2 sur 105** annonces archivées.
+🔴 Le lot de 44 annonces du 5 septembre, pourtant conçu pour chercher exactement cela, n'en a
+apporté **aucun** : ce n'est pas la méthode de recherche qui est en cause, c'est le marché
+d'occasion à ce format et à ce prix → [marche/README.md](marche/README.md).
 
 ---
 
@@ -237,13 +345,21 @@ sensiblement ce délai.
 
 ### 🔴 Décisions
 
-1. **Renoncer ou non à la conversion 3 → 2 places avant.** Elle est désormais conditionnée à un
-   accord écrit de Stellantis (50-250 €, délai inconnu, issue incertaine — l'argument airbag
-   n'est pas une formalité). **Le contournement à évaluer d'abord : chercher un porteur déjà en
-   2 places avant d'origine**, configuration qui existe en série sur toutes les longueurs L1→L4
-   (confirmé sur fiche constructeur, voir [verification-2026-09-02.md](verification-2026-09-02.md)).
-   Cela transforme un critère de recherche jusqu'ici secondaire en critère de premier rang —
-   d'autant que 4 annonces sur 4 examinées avaient une banquette avant.
+1. **Choisir entre trois voies pour la cabine**, maintenant que les réponses du 3 septembre les
+   ont toutes les trois éclairées (§ 1 bis) :
+   - **(a) Porteur déjà en 2 places avant d'origine** — ✅ confirmé par la DREAL comme annulant
+     tout le sujet, hormis l'embase. Configuration de série sur toutes les longueurs L1→L4
+     (fiche constructeur, [verification-2026-09-02.md](verification-2026-09-02.md)), mais
+     **rare sur le marché d'occasion** : 2 annonces sur 68 archivées — et toujours 2 sur 105 au
+     5 septembre 2026, les deux désormais confirmées sur photo (`3230965149`, `3194008684`).
+   - **(b) Siège de carrossier homologué posé par un professionnel** — ✅ dispense d'accord
+     constructeur si les PV nomment le châssis, mais suppose l'autorisation d'utiliser ces PV
+     (donc un installateur qui la détient), à partir de ~2 600 € TTC, et **laisse le
+     prétensionneur orphelin sans réponse claire** (trou Q2).
+   - **(c) Siège d'origine d'occasion + accord Stellantis** — la voie initiale : 50-250 €,
+     délai inconnu, issue incertaine, mais c'est la seule des trois où la DREAL a explicitement
+     dit que le prétensionneur est couvert.
+   ⚠️ **Ne pas trancher entre (b) et (c) avant d'avoir comblé le trou Q2** (action 3 bis).
 2. **Ordre du chantier à replanifier**, maintenant que le dossier se dépose à la fin. Décider
    quand poser les sièges et la banquette : plus rien n'oblige à les traiter en premier, mais la
    pose professionnelle est un rendez-vous à caler dans le calendrier des travaux.
@@ -254,20 +370,24 @@ sensiblement ce délai.
    même) : *une embase du commerce homologuée R14/R16/R17, posée par nos soins, avec le document
    d'homologation fourni par le revendeur — cela suffit-il, ou exigez-vous en plus une
    autorisation nominative du fabricant, comme pour la banquette arrière ?*
-   ✅ **Courriel envoyé le 3 septembre 2026**, ⏳ **réponse en attente** →
-   [dreal/courriel-questions-2026-09-03.md](dreal/courriel-questions-2026-09-03.md). Il pose
-   quatre questions, pas une : l'embase (ci-dessus), plus **trois questions nouvelles** issues du
-   dépouillement des retours d'expérience du 3 septembre
-   ([recherche-marche-sieges.md](recherche-marche-sieges.md)) — (a) l'accord constructeur
-   reste-t-il exigé si un **professionnel** pose un **siège de carrossier homologué** dont les PV
-   nomment le châssis, plutôt qu'une pièce d'origine ? (b) quelle preuve attendent-ils sur le
-   **prétensionneur de la place centrale** devenu orphelin ? (c) confirmation qu'un porteur
-   **déjà en 2 sièges avant d'origine** annule tout le sujet. La réponse à (a) conditionne la voie
-   prestataire (à partir de ~2 600 € TTC), celle à (c) oriente directement la recherche de
-   véhicule.
+   ✅ **Fait — courriel envoyé le 3 septembre 2026, répondu le jour même à 15 h 21.** Les quatre
+   réponses sont reportées au **§ 1 bis** ; le courriel de questions reste archivé dans
+   [dreal/courriel-questions-2026-09-03.md](dreal/courriel-questions-2026-09-03.md). Bilan :
+   accord constructeur contournable (Q1), autorisation nominative exigée pour **tout** PV, embase
+   comprise (Q3), porteur 2 places d'usine confirmé comme solution radicale (Q4) — et une réponse
+   qui ne recouvre pas sa question sur le prétensionneur (Q2).
+3 bis. 🔴 **Reposer à la DREAL 38 la question du prétensionneur, dans le bon cas de figure**
+   (canal réactif, deux réponses en moins de 48 h) : *si la modification passe par un siège de
+   carrossier homologué dont les PV nomment le châssis, donc **sans** accord constructeur,
+   qu'attendez-vous comme preuve sur le prétensionneur de la place centrale laissé sans emploi ?*
+   Sans cette réponse, la voie (b) de la décision 1 ne s'engage pas.
 4. **Avant tout achat d'embase** : exiger du revendeur le document d'homologation R14/R16/R17
    **mentionnant nommément le type de châssis et la référence de siège couverts** — vérifier que
    notre combinaison y figure. Ne pas se contenter d'une mention « homologation CE » générique.
+   🔴 **Et désormais, question préalable à celle-là** : *RIB/Scopema délivre-t-il à un
+   **particulier** l'autorisation d'utiliser son PV dans un dossier DREAL, ou seulement à ses
+   installateurs ?* Réponse Q3 du 3 septembre : sans cette autorisation, le PV ne vaut rien dans
+   notre dossier, et l'auto-pose de l'embase tombe.
 5. **Au choix de l'installateur de la banquette** : exiger les **3 PV** (résistance siège,
    résistance ceinture, ancrage ceinture) **et** l'autorisation du fabricant de les utiliser à
    notre nom. C'est un critère de sélection, pas une formalité de fin.
@@ -291,7 +411,8 @@ sensiblement ce délai.
 ## Sources
 
 - Courriels de `vehicules38@developpement-durable.gouv.fr` du 2 septembre 2026 (réponses aux
-  trois questions ; « Dossier RTI Autocaravane + PJ ») — **source primaire**.
+  trois questions ; « Dossier RTI Autocaravane + PJ ») et du **3 septembre 2026, 15 h 21**
+  (réponses aux quatre questions complémentaires, § 1 bis) — **source primaire**.
 - scopema.com (fiche base tournante, FAQ, page sécurité), heode.fr (prix embase RIB, 195,70 € TTC)
 - levanmigrateur.com (accord constructeur 50-250 €, laboratoires UTAC/TÜV)
 - h2r-equipements.com, plaque-constructeur.com, DREAL Nouvelle-Aquitaine (fiche RTI VASP)

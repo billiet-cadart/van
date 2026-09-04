@@ -5,8 +5,9 @@ décision de l'[ADR-0006](adr/0006-config-porteur-nu-sieges-cabine.md), n'en est
 elle-même. Budget volontairement laissé de côté pour l'instant (voir README).
 
 > 🔴 **Sur tout ce qui touche à l'homologation, la source qui fait foi est
-> [dossier-dreal-38.md](dossier-dreal-38.md)** — échange direct du 2 septembre 2026 avec le
-> service qui instruira réellement notre dossier. Il a corrigé **trois affirmations** de cette
+> [dossier-dreal-38.md](dossier-dreal-38.md)** — échanges directs des 2 **et 3** septembre 2026
+> avec le service qui instruira réellement notre dossier (second tour de réponses reporté le
+> 4 septembre, § 1 bis). Il a corrigé **trois affirmations** de cette
 > note : le moment du dépôt du dossier, les conditions de pose de la banquette, et le
 > remplacement de la banquette avant par un siège individuel. Les passages concernés ci-dessous
 > portent la correction. Devant les forums et les guides commerciaux, c'est lui qui gagne.
@@ -49,9 +50,14 @@ vérifier que notre combinaison y figure. Une mention « homologation CE — con
 vigueur » sur une fiche produit ne suffit pas à le prouver (constaté sur une fiche revendeur
 réelle, heode.fr, embase RIB à 195,70 € TTC).
 
-🔴 **Reste ouvert** : la DREAL 38 exigera-t-elle en plus, comme pour la banquette, l'**autorisation
-nominative** du fabricant d'utiliser ce PV ? Elle ne l'a pas dit, et rien n'indique qu'elle serait
-plus souple ici que là. **Question à leur poser** → [dossier-dreal-38.md](dossier-dreal-38.md) § 5.
+🔴 **Tranché le 3 septembre 2026, et c'est oui.** La DREAL 38 : *« Les PV sont la propriété
+intellectuelle de l'entreprise qui a payé pour les réaliser. Pour chaque PV, il faut donc une
+autorisation d'utilisation. »* Ce n'est pas une règle sur les embases, c'est une **doctrine
+générale sur les PV** — donc valable ici. Rapprochée du « dans les faits, seuls les professionnels
+ont cette autorisation » du 2 septembre, elle **remet en cause l'auto-pose de l'embase**, qui
+était le point le mieux acquis de cette note. 📌 Question neuve à poser au revendeur avant tout
+achat : *RIB/Scopema délivre-t-il cette autorisation à un particulier, ou seulement à ses
+installateurs ?* → [dossier-dreal-38.md](dossier-dreal-38.md) § 1 bis.
 ⚠️ Trois notions à ne pas confondre dans les échanges avec un revendeur : le **document
 d'homologation** (ce que la FAQ Scopema promet via le revendeur), le **PV d'essai** au sens DREAL,
 et l'**autorisation d'en faire usage** à notre nom.
@@ -197,6 +203,19 @@ analyse de 34 devis) donne deux prix concrets, posés :
 
 ### Remplacer la banquette passager par un siège individuel — 🔴 accord constructeur exigé
 
+✅ **Mise à jour du 4 septembre 2026 — l'accord constructeur est contournable.** La DREAL 38 a
+répondu le 3 septembre : *« Si nous retrouvons bien le couple siège utilisé / type de châssis du
+véhicule, nous pouvons effectivement nous passer de l'accord constructeur. »* L'exigence ci-dessous
+porte donc sur l'emploi d'une **pièce d'origine hors de sa configuration d'usine** — pas sur la
+modification en elle-même. Avec un **siège de carrossier homologué dont les PV nomment le
+châssis**, elle tombe. ⚠️ Mais ce PV appelle à son tour une autorisation d'utilisation (voir le
+§ embases plus haut), donc en pratique un installateur professionnel. Et la réponse sur le
+**prétensionneur orphelin** (*« couvert par l'accord constructeur »*) ne vaut que dans le cas où
+l'on a cet accord — **le trou reste à combler** avant d'engager cette voie.
+→ [dossier-dreal-38.md](dossier-dreal-38.md) § 1 bis.
+
+🗄️ *Ce qui suit reste le raisonnement du 2 septembre, conservé pour mémoire :*
+
 🔴 **Cette section s'intitulait « plus simple que prévu ». La DREAL Isère a démenti ce titre le
 2 septembre 2026** : *« Il faudra l'autorisation du constructeur, car rien n'indique que le
 châssis soit réellement capable d'accueillir le siège à la place de la banquette sans aucune
@@ -237,6 +256,26 @@ n'est pas un bricolage, c'est passer d'une config d'usine à une autre.
   avant d'origine** (configuration de série sur toutes les longueurs L1→L4, confirmée sur fiche
   constructeur → [verification-2026-09-02.md](verification-2026-09-02.md)). Cela supprime d'un
   coup l'accord constructeur, la question airbag et le délai associé.
+  ✅ **Confirmé par la DREAL 38 le 3 septembre 2026** — « Exactement », il ne reste que la question
+  de l'embase. ⚠️ **Mais c'est rare** : sur les 68 annonces archivées, **2 seulement** déclarent
+  2 places, et 27 ne renseignent pas le champ →
+  [marche/recap-2026-08-31.md](marche/recap-2026-08-31.md). Tri prioritaire, jamais filtre
+  excluant. 🔴 **Et une seule reste active** depuis l'exclusion des porteurs à motorisation gaz
+  ([ADR-0012](adr/0012-exclure-porteurs-motorisation-gaz.md)).
+  ♻️ **Corrigé le 5 septembre 2026 : il y en a deux.** Le Sprinter `3194008684` (2008, 375 000 km,
+  9 800 €) a **deux sièges avant individuels**, visibles sur la photo de cabine archivée — son
+  champ « places » est vide, seul le texte disait « 2 Places ». Le Ducato `3230965149` est confirmé
+  de la même façon. Les deux sont donc actifs sur ce critère, sur **74 candidats**.
+  🔴 **Et le lot de 44 annonces du 5 septembre n'en a apporté aucun**, cabines regardées une par
+  une : 36 banquettes déclarées, 7 champs vides, 1 « 1 place », **0 en 2 places**. Le porteur
+  d'usine en 2 sièges avant n'est pas seulement rare sur ce segment, il en est quasi absent.
+  🗄️ **Conséquence tirée le 5 septembre 2026 —
+  [ADR-0017](adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md)** : on arrête de le
+  chercher. La prime demandée sur le porteur (le seul candidat sérieux, `3230965149`, est à
+  18 960 € quand un Boxer 2019 de même kilométrage est à 11 000-12 500 €) **dépasse les ~2 600 €
+  de la conversion par un carrossier**. Le critère devient une **ligne du budget d'aménagement** ;
+  un porteur déjà en 2 places reste un bonus à saisir au prix du marché, jamais une raison
+  d'attendre ou de payer plus cher.
 - ⚠️ **Si une embase pivotante est posée sur le siège ainsi remplacé**, elle modifie l'ancrage et
   appelle son propre PV d'essai (voir le § embases pivotantes en tête de document) — les deux
   sujets se cumulent sur le même siège.
@@ -385,10 +424,14 @@ carrossier homologué** (Scopema et consorts) livré avec son **PV d'essai nomma
 châssis**, et c'est ce PV qui couvre l'ensemble. C'est exactement la solution que la DREAL et le
 constructeur ont proposée au demandeur du fil Boxer phase 3 après lui avoir refusé la pièce
 d'origine.
-🔴 **Point à faire trancher par la DREAL 38 avant tout engagement** : *avec un siège homologué posé
-par un professionnel et un PV nommant le châssis, l'accord constructeur reste-t-il exigé ?* Tant
-que cette réponse manque, la voie prestataire est **probable mais pas acquise**, et son prix
-(2 600 € et plus) ne s'engage pas à l'aveugle. → [dossier-dreal-38.md](dossier-dreal-38.md)
+✅ **Réponse obtenue le 3 septembre 2026 : oui, la voie prestataire dispense de l'accord
+constructeur** — *« si nous retrouvons bien le couple siège utilisé / type de châssis du véhicule,
+nous pouvons effectivement nous passer de l'accord constructeur »*. La voie n'est donc plus
+« probable », elle est **ouverte**. ⚠️ Deux réserves avant d'engager les 2 600 € et plus :
+(1) le **prétensionneur orphelin** n'a pas de réponse dans ce cas de figure précis — question à
+reposer ; (2) la compatibilité **Ducato/Boxer/Jumper X250/X290** d'Equipage Camper Van reste à
+confirmer (leur page cite surtout des compacts). → [dossier-dreal-38.md](dossier-dreal-38.md)
+§ 1 bis
 
 - Sources : equipage-camper-van.com/siege, custovan.fr, artizanvan.fr, allvan.fr (annuaire
   Sud-Est), trafic-amenage.com/forum/viewtopic.php?t=55274
