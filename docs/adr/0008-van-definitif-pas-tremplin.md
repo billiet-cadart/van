@@ -32,6 +32,11 @@ quelque chose fait pour durer, pas seulement pour tenir jusqu'à la prochaine é
   possession » perd sa composante dominante (la décote, réalisée seulement à la revente) : ce qui
   compte devient la fiabilité et le coût d'entretien sur un horizon long (10-15 ans), pas encore
   mesuré comme tel dans ce dépôt.
+  ♻️ **Mesuré le 7 septembre 2026** → [duree-de-vie-et-cout-par-an.md](../duree-de-vie-et-cout-par-an.md).
+  La métrique de remplacement est le **coût par an de vie restante** — `(prix du porteur + aménagement)
+  / années restantes` — et son résultat principal est que **c'est l'âge, jamais le kilométrage, qui
+  fixe la fin de vie** sur ce format et cet usage. Sur les 10 candidats les moins chers à l'achat,
+  **un seul** est dans les 10 meilleurs une fois ramené au coût par an.
 - **La liquidité de revente** passe de critère de décision actif à filet de sécurité : toujours
   préférable de ne pas choisir un porteur invendable, mais ce n'est plus ce qui pilote le choix.
 - **Le rejet du camping-car ([ADR-0001](0001-fourgon-amenage-plutot-que-camping-car.md)) n'est

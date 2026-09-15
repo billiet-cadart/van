@@ -283,13 +283,16 @@ et offre **10 cm de moins en largeur intérieure** — donc ≈ 1,63–1,67 m de
 au lieu de 1,73–1,77 m. Si le lit transversal est retenu, **le Master est le porteur le plus
 pénalisé** des trois. Or 12 des 37 candidats actifs du dossier marché sont des Master/Movano : c'est
 un critère de tri à appliquer, pas un détail.
-♻️ **Recompté le 5 septembre 2026, et la proportion a empiré** : **27 Master/Movano sur 74
+♻️ **Recompté le 7 septembre 2026** : **23 Master/Movano sur 68
 candidats**, soit plus d'un tiers, contre 36 Sevel (Ducato/Boxer/Jumper), 10 Transit et 1 Sprinter.
 Le lot du 5 septembre était très majoritairement composé de Master de concession.
-⚠️ Les versions **propulsion** (RS/RJ) perdent encore ~10 cm de hauteur intérieure (1 798 mm) — à
-vérifier sur toute annonce Master lourde. 🔴 *Trois candidats sont concernés au 5 septembre 2026 :
-`3170746271` (« PROPULSION RJ3500 », donc roues jumelées en prime), `3193732404` (« RWD ») et
-`3189230655` — tous trois signalés dans le comparateur.*
+🗄️ **Les versions propulsion sont désormais éliminatoires** (RS/RJ, roues simples comme jumelées) —
+elles perdent ~10 cm de hauteur intérieure (1 798 mm sur Master, 1 786 mm sur Transit), ce qui annule
+la raison d'être du H2 → [ADR-0021](adr/0021-exclure-les-porteurs-propulsion.md), 7 septembre 2026.
+*Les trois candidats qui portaient la réserve — `3170746271` (« PROPULSION RJ3500 »),
+`3189230655` (« PROPULSION ROUES SIMPLES », mention dans le corps de l'annonce seulement) et
+`3193732404` (« RWD ») — sont sortis de l'archive le jour même.* La cote reste utile pour **lire une
+annonce** : c'est elle qui dit pourquoi le critère existe.
 
 ## 3. Ford Transit L3H2 (2014+)
 

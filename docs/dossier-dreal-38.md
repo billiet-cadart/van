@@ -168,6 +168,42 @@ recouvrent mal, et c'est le point le plus lourd techniquement de tout le dossier
 bricolage documenté sur les forums (résistance de 1,5 Ω pour éteindre le voyant) reste exclu :
 indéfendable devant la DREAL comme devant un expert d'assurance.
 
+♻️ **Mise à jour du 7 septembre 2026 — la prémisse du trou tombe : il n'y a pas de prétensionneur
+orphelin.** Réponse écrite d'AOC (Villard-Bonnot), premier installateur à répondre
+([installateurs/courriel-devis-2026-09-04.md](installateurs/courriel-devis-2026-09-04.md)) :
+
+> *« Pour la banquette avant, c'est assez rare qu'il y ait des prétensionneurs (c'est plutôt sur
+> les premiers millésimes). S'il y en a, je récupère et rebranche les 2, dont un sera caché sous le
+> siège. »*
+
+La question posée ici était : *que verse-t-on au dossier pour couvrir un connecteur laissé sans
+emploi ?* Elle n'a plus d'objet dans cette voie — **les deux prétensionneurs sont conservés et
+rebranchés**, l'un d'eux dormant sous le siège individuel. Le circuit reste électriquement complet,
+donc pas de voyant airbag, pas de contre-visite, et rien à défendre devant un expert d'assurance.
+C'est la réponse « par le haut » que la question 2 du courriel installateurs cherchait
+explicitement à provoquer.
+
+⚠️ **Trois réserves, à ne pas escamoter :**
+
+1. **C'est la réponse d'un installateur, pas du service instructeur.** Elle dit comment il opère,
+   pas ce que la DREAL 38 exige comme **preuve** au dossier. La question reste donc à poser — mais
+   elle change d'objet : non plus *« comment couvrir l'orphelin ? »* mais *« que demandez-vous
+   quand les deux prétensionneurs sont conservés ? »*, ce qui est nettement plus facile à instruire.
+2. **Elle vaut pour une pose par AOC**, qui détient les autorisations d'utilisation des PV (Q3).
+   Elle ne rouvre pas l'auto-pose.
+3. ⚠️ **Un point voisin apparaît, absent de tout le dossier jusqu'ici** : les **capteurs de présence
+   intégrés aux assises** sur les millésimes **≥ 2022**. AOC les traite par une option siège à
+   **72 €** *« qui se branche en lieu et place sans rien reprogrammer »* ; un autre installateur
+   (Equipage) borne au contraire son offre aux véhicules d'avant 2021. La DREAL n'a jamais été
+   interrogée là-dessus → arbitrage provisoire en
+   [ADR-0018](adr/0018-millesime-2021-limite-de-prestataire-pas-critere.md).
+
+📌 AOC ajoute enfin, sur la question 3 du courriel : *« Ces véhicules n'ont pas d'airbag dans la
+banquette »* — ce qui, s'il dit vrai, retire un des motifs invoqués par la DREAL le 2 septembre
+pour exiger l'accord constructeur (§ « Passer de 3 à 2 places avant »). ⚠️ **À ne pas leur opposer
+tel quel** : c'est l'affirmation d'un installateur contre celle du service instructeur, et c'est le
+second qui tranche.
+
 ### 🔴 Q3 — Embase tournante posée par nos soins : autorisation nominative exigée
 
 > *« Les PV sont la propriété intellectuelle de l'entreprise qui a payé pour les réaliser. Pour
@@ -186,6 +222,18 @@ qui était jusqu'ici tenue pour acquise (~206-280 € TTC la pièce, pose simple
 délivre-t-il une autorisation d'utilisation de son PV à un particulier, ou seulement à ses
 installateurs agréés ?* La réponse décide si l'embase reste une opération à ~250 €/siège ou si
 elle bascule chez un professionnel.
+
+🗄️ **Question close le 7 septembre 2026 — elle n'a plus d'objet.** L'installateur retenu
+([ADR-0019](adr/0019-aoc-installateur-retenu-sieges.md)) pose la règle lui-même, sur son
+configurateur : *« si vous souhaitez homologuer l'installation auprès de la DREAL, il faut
+obligatoirement me confier le montage »*. **L'auto-pose des sièges et des embases est donc
+abandonnée**, quelle qu'eût été la réponse de RIB/Scopema. C'est AOC qui fournit les attestations —
+gratuitement — et l'**attestation de montage** est incluse dans sa main d'œuvre, avec la mention
+explicite : *« document que la DREAL vous demandera à l'occasion de l'homologation d'un
+aménagement complet »*.
+📌 **Ce que la question laisse derrière elle** : la doctrine générale de la DREAL sur les PV — une
+autorisation nominative par PV — **reste vraie et reste à honorer**, pour la banquette arrière comme
+pour les embases. Ce qui change, c'est qui la détient : plus nous, l'installateur.
 
 ### ✅ Q4 — Porteur déjà en 2 sièges avant d'origine : confirmé
 
@@ -356,10 +404,27 @@ sensiblement ce délai.
      constructeur si les PV nomment le châssis, mais suppose l'autorisation d'utiliser ces PV
      (donc un installateur qui la détient), à partir de ~2 600 € TTC, et **laisse le
      prétensionneur orphelin sans réponse claire** (trou Q2).
+     ♻️ **7 septembre 2026 — cette voie se dégage nettement.** AOC conserve et rebranche **les
+     deux** prétensionneurs (§ Q2), donc plus d'orphelin ; il fournit les attestations
+     **gratuitement** et peut déposer le dossier DREAL (**800 €**). Le premier devis chiffré du
+     poste complet — sièges avant **et** banquette arrière — est arrivé le même jour :
+     **7 418,40 € TTC**, homologation non comprise
+     ([installateurs/](installateurs/courriel-devis-2026-09-04.md)). Le repère de 2 600 € ne
+     couvrait que le rang I.
    - **(c) Siège d'origine d'occasion + accord Stellantis** — la voie initiale : 50-250 €,
      délai inconnu, issue incertaine, mais c'est la seule des trois où la DREAL a explicitement
      dit que le prétensionneur est couvert.
    ⚠️ **Ne pas trancher entre (b) et (c) avant d'avoir comblé le trou Q2** (action 3 bis).
+   ♻️ **7 septembre 2026** : le trou Q2 est comblé **côté installateur**, pas côté DREAL — la voie
+   (b) redevient la plus praticable, mais l'action 3 bis reste à faire, reformulée.
+   ✅ **TRANCHÉ le 7 septembre 2026 au soir — c'est la voie (b), avec AOC**
+   ([ADR-0019](adr/0019-aoc-installateur-retenu-sieges.md)). La voie (c) — siège d'origine
+   d'occasion + accord Stellantis — est **abandonnée** : elle n'a plus d'objet dès lors que le
+   siège posé est un siège de carrossier homologué. La voie (a) — porteur déjà en 2 places d'usine
+   — reste un **bonus** s'il se présente au prix du marché
+   ([ADR-0017](adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md)), pas une cible.
+   ⚠️ **L'action 3 bis reste à faire**, et elle ne dépend pas de ce choix : c'est la DREAL qui doit
+   dire ce qu'elle attend comme preuve, pas l'installateur.
 2. **Ordre du chantier à replanifier**, maintenant que le dossier se dépose à la fin. Décider
    quand poser les sièges et la banquette : plus rien n'oblige à les traiter en premier, mais la
    pose professionnelle est un rendez-vous à caler dans le calendrier des travaux.
@@ -381,16 +446,34 @@ sensiblement ce délai.
    carrossier homologué dont les PV nomment le châssis, donc **sans** accord constructeur,
    qu'attendez-vous comme preuve sur le prétensionneur de la place centrale laissé sans emploi ?*
    Sans cette réponse, la voie (b) de la décision 1 ne s'engage pas.
+   ♻️ **Reformulée le 7 septembre 2026**, la prémisse ayant changé (§ Q2) — et elle devient plus
+   simple à instruire. Deux questions à la place d'une :
+   *(a)* **Prétensionneurs conservés** : *l'installateur conserve et rebranche les deux
+   prétensionneurs de la banquette d'origine, l'un d'eux se retrouvant inutilisé sous le siège
+   individuel — demandez-vous une pièce particulière à ce titre, ou la conservation du circuit
+   suffit-elle ?*
+   *(b)* 🔴 **Capteurs de présence d'assise, sujet neuf** : *sur les millésimes ≥ 2022, l'assise
+   d'origine intègre un capteur de présence ; le siège de remplacement est proposé avec une option
+   capteur qui se branche en lieu et place sans reprogrammation — cette option doit-elle figurer au
+   PV du siège, ou fait-elle l'objet d'une pièce distincte au dossier ?* De cette réponse dépend
+   l'[ADR-0018](adr/0018-millesime-2021-limite-de-prestataire-pas-critere.md), donc l'ouverture ou
+   non de la recherche aux millésimes 2022-2026.
 4. **Avant tout achat d'embase** : exiger du revendeur le document d'homologation R14/R16/R17
    **mentionnant nommément le type de châssis et la référence de siège couverts** — vérifier que
    notre combinaison y figure. Ne pas se contenter d'une mention « homologation CE » générique.
-   🔴 **Et désormais, question préalable à celle-là** : *RIB/Scopema délivre-t-il à un
-   **particulier** l'autorisation d'utiliser son PV dans un dossier DREAL, ou seulement à ses
-   installateurs ?* Réponse Q3 du 3 septembre : sans cette autorisation, le PV ne vaut rien dans
-   notre dossier, et l'auto-pose de l'embase tombe.
+   🗄️ *« Question préalable : RIB/Scopema délivre-t-il à un particulier l'autorisation d'utiliser
+   son PV ? »* — **sans objet depuis le 7 septembre 2026** : l'embase n'est plus achetée ni posée
+   par nous, elle est fournie et montée par AOC, attestation comprise
+   ([ADR-0019](adr/0019-aoc-installateur-retenu-sieges.md)). Cette action devient : **exiger d'AOC,
+   au moment de la commande, les attestations nommant le type de châssis** — ce qu'il annonce
+   fournir gratuitement.
 5. **Au choix de l'installateur de la banquette** : exiger les **3 PV** (résistance siège,
    résistance ceinture, ancrage ceinture) **et** l'autorisation du fabricant de les utiliser à
    notre nom. C'est un critère de sélection, pas une formalité de fin.
+   ♻️ **7 septembre 2026 — l'installateur est choisi (AOC), donc ce n'est plus un critère de
+   sélection mais une pièce à réclamer**, au moment où la banquette sera commandée. ⬜ Son
+   chiffrage banquette n'est d'ailleurs pas encore obtenu : le configurateur relevé ne couvre que
+   les places avant.
 6. **Vérifier la conformité R10** de chaque équipement électronique fonctionnant en roulant
    (régulateur solaire, frigo, convertisseur, chargeur) **au moment de l'achat**.
 7. **Documenter photographiquement tout ce qui sera caché** (ancrages, renforts, traversées,
@@ -403,8 +486,16 @@ sensiblement ce délai.
    `Pièce 06 - Tableau justificatifs réglementaires M1_MOD.pdf`.
 10. **Récupérer le pack `.zip` officiel** de constitution du dossier sur `ecologie.gouv.fr` et en
     extraire la liste exacte des pièces — c'est elle qui fixe la numérotation à respecter.
-11. **Confirmer auprès de Stellantis** le coût et le délai réels de l'accord constructeur, si la
-    décision 1 s'oriente vers la conversion.
+11. 🗄️ ~~**Confirmer auprès de Stellantis** le coût et le délai réels de l'accord constructeur~~ —
+    **sans objet depuis le 7 septembre 2026.** La décision 1 s'oriente vers la voie (b), qui
+    dispense d'accord constructeur (Q1). AOC le propose tout de même, refacturé au réel (50 € PSA /
+    220 € Fiat) : à prendre uniquement s'il le juge utile au dossier, pas comme démarche à mener
+    nous-mêmes.
+12. 🔴 **Nouveau — critère d'achat du porteur** : le **siège conducteur d'origine doit être la
+    version standard**, *sans airbag, sans embase tournante d'origine, sans suspension*, faute de
+    quoi l'embase pivotante conducteur est impossible
+    ([ADR-0019](adr/0019-aoc-installateur-retenu-sieges.md)). Porté aux critères de recherche
+    → [marche/README.md](marche/README.md).
 
 ---
 

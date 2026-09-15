@@ -106,12 +106,21 @@
 
   .list { display: flex; flex-direction: column; }
   .row {
+    position: relative;
     display: grid; grid-template-columns: 120px minmax(180px, 265px) 1fr 92px; align-items: center;
     gap: 16px; padding: 12px 10px; border-bottom: 1px solid var(--gridline);
     border-radius: 8px; transition: background 120ms ease; height: 142px; overflow: hidden;
   }
   .row:hover { background: var(--chip-bg); }
   .row.is-hidden { display: none; }
+
+  .loc {
+    position: absolute; top: 8px; right: 10px; text-align: right; z-index: 1;
+    font-size: 11px; color: var(--text-muted); line-height: 1.35;
+    background: var(--surface); padding: 2px 7px; border-radius: 6px; box-shadow: 0 1px 3px var(--border);
+  }
+  .loc .city { display: block; color: var(--text-secondary); font-weight: 600; white-space: nowrap; }
+  .loc .dist { font-variant-numeric: tabular-nums; }
 
   .thumb {
     width: 120px; height: calc(100% + 24px); margin: -12px 0 -12px -10px;
@@ -141,20 +150,15 @@
   :root[data-theme="dark"] .badge-score[data-tier="mid"] { color: var(--status-warn); }
   .sub-line { font-size: 12.5px; color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-top: 3px; }
 
-  /* Places à l'avant — vert : 2 sièges séparés (rien à faire côté DREAL) ;
-     ambre : banquette 2 places, donc conversion de sièges à prévoir ;
-     gris : on ne sait pas. Le ✓ dit que c'est vu sur photo ou écrit noir sur
-     blanc dans l'annonce, pas seulement coché dans un champ facultatif. */
-  .chip-line { margin-top: 5px; overflow: hidden; }
-  .chip-seats {
-    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
-    padding: 2px 8px; border-radius: 999px; white-space: nowrap; border: 1px solid transparent;
+  /* Millésime hors critère (ADR-0020) : masqué par défaut, grisé quand on le réaffiche —
+     il reste dans le fichier, ce n'est pas une exclusion définitive au sens de l'ADR-0016. */
+  .chip-off {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.03em; padding: 1px 7px; border-radius: 5px;
+    background: var(--chip-bg); color: var(--text-muted); border: 1px dashed var(--baseline);
   }
-  .chip-seats[data-tier="good"]    { background: var(--status-good-bg); color: var(--status-good); }
-  .chip-seats[data-tier="warn"]    { background: var(--status-warn-bg); color: #8a5a00; }
-  .chip-seats[data-tier="unknown"] { background: var(--chip-bg); color: var(--text-muted); border-color: var(--gridline); border-style: dashed; }
-  :root:not([data-theme="light"]) .chip-seats[data-tier="warn"],
-  :root[data-theme="dark"] .chip-seats[data-tier="warn"] { color: var(--status-warn); }
+  .row[data-offcriteria="1"] { opacity: 0.55; }
+  .row[data-offcriteria="1"]:hover { opacity: 1; }
+
   .flag-line {
     display: flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600;
     padding: 2px 8px 2px 6px; border-radius: 6px; margin-top: 5px; max-width: 100%;
@@ -167,11 +171,17 @@
   :root[data-theme="dark"] .flag-line.warn { color: var(--status-warn); }
   .flag-line.good { background: var(--status-good-bg); color: var(--status-good); }
 
+  .bar-col { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
   .bar-wrap { position: relative; height: 20px; border-radius: 4px; background: var(--bar-track); overflow: hidden; }
   .bar-fill {
     position: absolute; top: 0; left: 0; height: 100%; background: var(--bar-fill);
     border-radius: 0 4px 4px 0; min-width: 4px;
   }
+  .pct-line { font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .pct-line.cheap { color: var(--status-good); }
+  .pct-line.expensive { color: #8a5a00; }
+  :root:not([data-theme="light"]) .pct-line.expensive,
+  :root[data-theme="dark"] .pct-line.expensive { color: var(--status-warn); }
 
   .price { text-align: right; font-weight: 700; font-size: 14.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
@@ -193,7 +203,7 @@
       order: -1; width: calc(100% + 20px); height: 180px; margin: -12px -10px 0;
       border-radius: 8px 8px 0 0; border-right: 1px solid var(--gridline); border-bottom: none;
     }
-    .bar-wrap { order: 3; }
+    .bar-col { order: 3; }
     .price { order: 2; text-align: left; }
     .stats { grid-template-columns: repeat(2, 1fr); }
   }
@@ -201,9 +211,9 @@
 
 <div class="wrap">
   <header>
-    <p class="eyebrow">Recherche marché · mise à jour 5 septembre 2026</p>
-    <h1>74 fourgons nus ou très peu aménagés, ≤ 20 000 €</h1>
-    <p class="subhead">Ducato / Boxer / Jumper / Master / Movano / Transit / Sprinter, format « 600 » (L3H2) — cible confirmée (<a href="../adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md">ADR-0011</a>). Critère durci le 2 septembre 2026 : plus aucun van déjà aménagé (lit fixe/cuisine/sanitaires posés), plafond 20 000 €. Triés du meilleur au moins bon écart % vs prix attendu pour l'âge/km (régression sur le lot) ; chaque jauge bleue représente le prix affiché par rapport au plus cher du lot. Le <b>chip de couleur</b> donne le nombre de places à l'avant — vert : deux sièges séparés, ambre : banquette passager 2 places, gris : cabine jamais vue. <span id="regression-info"></span></p>
+    <p class="eyebrow">Recherche marché · mise à jour 7 septembre 2026</p>
+    <h1>68 fourgons nus ou très peu aménagés, ≤ 20 000 €</h1>
+    <p class="subhead">Ducato / Boxer / Jumper / Master / Movano / Transit / Sprinter, format « 600 » (L3H2) — cible confirmée (<a href="../adr/0011-confirmation-format-600-arbitrage-marge-maniabilite.md">ADR-0011</a>). Critère durci le 2 septembre 2026 : plus aucun van déjà aménagé (lit fixe/cuisine/sanitaires posés), plafond 20 000 €. <b>Triés du meilleur au moins bon coût par an de vie restante</b> — <code>(prix + 17 000 € d'aménagement) / années restantes</code>, la métrique posée par la <a href="../duree-de-vie-et-cout-par-an.md">note durée de vie</a> : un van moins cher mais avec moins d'années devant lui revient plus cher à l'année, l'aménagement se réamortissant sur moins de temps. Les <b>millésimes &lt; 2019</b> sont masqués par défaut (<a href="../adr/0020-plancher-de-millesime-13-ans-de-vie-restante.md">ADR-0020</a>) ; chaque jauge bleue représente le prix affiché par rapport au plus cher du lot. <span id="regression-info"></span></p>
   </header>
 
   <div class="stats" id="stats"></div>
@@ -213,18 +223,23 @@
       <input type="checkbox" id="hide-flagged">
       Masquer les annonces à vérifier
     </label>
+    <label class="toggle">
+      <input type="checkbox" id="show-offcriteria">
+      Montrer les millésimes hors critère (&lt; 2019)
+    </label>
+    <label class="toggle">
+      <input type="checkbox" id="renault-only" checked>
+      Renault uniquement
+    </label>
   </div>
 
   <div class="legend">
     <span><span class="swatch" style="background:var(--bar-fill)"></span>Prix affiché</span>
-    <span><span class="badge-score" data-tier="good">-30%</span>moins cher que le marché pour son âge/km</span>
-    <span><span class="badge-score" data-tier="mid">+10%</span>au prix du marché ou plus cher (aménagement ignoré — tout sera refait)</span>
+    <span><span class="badge-score" data-tier="good">2 000 €/an</span>coût par an de vie restante — moins de 2 250 €/an</span>
+    <span><span class="badge-score" data-tier="mid">2 500 €/an</span>au-dessus de 2 250 €/an — l'écart au prix de marché est sous la barre de prix</span>
+    <span><span class="chip-off">hors critère</span>millésime &lt; 2019, moins de 13 ans de vie devant lui (ADR-0020)</span>
     <span>⚠ à vérifier avant contact</span>
     <span>✓ point positif confirmé</span>
-    <span><span class="chip-seats" data-tier="good">2 places</span>deux sièges avant séparés — annule tout le volet administratif des sièges (DREAL 38). Bonus à saisir au prix du marché, plus un critère de recherche depuis l'<a href="../adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md">ADR-0017</a></span>
-    <span><span class="chip-seats" data-tier="warn">3 places</span>banquette passager 2 places — conversion à prévoir, à partir de ~2 600 € TTC : une ligne de budget, pas un défaut rédhibitoire</span>
-    <span><span class="chip-seats" data-tier="unknown">? places</span>cabine jamais montrée et champ leboncoin vide</span>
-    <span>✓ après le chip = vu sur les photos archivées ou écrit dans l'annonce ; sans ✓, c'est le champ leboncoin, déclaratif</span>
     <span>⚠️ 150-250k km : distribution/embrayage à vérifier</span>
     <span>🚨 &gt;250k km : injecteurs/turbo, à chiffrer avant contact</span>
   </div>
@@ -232,9 +247,9 @@
   <div class="list" id="list"></div>
 
   <footer>
-    Prix affichés = prix TTC annoncé (TVA récupérable pour un acheteur professionnel sur les annonces qui le précisent). Kilométrage, année et nombre de places déclarés par le vendeur, non vérifiés indépendamment. Sources : recherches leboncoin du 31 août, du 2 septembre et du 5 septembre 2026, relayées par l'extension Chrome — les prix et la disponibilité bougent vite, à revérifier avant tout contact. « Nu-équivalent »/« Quasi-nu » = pas de lit fixe ni de cuisine/sanitaires posés, même si l'annonce se présente comme « aménagée » ou « en cours d'aménagement ». Détail complet, motifs d'exclusion et photos archivées dans <code>docs/marche/recap-2026-08-31.md</code> et <code>docs/marche/annonces/</code> du dépôt.
+    Prix affichés = prix TTC annoncé (TVA récupérable pour un acheteur professionnel sur les annonces qui le précisent). Kilométrage et année déclarés par le vendeur, non vérifiés indépendamment. Sources : recherches leboncoin du 31 août, du 2 septembre et du 5 septembre 2026, relayées par l'extension Chrome — les prix et la disponibilité bougent vite, à revérifier avant tout contact. « Nu-équivalent »/« Quasi-nu » = pas de lit fixe ni de cuisine/sanitaires posés, même si l'annonce se présente comme « aménagée » ou « en cours d'aménagement ». Détail complet, motifs d'exclusion et photos archivées dans <code>docs/marche/recap-2026-08-31.md</code> et <code>docs/marche/annonces/</code> du dépôt.
     <br><br>
-    <b>Lot du 5 septembre 2026</b> : 44 annonces capturées, 43 exploitables (une capture a enregistré une page de résultats au lieu de la fiche), toutes L3H2 diesel ≤ 20 000 € et nues ou quasi nues. <b>Aucune n'est en 2 places avant</b> : 36 annoncent 3 places, 7 ne renseignent rien, 1 annonce « 1 place ». Le tri s'est fait sur les photos de cabine, comme prévu par l'<a href="../adr/0015-methode-recherche-marche.md">ADR-0015</a>.
+    <b>Lot du 5 septembre 2026</b> : 44 annonces capturées, 43 exploitables (une capture a enregistré une page de résultats au lieu de la fiche), toutes L3H2 diesel ≤ 20 000 € et nues ou quasi nues. Le tri s'est fait sur les photos, comme prévu par l'<a href="../adr/0015-methode-recherche-marche.md">ADR-0015</a>. <b>La configuration des sièges avant n'est plus affichée</b> : elle a cessé d'être un critère de recherche (<a href="../adr/0017-2-places-avant-critere-de-budget-pas-de-recherche.md">ADR-0017</a>) et la conversion est désormais confiée à un installateur retenu (<a href="../adr/0019-aoc-installateur-retenu-sieges.md">ADR-0019</a>). Les valeurs restent dans les données de ce fichier, elles ne sont simplement plus rendues.
     <br><br>
     <b>Retirés du comparateur.</b> Six annonces ont été écartées le 5 septembre 2026 et leurs fichiers sortis de l'archive (<a href="annonces-exclues.md">annonces-exclues.md</a>, <a href="../adr/0016-annonces-ecartees-sortent-de-archive.md">ADR-0016</a>) : 3260375867, 3219994109, 3212598086, 3260376939, 3258826650, 3259352463. Un candidat GNV (3226785978) et les candidats L4H2 avaient déjà été retirés (ADR-0011, ADR-0012) ; <b>correction du 5 septembre</b> : 3234530816, écarté le 4 septembre pour motorisation GNC, était resté par erreur dans ce comparateur — il en sort aussi.
   </footer>
@@ -245,115 +260,78 @@
 <script>
   const DATA = [
     // --- Suivies depuis le 31 août / 1er septembre 2026, toujours dans les clous du critère durci (nu ou quasi-nu, ≤ 20 000 €) ---
-{id:"3258503783", url:"https://www.leboncoin.fr/ad/utilitaires/3258503783", model:"Jumper L3H2", tag:"Business, 1ère main", price:10490, year:2019, km:174280, length:"L3", fit:"amenage", vendor:"Pro (G.T Autos)", ct:"CT valide jusqu'en 2028, carnet d'entretien CITROËN complet, révision + courroie faites en 06/2026", amenagement:"Aménagement bois + armoire de rangement (profil artisan) ; sièges avant en un seul bloc (banquette)", flag:null, date:"2026-09-01", seats:"3", seatsSrc:"texte"},
-{id:"3248186538", url:"https://www.leboncoin.fr/ad/utilitaires/3248186538", model:"Boxer L3H2", tag:"3.0 HDi 180", price:13000, year:2013, km:192000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Factures disponibles", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ"},
-{id:"3250279944", url:"https://www.leboncoin.fr/ad/utilitaires/3250279944", model:"Jumper L3H2", tag:"Business 163", price:16900, year:2017, km:84900, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ"},
-{id:"3230965149", url:"https://www.leboncoin.fr/ad/utilitaires/3230965149", model:"Ducato L3H2", tag:"13 m³", price:18960, year:2020, km:93319, length:"L3", fit:"nu", vendor:"Pro (Viel Négoce)", ct:"Sous garantie garage", amenagement:"Nu-équivalent (étagères bois d'artisan sur toute la soute, démontables)", flag:{type:"good", text:"2 sièges avant individuels confirmés sur les photos archivées — seul porteur du dossier, avec le Sprinter 3194008684, à annuler tout le volet administratif des sièges"}, seats:"2", seatsSrc:"photo"},
-{id:"3227572786", url:"https://www.leboncoin.fr/ad/utilitaires/3227572786", model:"Ducato L3H2", tag:"2.3 140", price:18990, year:2021, km:96000, length:"L3", fit:"nu", vendor:"Pro (MCT Consulting)", ct:"Non précisé", amenagement:"Nu (attelage, caméra, GPS)", flag:null, seats:"3", seatsSrc:"champ"},
-{id:"3249486543", url:"https://www.leboncoin.fr/ad/utilitaires/3249486543", model:"Ducato L3H2", tag:"Pro Lounge", price:19000, year:2020, km:116700, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ"},
+{id:"3258503783", url:"https://www.leboncoin.fr/ad/utilitaires/3258503783", model:"Jumper L3H2", tag:"Business, 1ère main", price:10490, year:2019, km:174280, length:"L3", fit:"amenage", vendor:"Pro (G.T Autos)", ct:"CT valide jusqu'en 2028, carnet d'entretien CITROËN complet, révision + courroie faites en 06/2026", amenagement:"Aménagement bois + armoire de rangement (profil artisan) ; sièges avant en un seul bloc (banquette)", flag:null, date:"2026-09-01", seats:"3", seatsSrc:"texte", loc:{city:"Villebon-sur-Yvette",dept:"Essonne",region:"Île-de-France",km:566}},
+{id:"3248186538", url:"https://www.leboncoin.fr/ad/utilitaires/3248186538", model:"Boxer L3H2", tag:"3.0 HDi 180", price:13000, year:2013, km:192000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Factures disponibles", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ", loc:{city:"Valence-en-Poitou",dept:"Vienne",region:"Nouvelle-Aquitaine",km:592}},
+{id:"3250279944", url:"https://www.leboncoin.fr/ad/utilitaires/3250279944", model:"Jumper L3H2", tag:"Business 163", price:16900, year:2017, km:84900, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ", loc:{city:"Toulouse",dept:"Haute-Garonne",region:"Occitanie",km:530}},
+{id:"3230965149", url:"https://www.leboncoin.fr/ad/utilitaires/3230965149", model:"Ducato L3H2", tag:"13 m³", price:18960, year:2020, km:93319, length:"L3", fit:"nu", vendor:"Pro (Viel Négoce)", ct:"Sous garantie garage", amenagement:"Nu-équivalent (étagères bois d'artisan sur toute la soute, démontables)", flag:{type:"good", text:"2 sièges avant individuels confirmés sur les photos archivées — seul porteur du dossier, avec le Sprinter 3194008684, à annuler tout le volet administratif des sièges"}, seats:"2", seatsSrc:"photo", loc:{city:"Saint-Didier",dept:"Ille-et-Vilaine",region:"Bretagne",km:832}},
+{id:"3227572786", url:"https://www.leboncoin.fr/ad/utilitaires/3227572786", model:"Ducato L3H2", tag:"2.3 140", price:18990, year:2021, km:96000, length:"L3", fit:"nu", vendor:"Pro (MCT Consulting)", ct:"Non précisé", amenagement:"Nu (attelage, caméra, GPS)", flag:null, seats:"3", seatsSrc:"champ", loc:{city:"Boissy-le-Châtel",dept:"Seine-et-Marne",region:"Île-de-France",km:552}},
+{id:"3249486543", url:"https://www.leboncoin.fr/ad/utilitaires/3249486543", model:"Ducato L3H2", tag:"Pro Lounge", price:19000, year:2020, km:116700, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT valide jusqu'en 2028", amenagement:"Nu", flag:null, seats:"3", seatsSrc:"champ", loc:{city:"Brem-sur-Mer",dept:"Vendée",region:"Pays de la Loire",km:844}},
     // --- Lot du 2 septembre 2026 ---
-{id:"3221052068", url:"https://www.leboncoin.fr/ad/utilitaires/3221052068", model:"Boxer L3H2", tag:"III, 120ch", price:5900, year:2010, km:204500, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3245572696", url:"https://www.leboncoin.fr/ad/utilitaires/3245572696", model:"Master L3H2", tag:"2010", price:6000, year:2010, km:434874, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:{type:"warn", text:"434 874 km — très élevé, injecteurs/turbo/distribution à chiffrer avant tout"}, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3194008684", url:"https://www.leboncoin.fr/ad/caravaning/3194008684", model:"Sprinter L3H2", tag:"à aménager", price:9800, year:2008, km:375000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Quasi-nu — isolation complète + 4 fenêtres/1 lanterneau déjà découpés dans la carrosserie (irréversible), mais aucun couchage/cuisine installé ; kit électrique/sanitaire vendu à part (non posé)", flag:{type:"good", text:"2 sièges avant individuels confirmés sur les photos archivées (le doute « à confirmer » est levé) — mais 375 000 km et 4 découpes de fenêtres déjà faites"}, date:"2026-09-02", seats:"2", seatsSrc:"photo"},
-{id:"3222478171", url:"https://www.leboncoin.fr/ad/utilitaires/3222478171", model:"Ducato L3H2", tag:"2.3 Multijet 130", price:9900, year:2014, km:246000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3256457618", url:"https://www.leboncoin.fr/ad/utilitaires/3256457618", model:"Boxer L3H2", tag:"2.2 100cv", price:10000, year:2009, km:138000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (aménagement pro : rallonge bois, rangement, cloison cabine — pas de couchage)", flag:null, date:"2026-09-02", seats:"1", seatsSrc:"champ"},
-{id:"3254686306", url:"https://www.leboncoin.fr/ad/utilitaires/3254686306", model:"Master L3H2", tag:"150ch, 1ère main", price:10800, year:2013, km:260000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3257355972", url:"https://www.leboncoin.fr/ad/utilitaires/3257355972", model:"Master L3H2", tag:"2002, carte grise VASP", price:10800, year:2002, km:135000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT favorable 20-11-2025, valable jusqu'en 19-11-2027", amenagement:"Nu (ex-ambulance VASP — VASP immatriculé mais « aménagement possible » = pas encore fait, vendu avec rangements/brancard)", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"texte"},
-{id:"3259493374", url:"https://www.leboncoin.fr/ad/utilitaires/3259493374", model:"Boxer L3H2", tag:"2019", price:11000, year:2019, km:94600, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3238967237", url:"https://www.leboncoin.fr/ad/utilitaires/3238967237", model:"Boxer L3H2", tag:"2.3 hdi 130 sans AdBlue", price:11800, year:2014, km:129500, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3258477045", url:"https://www.leboncoin.fr/ad/utilitaires/3258477045", model:"Boxer L3H2", tag:"7 places", price:11800, year:2009, km:90000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu-équivalent (sommier extensible à l'arrière, léger)", flag:{type:"warn", text:"7 places déclarées — vérifier configuration sièges sur photos (pertinent pour le critère 4 places)"}, date:"2026-09-02", seats:"7", seatsSrc:"champ"},
-{id:"3250563706", url:"https://www.leboncoin.fr/ad/utilitaires/3250563706", model:"Ducato L3H2", tag:"2017", price:11900, year:2017, km:168000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (caisse boisée + étagères — camion de chantier, pas de couchage)", flag:{type:"warn", text:"Moteur échange standard à 45 000 km réel — vérifier historique"}, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3244375681", url:"https://www.leboncoin.fr/ad/caravaning/3244375681", model:"Ducato L3H2", tag:"ex-pompiers", price:12800, year:2008, km:86700, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu (isolation laine + sol lino + plan de travail/évier posés, pas de couchage confirmé)", flag:{type:"warn", text:"« En cours d'aménagement » — à vérifier sur photos qu'aucun lit n'est posé"}, date:"2026-09-02", seats:"3", seatsSrc:"texte"},
-{id:"3147238492", url:"https://www.leboncoin.fr/ad/utilitaires/3147238492", model:"Jumper L3H2", tag:"2.0hdi 160cv", price:13000, year:2019, km:89000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3260517653", url:"https://www.leboncoin.fr/ad/utilitaires/3260517653", model:"Master L3H2", tag:"2017", price:14000, year:2017, km:180000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (plaquage bois seulement)", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3251302807", url:"https://www.leboncoin.fr/ad/caravaning/3251302807", model:"Boxer L3H2", tag:"2.2 120ch, 2022", price:14450, year:2022, km:132450, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT volontaire passé en mars 2025 (échéance périodique non précisée)", amenagement:"Nu-équivalent (plaquage bois BBS seulement, présenté comme base d'aménagement)", flag:null, date:"2026-09-02", seats:null, seatsSrc:"aucun"},
-{id:"3260779231", url:"https://www.leboncoin.fr/ad/utilitaires/3260779231", model:"Master L3H2", tag:"2019", price:14800, year:2019, km:209000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"2938366191", url:"https://www.leboncoin.fr/ad/utilitaires/2938366191", model:"Movano L3H2", tag:"14m³", price:14900, year:2018, km:135580, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (intérieur habillé bois seulement)", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3258618210", url:"https://www.leboncoin.fr/ad/utilitaires/3258618210", model:"Master L3H2", tag:"2016", price:15000, year:2016, km:177490, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3256685548", url:"https://www.leboncoin.fr/ad/caravaning/3256685548", model:"Ducato L3H2", tag:"en cours VASP", price:15500, year:2014, km:202000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu — isolation + fenêtres + solaire + élec faits, mais « plus que la déco et les meubles à faire » = pas de couchage posé", flag:null, date:"2026-09-02", seats:null, seatsSrc:"aucun"},
-{id:"3252505288", url:"https://www.leboncoin.fr/ad/utilitaires/3252505288", model:"Transit L3H2", tag:"2.0 EcoBlue 130ch, 2021", price:15900, year:2021, km:141036, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:{type:"warn", text:"Courroie de distribution à prévoir (signalé par le vendeur)"}, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3256752984", url:"https://www.leboncoin.fr/ad/utilitaires/3256752984", model:"Master L3H2", tag:"2018, ex-véhicule de marché", price:17000, year:2018, km:47000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3237666342", url:"https://www.leboncoin.fr/ad/caravaning/3237666342", model:"Transit L3H2", tag:"170cv, isolé", price:18900, year:2017, km:136500, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu — isolation complète + panneau solaire + prises posés, mais aucun couchage/cuisine/toilette", flag:null, date:"2026-09-02", seats:null, seatsSrc:"aucun"},
-{id:"3261130919", url:"https://www.leboncoin.fr/ad/utilitaires/3261130919", model:"Master L3H2", tag:"180ch, 2021", price:19999, year:2021, km:79000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ"},
-{id:"3239593390", url:"https://www.leboncoin.fr/ad/caravaning/3239593390", model:"Master L3H2", tag:"III, 2015", price:20000, year:2015, km:98000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT effectué 08/04/2026, valable jusqu'en avril 2028", amenagement:"Quasi-nu (fenêtres latérales + lanterneaux posés, isolation Armaflex faite ; pas de couchage/cuisine)", flag:{type:"good", text:"CT effectué avril 2026, valable jusqu'en 2028 ; dossier complet factures fourni"}, date:"2026-09-02", seats:null, seatsSrc:"aucun"},
+{id:"3221052068", url:"https://www.leboncoin.fr/ad/utilitaires/3221052068", model:"Boxer L3H2", tag:"III, 120ch", price:5900, year:2010, km:204500, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Salindres",dept:"Gard",region:"Occitanie",km:236}},
+{id:"3194008684", url:"https://www.leboncoin.fr/ad/caravaning/3194008684", model:"Sprinter L3H2", tag:"à aménager", price:9800, year:2008, km:375000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Quasi-nu — isolation complète + 4 fenêtres/1 lanterneau déjà découpés dans la carrosserie (irréversible), mais aucun couchage/cuisine installé ; kit électrique/sanitaire vendu à part (non posé)", flag:{type:"good", text:"2 sièges avant individuels confirmés sur les photos archivées (le doute « à confirmer » est levé) — mais 375 000 km et 4 découpes de fenêtres déjà faites"}, date:"2026-09-02", seats:"2", seatsSrc:"photo", loc:{city:"Le Blanc",dept:"Indre",region:"Centre-Val de Loire",km:515}},
+{id:"3222478171", url:"https://www.leboncoin.fr/ad/utilitaires/3222478171", model:"Ducato L3H2", tag:"2.3 Multijet 130", price:9900, year:2014, km:246000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Villers-sous-Saint-Leu",dept:"Oise",region:"Hauts-de-France",km:634}},
+{id:"3256457618", url:"https://www.leboncoin.fr/ad/utilitaires/3256457618", model:"Boxer L3H2", tag:"2.2 100cv", price:10000, year:2009, km:138000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (aménagement pro : rallonge bois, rangement, cloison cabine — pas de couchage)", flag:null, date:"2026-09-02", seats:"1", seatsSrc:"champ", loc:{city:"Fère-Champenoise",dept:"Marne",region:"Grand Est",km:547}},
+{id:"3254686306", url:"https://www.leboncoin.fr/ad/utilitaires/3254686306", model:"Master L3H2", tag:"150ch, 1ère main", price:10800, year:2013, km:260000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Charleville-Mézières",dept:"Ardennes",region:"Grand Est",km:675}},
+{id:"3257355972", url:"https://www.leboncoin.fr/ad/utilitaires/3257355972", model:"Master L3H2", tag:"2002, carte grise VASP", price:10800, year:2002, km:135000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT favorable 20-11-2025, valable jusqu'en 19-11-2027", amenagement:"Nu (ex-ambulance VASP — VASP immatriculé mais « aménagement possible » = pas encore fait, vendu avec rangements/brancard)", flag:{type:"warn", text:"Ex-ambulance : profil d'usage dur pour le moteur — démarrages à froid répétés, fortes accélérations en première, longs ralentis. À recouper avec le carnet d'entretien, pas avec le kilométrage"}, date:"2026-09-02", seats:"3", seatsSrc:"texte", loc:{city:"Annemasse",dept:"Haute-Savoie",region:"Auvergne-Rhône-Alpes",km:145}},
+{id:"3259493374", url:"https://www.leboncoin.fr/ad/utilitaires/3259493374", model:"Boxer L3H2", tag:"2019", price:11000, year:2019, km:94600, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Drancy",dept:"Seine-Saint-Denis",region:"Île-de-France",km:590}},
+{id:"3238967237", url:"https://www.leboncoin.fr/ad/utilitaires/3238967237", model:"Boxer L3H2", tag:"2.3 hdi 130 sans AdBlue", price:11800, year:2014, km:129500, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Vindry-sur-Turdine",dept:"Rhône",region:"Auvergne-Rhône-Alpes",km:144}},
+{id:"3258477045", url:"https://www.leboncoin.fr/ad/utilitaires/3258477045", model:"Boxer L3H2", tag:"7 places", price:11800, year:2009, km:90000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu-équivalent (sommier extensible à l'arrière, léger)", flag:{type:"warn", text:"7 places déclarées — vérifier configuration sièges sur photos (pertinent pour le critère 4 places)"}, date:"2026-09-02", seats:"7", seatsSrc:"champ", loc:{city:"Amiens",dept:"Somme",region:"Hauts-de-France",km:727}},
+{id:"3250563706", url:"https://www.leboncoin.fr/ad/utilitaires/3250563706", model:"Ducato L3H2", tag:"2017", price:11900, year:2017, km:168000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (caisse boisée + étagères — camion de chantier, pas de couchage)", flag:{type:"warn", text:"Moteur échange standard à 45 000 km réel — vérifier historique"}, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Lamballe-Armor",dept:"Côtes-d'Armor",region:"Bretagne",km:917}},
+{id:"3244375681", url:"https://www.leboncoin.fr/ad/caravaning/3244375681", model:"Ducato L3H2", tag:"ex-pompiers", price:12800, year:2008, km:86700, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu (isolation laine + sol lino + plan de travail/évier posés, pas de couchage confirmé)", flag:{type:"warn", text:"« En cours d'aménagement » — à vérifier sur photos qu'aucun lit n'est posé"}, date:"2026-09-02", seats:"3", seatsSrc:"texte", loc:{city:"Thonon-les-Bains",dept:"Haute-Savoie",region:"Auvergne-Rhône-Alpes",km:174}},
+{id:"3147238492", url:"https://www.leboncoin.fr/ad/utilitaires/3147238492", model:"Jumper L3H2", tag:"2.0hdi 160cv", price:13000, year:2019, km:89000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Val de Briey",dept:"Meurthe-et-Moselle",region:"Grand Est",km:587}},
+{id:"3260517653", url:"https://www.leboncoin.fr/ad/utilitaires/3260517653", model:"Master L3H2", tag:"2017", price:14000, year:2017, km:180000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (plaquage bois seulement)", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Épinal",dept:"Vosges",region:"Grand Est",km:494}},
+{id:"3260779231", url:"https://www.leboncoin.fr/ad/utilitaires/3260779231", model:"Master L3H2", tag:"2019", price:14800, year:2019, km:209000, length:"L3", fit:"nu", vendor:"Particulier", ct:"CT OK (déclaré, échéance non précisée)", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Jouques",dept:"Bouches-du-Rhône",region:"Provence-Alpes-Côte d'Azur",km:220}},
+{id:"2938366191", url:"https://www.leboncoin.fr/ad/utilitaires/2938366191", model:"Movano L3H2", tag:"14m³", price:14900, year:2018, km:135580, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu-équivalent (intérieur habillé bois seulement)", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Saint-Étienne",dept:"Loire",region:"Auvergne-Rhône-Alpes",km:153}},
+{id:"3256685548", url:"https://www.leboncoin.fr/ad/caravaning/3256685548", model:"Ducato L3H2", tag:"en cours VASP", price:15500, year:2014, km:202000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu — isolation + fenêtres + solaire + élec faits, mais « plus que la déco et les meubles à faire » = pas de couchage posé", flag:null, date:"2026-09-02", seats:null, seatsSrc:"aucun", loc:{city:"Gourdon",dept:"Lot",region:"Occitanie",km:527}},
+{id:"3252505288", url:"https://www.leboncoin.fr/ad/utilitaires/3252505288", model:"Transit L3H2", tag:"2.0 EcoBlue 130ch, 2021", price:15900, year:2021, km:141036, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:{type:"warn", text:"Courroie de distribution à prévoir (signalé par le vendeur)"}, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Lorp-Sentaraille",dept:"Ariège",region:"Occitanie",km:619}},
+{id:"3256752984", url:"https://www.leboncoin.fr/ad/utilitaires/3256752984", model:"Master L3H2", tag:"2018, ex-véhicule de marché", price:17000, year:2018, km:47000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Channay-sur-Lathan",dept:"Indre-et-Loire",region:"Centre-Val de Loire",km:641}},
+{id:"3237666342", url:"https://www.leboncoin.fr/ad/caravaning/3237666342", model:"Transit L3H2", tag:"170cv, isolé", price:18900, year:2017, km:136500, length:"L3", fit:"amenage", vendor:"Particulier", ct:"Non précisé", amenagement:"Quasi-nu — isolation complète + panneau solaire + prises posés, mais aucun couchage/cuisine/toilette", flag:null, date:"2026-09-02", seats:null, seatsSrc:"aucun", loc:{city:"Hagetmau",dept:"Landes",region:"Nouvelle-Aquitaine",km:780}},
+{id:"3261130919", url:"https://www.leboncoin.fr/ad/utilitaires/3261130919", model:"Master L3H2", tag:"180ch, 2021", price:19999, year:2021, km:79000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-02", seats:"3", seatsSrc:"champ", loc:{city:"Aix-en-Provence",dept:"Bouches-du-Rhône",region:"Provence-Alpes-Côte d'Azur",km:291}},
+{id:"3239593390", url:"https://www.leboncoin.fr/ad/caravaning/3239593390", model:"Master L3H2", tag:"III, 2015", price:20000, year:2015, km:98000, length:"L3", fit:"amenage", vendor:"Particulier", ct:"CT effectué 08/04/2026, valable jusqu'en avril 2028", amenagement:"Quasi-nu (fenêtres latérales + lanterneaux posés, isolation Armaflex faite ; pas de couchage/cuisine)", flag:{type:"good", text:"CT effectué avril 2026, valable jusqu'en 2028 ; dossier complet factures fourni"}, date:"2026-09-02", seats:null, seatsSrc:"aucun", loc:{city:"La Bassée",dept:"Nord",region:"Hauts-de-France",km:797}},
     // --- Lot du 5 septembre 2026 : 44 annonces capturées, 43 retenues (1 capture ratée), 0 porteur en 2 places avant ---
-    {id:"3185684446", url:"https://www.leboncoin.fr/ad/utilitaires/3185684446", model:"Boxer L3H2", tag:"2.0 HDi 130", price:7990, year:2019, km:224000, length:"L3", fit:"nu", vendor:"Pro (AD Pithiviers)", ct:"CT OK, entretien à jour (déclaré)", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3189029953", url:"https://www.leboncoin.fr/ad/utilitaires/3189029953", model:"Master L3H2", tag:"III 2.3 dCi, 2013", price:7990, year:2013, km:274718, length:"L3", fit:"nu", vendor:"Pro (InterCars 37)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:{type:"warn", text:"Photos incohérentes : 6 des 9 montrent un porte-verre à ridelles, pas un fourgon tôlé — faire confirmer la carrosserie avant tout déplacement"}, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3263065771", url:"https://www.leboncoin.fr/ad/utilitaires/3263065771", model:"Master L3H2", tag:"III 2.3 dCi 165 Confort", price:7990, year:2015, km:297290, length:"L3", fit:"nu", vendor:"Pro (A2G)", ct:"CT OK, entretien à jour, garantie 3 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:{type:"warn", text:"Rideau roulant latéral d'ex-véhicule de service à la place de la porte coulissante — étanchéité et isolation entièrement à reprendre"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3249812810", url:"https://www.leboncoin.fr/ad/utilitaires/3249812810", model:"Boxer L3H2", tag:"camionnette de paysagiste", price:8000, year:2011, km:191756, length:"L3", fit:"nu", vendor:"Pro (Flubacker Paysage)", ct:"Entretien suivi, factures (déclaré)", amenagement:"Nu-équivalent (habillage caisse bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3262819565", url:"https://www.leboncoin.fr/ad/utilitaires/3262819565", model:"Boxer L3H2", tag:"2.2 16v 100 cv", price:9600, year:2009, km:138000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé (« aucun frais à prévoir »)", amenagement:"Nu-équivalent (rallonge bois, casiers, barre d'arrimage)", flag:{type:"warn", text:"Champ « places » à 1 et cabine jamais photographiée — passer de 1 à 2 places est un ajout de siège, même parcours DREAL qu'une banquette"}, date:"2026-09-05", seats:"1", seatsSrc:"champ"},
-    {id:"3122963576", url:"https://www.leboncoin.fr/ad/utilitaires/3122963576", model:"Movano L3H2", tag:"2.3 dCi 170", price:9990, year:2016, km:189338, length:"L3", fit:"nu", vendor:"Pro (Campus VO)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu (annoncé — soute jamais montrée)", flag:{type:"warn", text:"4 photos seulement, ni cabine ni soute — tout reste à vérifier sur place. Movano 2016 = clone du Master (cotes Master, pas Ducato)"}, date:"2026-09-05", seats:null, seatsSrc:"aucun"},
-{id:"3234575793", url:"https://www.leboncoin.fr/ad/utilitaires/3234575793", model:"Jumper L3H2", tag:"2.2 HDi 110", price:9990, year:2013, km:69968, length:"L3", fit:"nu", vendor:"Pro (Perrière Charpente)", ct:"CT valide, entretien suivi, moteur à chaîne de distribution", amenagement:"Nu (vérifié photo : véhicule d'artisan charpentier, pas d'aménagement camping visible)", flag:{type:"good", text:"Baisse de prix : 10 990 € le 31 août → 9 990 € le 5 septembre 2026"}, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3187944612", url:"https://www.leboncoin.fr/ad/utilitaires/3187944612", model:"Jumper L3H2", tag:"35 BlueHDi 110 BVM6", price:10490, year:2019, km:170103, length:"L3", fit:"nu", vendor:"Pro (Somato)", ct:"Non précisé", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3262804917", url:"https://www.leboncoin.fr/ad/utilitaires/3262804917", model:"Boxer L3H2", tag:"2018", price:10900, year:2018, km:140000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3180964775", url:"https://www.leboncoin.fr/ad/utilitaires/3180964775", model:"Boxer L3H2", tag:"FG 333 2.0 BlueHDi 130 Premium", price:12490, year:2019, km:91416, length:"L3", fit:"nu", vendor:"Pro (Marir Automobiles)", ct:"Non précisé", amenagement:"Nu-équivalent (étagères bois d'artisan)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"2868920275", url:"https://www.leboncoin.fr/ad/utilitaires/2868920275", model:"Jumper L3H2", tag:"2.2 BlueHDI 140 Club", price:13490, year:2022, km:162450, length:"L3", fit:"nu", vendor:"Pro (Arvor Automobiles)", ct:"Non précisé", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3143102537", url:"https://www.leboncoin.fr/ad/utilitaires/3143102537", model:"Boxer L3H2", tag:"III 2.2 BlueHDi 120 Premium", price:13490, year:2021, km:141593, length:"L3", fit:"nu", vendor:"Pro (Vannes Utilitaires)", ct:"Révisé, garantie 12 mois", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3248909612", url:"https://www.leboncoin.fr/ad/utilitaires/3248909612", model:"Boxer L3H2", tag:"FG 335 2.0 BlueHDi 160 Premium", price:13490, year:2018, km:127595, length:"L3", fit:"nu", vendor:"Pro (Ewigo Auxerre)", ct:"Garantie 6 à 12 mois selon formule", amenagement:"Nu (galerie + échelle arrière)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3262998553", url:"https://www.leboncoin.fr/ad/utilitaires/3262998553", model:"Master L3H2", tag:"2.3 dCi 135", price:13750, year:2021, km:120000, length:"L3", fit:"nu", vendor:"Pro (Custom Car)", ct:"CT OK, entretiens à jour, carnet, garantie 12 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3226899680", url:"https://www.leboncoin.fr/ad/utilitaires/3226899680", model:"Master L3H2", tag:"3.5t 2.3 dCi 145 Grand Confort", price:13999, year:2017, km:150331, length:"L3", fit:"nu", vendor:"Pro (Hyper Auto Caen)", ct:"Garantie 6 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3211588819", url:"https://www.leboncoin.fr/ad/utilitaires/3211588819", model:"Boxer L3H2", tag:"II 2.2 BlueHDi 120 Premium 335", price:14980, year:2022, km:127000, length:"L3", fit:"nu", vendor:"Pro (Alvergnas Automobiles)", ct:"Garantie 6 mois + assistance", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3262735540", url:"https://www.leboncoin.fr/ad/utilitaires/3262735540", model:"Master L3H2", tag:"2016", price:15000, year:2016, km:177490, length:"L3", fit:"nu", vendor:"Particulier", ct:"Entretenu, factures disponibles (déclaré)", amenagement:"Nu-équivalent (étagères bois lourdes des deux côtés)", flag:{type:"warn", text:"Mêmes année, kilométrage et prix que l'annonce 3258618210 : très probablement le même véhicule republié — ne pas le compter deux fois"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3075795641", url:"https://www.leboncoin.fr/ad/utilitaires/3075795641", model:"Boxer L3H2", tag:"BlueHDi 130", price:15829, year:2019, km:84589, length:"L3", fit:"nu", vendor:"Pro (Renault Liercourt)", ct:"Garantie 6 mois", amenagement:"Nu (soute vide, habillage contreplaqué)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3193732404", url:"https://www.leboncoin.fr/ad/utilitaires/3193732404", model:"Transit L3H2", tag:"IV 2.0 EcoBlue 130 350 RWD Trend", price:15980, year:2022, km:91500, length:"L3", fit:"nu", vendor:"Pro (Alvergnas Automobiles)", ct:"Garantie 6 mois + assistance", amenagement:"Nu", flag:{type:"warn", text:"Propulsion (RWD) : hauteur intérieure ~1 786 mm au lieu de 1 886 mm — se tenir debout devient difficile, voir dimensions-l3h2.md"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3134663226", url:"https://www.leboncoin.fr/ad/utilitaires/3134663226", model:"Master L3H2", tag:"III 2.3 dCi 130", price:15990, year:2020, km:107202, length:"L3", fit:"nu", vendor:"Pro (Auto Concept 56)", ct:"Révisé, garantie 12 mois", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:null, seatsSrc:"aucun"},
-    {id:"3239332719", url:"https://www.leboncoin.fr/ad/utilitaires/3239332719", model:"Jumper L3H2", tag:"FG 35 2.2 BlueHDi 140 Driver", price:15990, year:2022, km:125950, length:"L3", fit:"nu", vendor:"Pro (Sovaldia Valenciennes)", ct:"Non précisé", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3262837273", url:"https://www.leboncoin.fr/ad/utilitaires/3262837273", model:"Boxer L3H2", tag:"2.2 BlueHdi 140, 34 550 km", price:15990, year:2020, km:34550, length:"L3", fit:"nu", vendor:"Pro (Auto Center 26)", ct:"Révisé, garantie 3 mois", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"warn", text:"Titre de l'annonce : « L3H3 » — le corps de l'annonce dit L3H2, 4 portes, 22/07/2020 : hauteur à confirmer sur la carte grise"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3170746271", url:"https://www.leboncoin.fr/ad/utilitaires/3170746271", model:"Master L3H2", tag:"Propulsion RJ3500 Grand Confort 145", price:16200, year:2020, km:130600, length:"L3", fit:"nu", vendor:"Pro (Auto Loisirs 35)", ct:"CT OK, garantie 1 an", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"warn", text:"Propulsion à roues jumelées (RJ) : hauteur intérieure ~1 798 mm au lieu de 1 886 mm, et voie arrière élargie — voir dimensions-l3h2.md"}, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3128461631", url:"https://www.leboncoin.fr/ad/utilitaires/3128461631", model:"Movano L3H2", tag:"3.5t BlueHDi 165, 3 places", price:16490, year:2022, km:122797, length:"L3", fit:"nu", vendor:"Pro (O.K. 4x4 Automobiles)", ct:"Garantie (durée non précisée)", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"good", text:"Movano de 2022 = 4ᵉ génération, clone du Ducato et non du Master : cotes Sevel (1 870 mm de largeur intérieure), pas les cotes Master"}, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3240937496", url:"https://www.leboncoin.fr/ad/utilitaires/3240937496", model:"Transit L3H2", tag:"T350 2.0 TDCi 170 Trend Business", price:16499, year:2019, km:125501, length:"L3", fit:"nu", vendor:"Pro (Hyper Auto VO)", ct:"Non précisé", amenagement:"Nu (soute vide, galerie + échelle)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3143612906", url:"https://www.leboncoin.fr/ad/utilitaires/3143612906", model:"Transit L3H2", tag:"VIII T310 2.0 TDCi 130 Trend", price:16900, year:2017, km:137886, length:"L3", fit:"nu", vendor:"Pro (Ford Malbet Villeneuve-sur-Lot)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3080093734", url:"https://www.leboncoin.fr/ad/utilitaires/3080093734", model:"Transit L3H2", tag:"350 2.0 EcoBlue 130 traction", price:16990, year:2019, km:144000, length:"L3", fit:"nu", vendor:"Pro (Bellandi Automobiles)", ct:"Non précisé", amenagement:"Nu (soute vide, habillage bois partiel)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3106287276", url:"https://www.leboncoin.fr/ad/utilitaires/3106287276", model:"Master L3H2", tag:"Confort 2.3 dCi 110", price:16990, year:2018, km:83650, length:"L3", fit:"nu", vendor:"Pro (SAS Vandenkerckhove)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu-équivalent (atelier mobile entièrement racké : tiroirs, servante, plan de travail)", flag:{type:"warn", text:"Aménagement d'atelier lourd et fixé (rack métal + tiroirs) : dépose et reprise des perçages à chiffrer, contrairement à de simples étagères bois"}, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3263006559", url:"https://www.leboncoin.fr/ad/utilitaires/3263006559", model:"Master L3H2", tag:"Grand Confort F3500 2.3 Blue dCi 135", price:16990, year:2021, km:91066, length:"L3", fit:"nu", vendor:"Pro (HBO Invest)", ct:"Non précisé", amenagement:"Nu (annoncé)", flag:{type:"warn", text:"Aucune photo dans la capture du 5 septembre — fiche à recapturer avant tout contact"}, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3254374285", url:"https://www.leboncoin.fr/ad/utilitaires/3254374285", model:"Master L3H2", tag:"III F3500 2.3 Blue dCi 135 Grand Confort", price:17888, year:2022, km:105239, length:"L3", fit:"nu", vendor:"Pro (Absolut Automobiles)", ct:"Garantie commerciale 12 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3060806551", url:"https://www.leboncoin.fr/ad/utilitaires/3060806551", model:"Boxer L3H2", tag:"BlueHDi 130 Premium Pack", price:17990, year:2017, km:105500, length:"L3", fit:"nu", vendor:"Pro (Auto-Pouliquen)", ct:"Non précisé", amenagement:"Nu-équivalent (étagères bois d'artisan)", flag:{type:"warn", text:"Seuil et plancher arrière marqués sur les photos (corrosion de surface) — à regarder de près, c'est là que l'eau s'installe"}, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3152384908", url:"https://www.leboncoin.fr/ad/utilitaires/3152384908", model:"Transit L3H2", tag:"T310 130 Trend Business", price:17990, year:2020, km:114800, length:"L3", fit:"nu", vendor:"Pro (GL Car)", ct:"Contrôlé, garantie 1 an (extension possible)", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3228602420", url:"https://www.leboncoin.fr/ad/utilitaires/3228602420", model:"Master L3H2", tag:"3 FG GCF F3500 Blue dCi 135", price:17990, year:2022, km:136900, length:"L3", fit:"nu", vendor:"Pro (Cotten Autos Questembert)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3116492493", url:"https://www.leboncoin.fr/ad/utilitaires/3116492493", model:"Boxer L3H2", tag:"Asphalt 335 2.2 BlueHDi 120", price:18490, year:2021, km:105522, length:"L3", fit:"nu", vendor:"Pro (Planète Auto Services)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3226185061", url:"https://www.leboncoin.fr/ad/utilitaires/3226185061", model:"Boxer L3H2", tag:"2.2 BlueHDi 165, porte-verre", price:18588, year:2021, km:97925, length:"L3", fit:"nu", vendor:"Pro (SAS Vandenkerckhove)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu-équivalent (étagères bois)", flag:{type:"warn", text:"Rack porte-verre extérieur sur tout le flanc : perçages de carrosserie à contrôler une fois le rack déposé"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3242704186", url:"https://www.leboncoin.fr/ad/utilitaires/3242704186", model:"Master L3H2", tag:"F3500 2.3 Blue dCi 135 Grand Confort", price:18890, year:2021, km:83500, length:"L3", fit:"nu", vendor:"Pro (Garage Guibert)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3254969421", url:"https://www.leboncoin.fr/ad/utilitaires/3254969421", model:"Movano L3H2", tag:"F3500 2.3 CDTI 150, 1ʳᵉ main", price:18980, year:2021, km:117214, length:"L3", fit:"nu", vendor:"Pro (Showroom Automobiles)", ct:"CT fait pour la vente, garantie 6 à 12 mois, entretiens à jour", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:{type:"warn", text:"Movano de 2021 : année charnière entre le clone Master et le clone Ducato — vérifier la génération avant de se fier aux cotes"}, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3213522294", url:"https://www.leboncoin.fr/ad/utilitaires/3213522294", model:"Transit L3H2", tag:"350 2.0 EcoBlue 130 Trend, 2024", price:18990, year:2024, km:43809, length:"L3", fit:"nu", vendor:"Pro (Label Auto)", ct:"Extension de garantie 12 ou 24 mois en option", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3251788097", url:"https://www.leboncoin.fr/ad/utilitaires/3251788097", model:"Ducato L3H2", tag:"3.3 MJT 140 Pack Pro Lounge", price:19188, year:2021, km:126455, length:"L3", fit:"nu", vendor:"Pro (Utilitaire Service Rennes)", ct:"Révisé, contrôlé et garanti en atelier", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
-    {id:"3261208920", url:"https://www.leboncoin.fr/ad/utilitaires/3261208920", model:"Jumper L3H2", tag:"Tôlé 35 BlueHDi 140 BVM6 Driver", price:19890, year:2022, km:65015, length:"L3", fit:"nu", vendor:"Pro (Spoticar Stellantis &You)", ct:"Non précisé", amenagement:"Nu (galerie + échelle arrière)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3176353629", url:"https://www.leboncoin.fr/ad/utilitaires/3176353629", model:"Transit L3H2", tag:"2T P350 2.0 EcoBlue 130 Trend Business", price:19950, year:2021, km:78860, length:"L3", fit:"nu", vendor:"Pro (Dallard Citroën Muret)", ct:"Non précisé", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3189230655", url:"https://www.leboncoin.fr/ad/utilitaires/3189230655", model:"Transit L3H2", tag:"2T P350 2.0 EcoBlue 130 Trend Business", price:19950, year:2022, km:102765, length:"L3", fit:"nu", vendor:"Pro (CVR Utilitaires)", ct:"Révisé, garantie 3 mois", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"warn", text:"L'annonce mentionne une version propulsion : hauteur intérieure réduite (~1 786 mm) si c'est bien le cas — à confirmer sur la carte grise"}, date:"2026-09-05", seats:"3", seatsSrc:"champ"},
-    {id:"3163741742", url:"https://www.leboncoin.fr/ad/utilitaires/3163741742", model:"Master L3H2", tag:"F3500 2.3 dCi 145 Grand Confort", price:19990, year:2019, km:38570, length:"L3", fit:"nu", vendor:"Pro (Utilitaires 17)", ct:"CT du 26-02-2026", amenagement:"Nu-équivalent (habillage bois)", flag:{type:"good", text:"38 570 km pour un 2019 — de loin le kilométrage le plus bas du dossier à ce prix"}, date:"2026-09-05", seats:"3", seatsSrc:"texte"},
-    {id:"3244344835", url:"https://www.leboncoin.fr/ad/utilitaires/3244344835", model:"Master L3H2", tag:"F3500 2.3 Blue dCi 150 Confort Euro 6", price:19999, year:2021, km:59191, length:"L3", fit:"nu", vendor:"Pro (Sanac Renault)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo"},
+    {id:"3185684446", url:"https://www.leboncoin.fr/ad/utilitaires/3185684446", model:"Boxer L3H2", tag:"2.0 HDi 130", price:7990, year:2019, km:224000, length:"L3", fit:"nu", vendor:"Pro (AD Pithiviers)", ct:"CT OK, entretien à jour (déclaré)", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Pithiviers",dept:"Loiret",region:"Centre-Val de Loire",km:538}},
+    {id:"3189029953", url:"https://www.leboncoin.fr/ad/utilitaires/3189029953", model:"Master L3H2", tag:"III 2.3 dCi, 2013", price:7990, year:2013, km:274718, length:"L3", fit:"nu", vendor:"Pro (InterCars 37)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:{type:"warn", text:"Photos incohérentes : 6 des 9 montrent un porte-verre à ridelles, pas un fourgon tôlé — faire confirmer la carrosserie avant tout déplacement"}, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Larçay",dept:"Indre-et-Loire",region:"Centre-Val de Loire",km:597}},
+    {id:"3249812810", url:"https://www.leboncoin.fr/ad/utilitaires/3249812810", model:"Boxer L3H2", tag:"camionnette de paysagiste", price:8000, year:2011, km:191756, length:"L3", fit:"nu", vendor:"Pro (Flubacker Paysage)", ct:"Entretien suivi, factures (déclaré)", amenagement:"Nu-équivalent (habillage caisse bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Sainte-Marie",dept:"Doubs",region:"Bourgogne-Franche-Comté",km:404}},
+    {id:"3262819565", url:"https://www.leboncoin.fr/ad/utilitaires/3262819565", model:"Boxer L3H2", tag:"2.2 16v 100 cv", price:9600, year:2009, km:138000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé (« aucun frais à prévoir »)", amenagement:"Nu-équivalent (rallonge bois, casiers, barre d'arrimage)", flag:{type:"warn", text:"Champ « places » à 1 et cabine jamais photographiée — passer de 1 à 2 places est un ajout de siège, même parcours DREAL qu'une banquette"}, date:"2026-09-05", seats:"1", seatsSrc:"champ", loc:{city:"Fère-Champenoise",dept:"Marne",region:"Grand Est",km:547}},
+    {id:"3122963576", url:"https://www.leboncoin.fr/ad/utilitaires/3122963576", model:"Movano L3H2", tag:"2.3 dCi 170", price:9990, year:2016, km:189338, length:"L3", fit:"nu", vendor:"Pro (Campus VO)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu (annoncé — soute jamais montrée)", flag:{type:"warn", text:"4 photos seulement, ni cabine ni soute — tout reste à vérifier sur place. Movano 2016 = clone du Master (cotes Master, pas Ducato)"}, date:"2026-09-05", seats:null, seatsSrc:"aucun", loc:{city:"Valence",dept:"Drôme",region:"Auvergne-Rhône-Alpes",km:99}},
+{id:"3234575793", url:"https://www.leboncoin.fr/ad/utilitaires/3234575793", model:"Jumper L3H2", tag:"2.2 HDi 110", price:9990, year:2013, km:69968, length:"L3", fit:"nu", vendor:"Pro (Perrière Charpente)", ct:"CT valide, entretien suivi, moteur à chaîne de distribution", amenagement:"Nu (vérifié photo : véhicule d'artisan charpentier, pas d'aménagement camping visible)", flag:{type:"good", text:"Baisse de prix : 10 990 € le 31 août → 9 990 € le 5 septembre 2026"}, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Péron",dept:"Ain",region:"Auvergne-Rhône-Alpes",km:159}},
+    {id:"3187944612", url:"https://www.leboncoin.fr/ad/utilitaires/3187944612", model:"Jumper L3H2", tag:"35 BlueHDi 110 BVM6", price:10490, year:2019, km:170103, length:"L3", fit:"nu", vendor:"Pro (Somato)", ct:"Non précisé", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Notre-Dame-de-Bondeville",dept:"Seine-Maritime",region:"Normandie",km:707}},
+    {id:"3262804917", url:"https://www.leboncoin.fr/ad/utilitaires/3262804917", model:"Boxer L3H2", tag:"2018", price:10900, year:2018, km:140000, length:"L3", fit:"nu", vendor:"Particulier", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"La Teste-de-Buch",dept:"Gironde",region:"Nouvelle-Aquitaine",km:717}},
+    {id:"3180964775", url:"https://www.leboncoin.fr/ad/utilitaires/3180964775", model:"Boxer L3H2", tag:"FG 333 2.0 BlueHDi 130 Premium", price:12490, year:2019, km:91416, length:"L3", fit:"nu", vendor:"Pro (Marir Automobiles)", ct:"Non précisé", amenagement:"Nu-équivalent (étagères bois d'artisan)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Saint-Étienne",dept:"Loire",region:"Auvergne-Rhône-Alpes",km:155}},
+    {id:"2868920275", url:"https://www.leboncoin.fr/ad/utilitaires/2868920275", model:"Jumper L3H2", tag:"2.2 BlueHDI 140 Club", price:13490, year:2022, km:162450, length:"L3", fit:"nu", vendor:"Pro (Arvor Automobiles)", ct:"Non précisé", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Gestel",dept:"Morbihan",region:"Bretagne",km:969}},
+    {id:"3143102537", url:"https://www.leboncoin.fr/ad/utilitaires/3143102537", model:"Boxer L3H2", tag:"III 2.2 BlueHDi 120 Premium", price:16188, year:2021, km:141593, length:"L3", fit:"nu", vendor:"Pro (Vannes Utilitaires)", ct:"Révisé, garantie 12 mois", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Theix-Noyalo",dept:"Morbihan",region:"Bretagne",km:897}},
+    {id:"3248909612", url:"https://www.leboncoin.fr/ad/utilitaires/3248909612", model:"Boxer L3H2", tag:"FG 335 2.0 BlueHDi 160 Premium", price:13490, year:2018, km:127595, length:"L3", fit:"nu", vendor:"Pro (Ewigo Auxerre)", ct:"Garantie 6 à 12 mois selon formule", amenagement:"Nu (galerie + échelle arrière)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Monéteau",dept:"Yonne",region:"Bourgogne-Franche-Comté",km:415}},
+    {id:"3262998553", url:"https://www.leboncoin.fr/ad/utilitaires/3262998553", model:"Master L3H2", tag:"2.3 dCi 135", price:16500, year:2021, km:120000, length:"L3", fit:"nu", vendor:"Pro (Custom Car)", ct:"CT OK, entretiens à jour, carnet, garantie 12 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Saint-Barthélemy-d'Anjou",dept:"Maine-et-Loire",region:"Pays de la Loire",km:712}},
+    {id:"3226899680", url:"https://www.leboncoin.fr/ad/utilitaires/3226899680", model:"Master L3H2", tag:"3.5t 2.3 dCi 145 Grand Confort", price:13999, year:2017, km:150331, length:"L3", fit:"nu", vendor:"Pro (Hyper Auto Caen)", ct:"Garantie 6 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Carpiquet",dept:"Calvados",region:"Normandie",km:808}},
+    {id:"3211588819", url:"https://www.leboncoin.fr/ad/utilitaires/3211588819", model:"Boxer L3H2", tag:"II 2.2 BlueHDi 120 Premium 335", price:14980, year:2022, km:127000, length:"L3", fit:"nu", vendor:"Pro (Alvergnas Automobiles)", ct:"Garantie 6 mois + assistance", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Chambourcy",dept:"Yvelines",region:"Île-de-France",km:598}},
+    {id:"3262735540", url:"https://www.leboncoin.fr/ad/utilitaires/3262735540", model:"Master L3H2", tag:"2016", price:15000, year:2016, km:177490, length:"L3", fit:"nu", vendor:"Particulier", ct:"Entretenu, factures disponibles (déclaré)", amenagement:"Nu-équivalent (étagères bois lourdes des deux côtés)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Lanvénégen",dept:"Morbihan",region:"Bretagne",km:995}},
+    {id:"3075795641", url:"https://www.leboncoin.fr/ad/utilitaires/3075795641", model:"Boxer L3H2", tag:"BlueHDi 130", price:18995, year:2019, km:84589, length:"L3", fit:"nu", vendor:"Pro (Renault Liercourt)", ct:"Garantie 6 mois", amenagement:"Nu (soute vide, habillage contreplaqué)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Liercourt",dept:"Somme",region:"Hauts-de-France",km:765}},
+    {id:"3134663226", url:"https://www.leboncoin.fr/ad/utilitaires/3134663226", model:"Master L3H2", tag:"III 2.3 dCi 130", price:15990, year:2020, km:107202, length:"L3", fit:"nu", vendor:"Pro (Auto Concept 56)", ct:"Révisé, garantie 12 mois", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:null, seatsSrc:"aucun", loc:{city:"Moréac",dept:"Morbihan",region:"Bretagne",km:941}},
+    {id:"3239332719", url:"https://www.leboncoin.fr/ad/utilitaires/3239332719", model:"Jumper L3H2", tag:"FG 35 2.2 BlueHDi 140 Driver", price:15990, year:2022, km:125950, length:"L3", fit:"nu", vendor:"Pro (Sovaldia Valenciennes)", ct:"Non précisé", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Valenciennes",dept:"Nord",region:"Hauts-de-France",km:771}},
+    {id:"3262837273", url:"https://www.leboncoin.fr/ad/utilitaires/3262837273", model:"Boxer L3H2", tag:"2.2 BlueHdi 140, 34 550 km", price:15990, year:2020, km:34550, length:"L3", fit:"nu", vendor:"Pro (Auto Center 26)", ct:"Révisé, garantie 3 mois", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"warn", text:"Titre de l'annonce : « L3H3 » — le corps de l'annonce dit L3H2, 4 portes, 22/07/2020 : hauteur à confirmer sur la carte grise"}, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Romans-sur-Isère",dept:"Drôme",region:"Auvergne-Rhône-Alpes",km:80}},
+    {id:"3128461631", url:"https://www.leboncoin.fr/ad/utilitaires/3128461631", model:"Movano L3H2", tag:"3.5t BlueHDi 165, 3 places", price:16490, year:2022, km:122797, length:"L3", fit:"nu", vendor:"Pro (O.K. 4x4 Automobiles)", ct:"Garantie (durée non précisée)", amenagement:"Nu (soute vide, vérifié photo)", flag:{type:"good", text:"Movano de 2022 = 4ᵉ génération, clone du Ducato et non du Master : cotes Sevel (1 870 mm de largeur intérieure), pas les cotes Master"}, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Belleville-en-Beaujolais",dept:"Rhône",region:"Auvergne-Rhône-Alpes",km:159}},
+    {id:"3240937496", url:"https://www.leboncoin.fr/ad/utilitaires/3240937496", model:"Transit L3H2", tag:"T350 2.0 TDCi 170 Trend Business", price:16499, year:2019, km:125501, length:"L3", fit:"nu", vendor:"Pro (Hyper Auto VO)", ct:"Non précisé", amenagement:"Nu (soute vide, galerie + échelle)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Guipavas",dept:"Finistère",region:"Bretagne",km:1072}},
+    {id:"3143612906", url:"https://www.leboncoin.fr/ad/utilitaires/3143612906", model:"Transit L3H2", tag:"VIII T310 2.0 TDCi 130 Trend", price:16900, year:2017, km:137886, length:"L3", fit:"nu", vendor:"Pro (Ford Malbet Villeneuve-sur-Lot)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Bias",dept:"Lot-et-Garonne",region:"Nouvelle-Aquitaine",km:675}},
+    {id:"3080093734", url:"https://www.leboncoin.fr/ad/utilitaires/3080093734", model:"Transit L3H2", tag:"350 2.0 EcoBlue 130 traction", price:16990, year:2019, km:144000, length:"L3", fit:"nu", vendor:"Pro (Bellandi Automobiles)", ct:"Non précisé", amenagement:"Nu (soute vide, habillage bois partiel)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Nérac",dept:"Lot-et-Garonne",region:"Nouvelle-Aquitaine",km:665}},
+    {id:"3106287276", url:"https://www.leboncoin.fr/ad/utilitaires/3106287276", model:"Master L3H2", tag:"Confort 2.3 dCi 110", price:16990, year:2018, km:83650, length:"L3", fit:"nu", vendor:"Pro (SAS Vandenkerckhove)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu-équivalent (atelier mobile entièrement racké : tiroirs, servante, plan de travail)", flag:{type:"warn", text:"Aménagement d'atelier lourd et fixé (rack métal + tiroirs) : dépose et reprise des perçages à chiffrer, contrairement à de simples étagères bois"}, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Plérin",dept:"Côtes-d'Armor",region:"Bretagne",km:943}},
+    {id:"3263006559", url:"https://www.leboncoin.fr/ad/utilitaires/3263006559", model:"Master L3H2", tag:"Grand Confort F3500 2.3 Blue dCi 135", price:16990, year:2021, km:91066, length:"L3", fit:"nu", vendor:"Pro (HBO Invest)", ct:"Non précisé", amenagement:"Nu (annoncé)", date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Sevrey",dept:"Saône-et-Loire",region:"Bourgogne-Franche-Comté",km:236}},
+    {id:"3254374285", url:"https://www.leboncoin.fr/ad/utilitaires/3254374285", model:"Master L3H2", tag:"III F3500 2.3 Blue dCi 135 Grand Confort", price:17888, year:2022, km:105239, length:"L3", fit:"nu", vendor:"Pro (Absolut Automobiles)", ct:"Garantie commerciale 12 mois", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Nanteuil-lès-Meaux",dept:"Seine-et-Marne",region:"Île-de-France",km:590}},
+    {id:"3060806551", url:"https://www.leboncoin.fr/ad/utilitaires/3060806551", model:"Boxer L3H2", tag:"BlueHDi 130 Premium Pack", price:17990, year:2017, km:105500, length:"L3", fit:"nu", vendor:"Pro (Auto-Pouliquen)", ct:"Non précisé", amenagement:"Nu-équivalent (étagères bois d'artisan)", flag:{type:"warn", text:"Seuil et plancher arrière marqués sur les photos (corrosion de surface) — à regarder de près, c'est là que l'eau s'installe"}, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Merlevenez",dept:"Morbihan",region:"Bretagne",km:949}},
+    {id:"3152384908", url:"https://www.leboncoin.fr/ad/utilitaires/3152384908", model:"Transit L3H2", tag:"T310 130 Trend Business", price:17990, year:2020, km:114800, length:"L3", fit:"nu", vendor:"Pro (GL Car)", ct:"Contrôlé, garantie 1 an (extension possible)", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Saint-Genis-Laval",dept:"Rhône",region:"Auvergne-Rhône-Alpes",km:113}},
+    {id:"3228602420", url:"https://www.leboncoin.fr/ad/utilitaires/3228602420", model:"Master L3H2", tag:"3 FG GCF F3500 Blue dCi 135", price:17990, year:2022, km:136900, length:"L3", fit:"nu", vendor:"Pro (Cotten Autos Questembert)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Questembert",dept:"Morbihan",region:"Bretagne",km:891}},
+    {id:"3116492493", url:"https://www.leboncoin.fr/ad/utilitaires/3116492493", model:"Boxer L3H2", tag:"Asphalt 335 2.2 BlueHDi 120", price:18490, year:2021, km:105522, length:"L3", fit:"nu", vendor:"Pro (Planète Auto Services)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Vesoul",dept:"Haute-Saône",region:"Bourgogne-Franche-Comté",km:382}},
+    {id:"3226185061", url:"https://www.leboncoin.fr/ad/utilitaires/3226185061", model:"Boxer L3H2", tag:"2.2 BlueHDi 165, porte-verre", price:18588, year:2021, km:97925, length:"L3", fit:"nu", vendor:"Pro (SAS Vandenkerckhove)", ct:"Contrôle technique OK (déclaré)", amenagement:"Nu-équivalent (étagères bois)", flag:{type:"warn", text:"Rack porte-verre extérieur sur tout le flanc : perçages de carrosserie à contrôler une fois le rack déposé"}, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Plérin",dept:"Côtes-d'Armor",region:"Bretagne",km:943}},
+    {id:"3242704186", url:"https://www.leboncoin.fr/ad/utilitaires/3242704186", model:"Master L3H2", tag:"F3500 2.3 Blue dCi 135 Grand Confort", price:18890, year:2021, km:83500, length:"L3", fit:"nu", vendor:"Pro (Garage Guibert)", ct:"Non précisé", amenagement:"Nu (annoncé — soute jamais montrée)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Marsilly",dept:"Charente-Maritime",region:"Nouvelle-Aquitaine",km:822}},
+    {id:"3254969421", url:"https://www.leboncoin.fr/ad/utilitaires/3254969421", model:"Movano L3H2", tag:"F3500 2.3 CDTI 150, 1ʳᵉ main", price:18980, year:2021, km:117214, length:"L3", fit:"nu", vendor:"Pro (Showroom Automobiles)", ct:"CT fait pour la vente, garantie 6 à 12 mois, entretiens à jour", amenagement:"Nu-équivalent (habillage bois, soute vide)", flag:{type:"warn", text:"Movano de 2021 : année charnière entre le clone Master et le clone Ducato — vérifier la génération avant de se fier aux cotes"}, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Sainte-Marie-des-Champs",dept:"Seine-Maritime",region:"Normandie",km:729}},
+    {id:"3213522294", url:"https://www.leboncoin.fr/ad/utilitaires/3213522294", model:"Transit L3H2", tag:"350 2.0 EcoBlue 130 Trend, 2024", price:18990, year:2024, km:43809, length:"L3", fit:"nu", vendor:"Pro (Label Auto)", ct:"Extension de garantie 12 ou 24 mois en option", amenagement:"Nu (soute vide, vérifié photo)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Arnage",dept:"Sarthe",region:"Pays de la Loire",km:703}},
+    {id:"3251788097", url:"https://www.leboncoin.fr/ad/utilitaires/3251788097", model:"Ducato L3H2", tag:"3.3 MJT 140 Pack Pro Lounge", price:19188, year:2021, km:126455, length:"L3", fit:"nu", vendor:"Pro (Utilitaire Service Rennes)", ct:"Révisé, contrôlé et garanti en atelier", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Saint-Gilles",dept:"Ille-et-Vilaine",region:"Bretagne",km:852}},
+    {id:"3261208920", url:"https://www.leboncoin.fr/ad/utilitaires/3261208920", model:"Jumper L3H2", tag:"Tôlé 35 BlueHDi 140 BVM6 Driver", price:19890, year:2022, km:65015, length:"L3", fit:"nu", vendor:"Pro (Spoticar Stellantis &You)", ct:"Non précisé", amenagement:"Nu (galerie + échelle arrière)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"champ", loc:{city:"Villeneuve-d'Ascq",dept:"Nord",region:"Hauts-de-France",km:799}},
+    {id:"3176353629", url:"https://www.leboncoin.fr/ad/utilitaires/3176353629", model:"Transit L3H2", tag:"2T P350 2.0 EcoBlue 130 Trend Business", price:19950, year:2021, km:78860, length:"L3", fit:"nu", vendor:"Pro (Dallard Citroën Muret)", ct:"Non précisé", amenagement:"Nu-équivalent (habillage bois)", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Muret",dept:"Haute-Garonne",region:"Occitanie",km:546}},
+    {id:"3163741742", url:"https://www.leboncoin.fr/ad/utilitaires/3163741742", model:"Master L3H2", tag:"F3500 2.3 dCi 145 Grand Confort", price:19990, year:2019, km:38570, length:"L3", fit:"nu", vendor:"Pro (Utilitaires 17)", ct:"CT du 26-02-2026", amenagement:"Nu-équivalent (habillage bois)", flag:{type:"good", text:"38 570 km pour un 2019 — de loin le kilométrage le plus bas du dossier à ce prix"}, date:"2026-09-05", seats:"3", seatsSrc:"texte", loc:{city:"Tonnay-Charente",dept:"Charente-Maritime",region:"Nouvelle-Aquitaine",km:765}},
+    {id:"3244344835", url:"https://www.leboncoin.fr/ad/utilitaires/3244344835", model:"Master L3H2", tag:"F3500 2.3 Blue dCi 150 Confort Euro 6", price:19999, year:2021, km:59191, length:"L3", fit:"nu", vendor:"Pro (Sanac Renault)", ct:"Non précisé", amenagement:"Nu", flag:null, date:"2026-09-05", seats:"3", seatsSrc:"photo", loc:{city:"Cambrai",dept:"Nord",region:"Hauts-de-France",km:743}},
   ];
 
   const fmt = n => n.toLocaleString('fr-FR');
-
-  // Places à l'avant. C'est le premier critère de tri depuis la réponse DREAL du
-  // 3 septembre 2026 : un porteur déjà en 2 sièges avant individuels supprime
-  // l'accord constructeur, le PV de siège et le prétensionneur orphelin.
-  // 3 places = banquette passager 2 places d'un bloc, donc conversion à faire.
-  // La source compte autant que la valeur : le champ « Nombre de place(s) » de
-  // leboncoin est facultatif et rempli par le vendeur — d'où le ✓ réservé à ce
-  // qui est vu sur photo ou écrit dans le corps de l'annonce.
-  const SEAT_LABEL = {
-    '2': '2 places · sièges séparés',
-    '3': '3 places · banquette',
-    '1': '1 place déclarée',
-    '7': '7 places déclarées',
-  };
-  const SEAT_SOURCE = {
-    photo: 'cabine vue sur les photos archivées',
-    texte: "écrit dans le corps de l'annonce",
-    champ: 'champ « Nombre de place(s) » de leboncoin — déclaratif, non vérifié',
-    aucun: 'champ vide et cabine jamais photographiée',
-  };
-  function seatTier(seats) {
-    if (seats === '2') return 'good';
-    if (seats === '3') return 'warn';
-    return 'unknown';
-  }
-  function seatChip(d) {
-    const label = SEAT_LABEL[d.seats] || '? places à l\'avant';
-    const sure = d.seatsSrc === 'photo' || d.seatsSrc === 'texte';
-    return `<span class="chip-seats" data-tier="${seatTier(d.seats)}" title="Places à l'avant — ${SEAT_SOURCE[d.seatsSrc]}">${label}${sure ? ' ✓' : ''}</span>`;
-  }
 
   // Repère km (indicatif, base Ducato/Boxer/Jumper 2.3 MultiJet) : au-delà de
   // 150 000 km, courroie de distribution en bain d'huile + embrayage/DMF à
@@ -415,49 +393,93 @@
   // R² modéré attendu avec 18 annonces réelles, marge pro incluse, modèles mélangés).
   const perYear = Math.round(beta[1]);
   const perTenKm = Math.round(-beta[2] * 10000);
-  document.getElementById('regression-info').textContent =
-    `Sur ce lot : ≈${fmt(perYear)} €/an, ≈${fmt(perTenKm)} €/10 000 km.`;
+
+  // ── Coût par an de vie restante ─────────────────────────────────────────────
+  // Métrique de classement depuis l'ADR-0020, en remplacement de l'écart au prix de
+  // marché. Voir ../duree-de-vie-et-cout-par-an.md pour le détail et les sources.
+  //   • Deux horloges : 20 ans de vie calendaire (pièces détachées tenues 20 ans,
+  //     corrosion) et 400 000 km de vie moteur. ⚠️ Au KM_PAR_AN mesuré (17 143 km/an,
+  //     14 septembre 2026), la calendaire n'arrive plus toujours en premier : 7 des 38
+  //     candidats retenus sont désormais limités par le compteur, pas par l'âge — ça
+  //     contredit la prémisse « aucun candidat limité par son compteur » de l'ADR-0020
+  //     et du §6 de la note, posée du temps où 10 000 km/an était une hypothèse non
+  //     mesurée. Ni l'ADR ni la note n'ont encore été corrigés en conséquence.
+  //   • L'aménagement (~17 000 €, provision § 4 de la note) est réintégré au calcul
+  //     du 14 septembre 2026 : bien qu'identique quel que soit le porteur choisi,
+  //     c'est justement ce qui fait qu'un van à durée de vie restante plus courte
+  //     coûte plus cher à l'année — l'aménagement se réamortit sur moins d'années.
+  //     Voir §2 de la note pour la démonstration.
+  const ANNEE_COURANTE = 2026;
+  const AMENAGEMENT    = 17000;  // € — provision, § 4 de la note
+  const VIE_CALENDAIRE = 20;     // ans
+  const VIE_MOTEUR     = 400000; // km
+  const KM_PAR_AN      = 20000 / 14 * 12; // ≈ 17 143 km/an — mesuré sur la voiture actuelle
+                                           // (20 000 km / 14 mois), même usage prévu en van
+  const ANNEES_MINIMUM = 13;     // 🔴 plancher éliminatoire de l'ADR-0020
+
+  DATA.forEach(d => {
+    const ansCalendaire = VIE_CALENDAIRE - (ANNEE_COURANTE - d.year);
+    const ansMoteur     = (VIE_MOTEUR - d.km) / KM_PAR_AN;
+    d.yearsLeft   = Math.max(Math.min(ansCalendaire, ansMoteur), 0.5);
+    d.limitedBy   = ansCalendaire < ansMoteur ? 'calendrier' : 'kilométrage';
+    d.costPerYear = (d.price + AMENAGEMENT) / d.yearsLeft;
+    // Plafond de km au-delà duquel le compteur deviendrait la contrainte
+    d.kmCeiling   = Math.max(VIE_MOTEUR - KM_PAR_AN * Math.max(ansCalendaire, 0), 0);
+    d.offCriteria = ansCalendaire < ANNEES_MINIMUM;
+  });
+
+  const nHors = DATA.filter(d => d.offCriteria).length;
+  document.getElementById('regression-info').innerHTML =
+    `<b>Ce que le marché fait payer sur ce lot : ≈${fmt(perYear)} € le millésime et ≈${fmt(perTenKm)} € par 10 000 km.</b> `
+    + `Une année de vie en plus en vaut ≈2 000 € dans le calcul ci-dessus : c'est l'anomalie exploitable du dossier. `
+    + `${nHors} candidats sur ${DATA.length} sont masqués par le plancher de millésime.`;
 
   const MAX_PRICE = Math.max(...DATA.map(d => d.price));
   const listEl = document.getElementById('list');
   const statsEl = document.getElementById('stats');
   const tooltip = document.getElementById('tooltip');
 
-  const sorted = [...DATA].sort((a, b) => a.pctVsMarket - b.pctVsMarket);
+  const sorted = [...DATA].sort((a, b) => a.costPerYear - b.costPerYear);
 
   sorted.forEach(d => {
     const row = document.createElement('div');
     row.className = 'row';
     row.dataset.flagged = d.flag ? '1' : '0';
+    row.dataset.offcriteria = d.offCriteria ? '1' : '0';
+    row.dataset.renault = d.model.startsWith('Master') ? '1' : '0';
 
     const pct = Math.max((d.price / MAX_PRICE) * 100, 2);
-    const tier = d.pctVsMarket < 0 ? 'good' : 'mid';
-    const pctLabel = (d.pctVsMarket >= 0 ? '+' : '') + Math.round(d.pctVsMarket) + '%';
+    const tier = d.costPerYear < 2250 ? 'good' : 'mid';
+    const costLabel = fmt(Math.round(d.costPerYear)) + ' €/an';
+    const pctCheap = d.pctVsMarket < 0;
+    const pctTxt = pctCheap
+      ? `${Math.round(-d.pctVsMarket)}% moins cher que le marché`
+      : `${Math.round(d.pctVsMarket)}% plus cher que le marché`;
 
     row.innerHTML = `
+      ${d.loc ? `<div class="loc" title="Distance routière depuis Grenoble (calcul OSRM)"><span class="city">${d.loc.city} · ${d.loc.dept} · ${d.loc.region}</span><span class="dist">${fmt(d.loc.km)} km</span></div>` : ''}
       <img class="thumb" src="annonces/${d.id}/${d.date || '2026-08-31'}/photos/${d.id}_photos_01.jpg" alt="${d.model}" loading="lazy" onerror="this.style.visibility='hidden'">
       <div class="meta">
         <div class="name-line">
           <a class="name" href="${d.url}" target="_blank" rel="noopener">${d.model}</a>
-          <span class="badge-score" data-tier="${tier}" title="vs prix attendu pour ce profil âge/km">${pctLabel}</span>
+          <span class="badge-score" data-tier="${tier}" title="(prix + 17 000 € d'aménagement) / ${d.yearsLeft.toFixed(0)} ans de vie restante">${costLabel}</span>
+          ${d.offCriteria ? '<span class="chip-off" title="Moins de 13 ans de vie devant lui — plancher de millésime de l\'ADR-0020">hors critère</span>' : ''}
         </div>
         <div class="tag">${d.tag}</div>
-        <div class="sub-line">${d.year} · ${fmt(d.km)} km ${kmRiskIcon(d.km)}</div>
-        <div class="chip-line">${seatChip(d)}</div>
+        <div class="sub-line">${d.year} · ${fmt(d.km)} km ${kmRiskIcon(d.km)} · ${d.yearsLeft.toFixed(0)} ans de vie restante</div>
         ${d.flag ? `<div class="flag-line ${d.flag.type}"><span>${d.flag.type === 'good' ? '✓' : '⚠'} ${d.flag.text}</span></div>` : ''}
       </div>
-      <div class="bar-wrap">
-        <div class="bar-fill" style="width:${pct}%"></div>
+      <div class="bar-col">
+        <div class="bar-wrap">
+          <div class="bar-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="pct-line ${pctCheap ? 'cheap' : 'expensive'}">${pctTxt}</div>
       </div>
       <div class="price">${fmt(d.price)} €</div>
     `;
 
     row.addEventListener('mousemove', e => {
-      const pctTxt = d.pctVsMarket >= 0
-        ? `${Math.round(d.pctVsMarket)}% plus cher que le marché`
-        : `${Math.round(-d.pctVsMarket)}% moins cher que le marché`;
-      const seatTxt = `${SEAT_LABEL[d.seats] || 'Places avant inconnues'} (${SEAT_SOURCE[d.seatsSrc]})`;
-      tooltip.innerHTML = `<b>${d.model} · ${d.tag}</b>${pctTxt} — prix attendu ${fmt(Math.round(d.predictedPrice))} € pour ce profil âge/km<br>Vendeur : ${d.vendor}<br>${d.ct}<br>Avant : ${seatTxt}<br>Aménagement : ${d.amenagement}${d.flag ? `<br>${d.flag.type === 'good' ? '✓' : '⚠'} ${d.flag.text}` : ''}`;
+      tooltip.innerHTML = `${d.ct}${d.flag ? `<br>${d.flag.type === 'good' ? '✓' : '⚠'} ${d.flag.text}` : ''}`;
       tooltip.style.left = Math.min(e.clientX + 16, window.innerWidth - 280) + 'px';
       tooltip.style.top = Math.min(e.clientY + 16, window.innerHeight - 120) + 'px';
       tooltip.classList.add('visible');
@@ -468,25 +490,32 @@
   });
 
   function renderStats(subset) {
+    if (!subset.length) { statsEl.innerHTML = '<div class="stat"><p class="label">Annonces</p><p class="value">0</p></div>'; return; }
     const prices = subset.map(d => d.price);
     const kms = subset.map(d => d.km);
     const avgKm = Math.round(kms.reduce((a, b) => a + b, 0) / kms.length);
     const flagged = subset.filter(d => d.flag && d.flag.type === 'warn').length;
+    const costs = subset.map(d => d.costPerYear).sort((a, b) => a - b);
+    const medCost = Math.round(costs[Math.floor(costs.length / 2)]);
     statsEl.innerHTML = `
       <div class="stat"><p class="label">Annonces</p><p class="value">${subset.length}</p></div>
+      <div class="stat"><p class="label">Coût médian</p><p class="value">${fmt(medCost)} €/an</p></div>
       <div class="stat"><p class="label">Fourchette de prix</p><p class="value">${fmt(Math.min(...prices))} – ${fmt(Math.max(...prices))} €</p></div>
       <div class="stat"><p class="label">Km moyen</p><p class="value">${fmt(avgKm)} km</p></div>
-      <div class="stat"><p class="label">2 places avant</p><p class="value">${subset.filter(d => d.seats === '2').length}</p></div>
       <div class="stat"><p class="label">À vérifier</p><p class="value">${flagged}</p></div>
     `;
   }
 
   let hideFlagged = false;
+  let showOffCriteria = false;   // 🔴 ADR-0020 : les millésimes < 2019 sont masqués par défaut
+  let renaultOnly = true;
 
   function applyFilters() {
     let visible = [];
     document.querySelectorAll('.row').forEach(row => {
-      const show = !hideFlagged || row.dataset.flagged === '0';
+      const show = (!hideFlagged || row.dataset.flagged === '0')
+                && (showOffCriteria || row.dataset.offcriteria === '0')
+                && (!renaultOnly || row.dataset.renault === '1');
       row.classList.toggle('is-hidden', !show);
       if (show) visible.push(row);
     });
@@ -499,5 +528,15 @@
     applyFilters();
   });
 
-  renderStats(DATA);
+  document.getElementById('show-offcriteria').addEventListener('change', e => {
+    showOffCriteria = e.target.checked;
+    applyFilters();
+  });
+
+  document.getElementById('renault-only').addEventListener('change', e => {
+    renaultOnly = e.target.checked;
+    applyFilters();
+  });
+
+  applyFilters();
 </script>

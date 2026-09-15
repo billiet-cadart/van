@@ -401,6 +401,15 @@ Question posée : *si un professionnel s'en charge, est-on sûr que ça passe ?*
 à considérer comme du **repérage commercial non recoupé** (pages de vente, aucun devis obtenu, rien
 de vérifié auprès des clients de ces entreprises) :
 
+✅ **Dénouement, 7 septembre 2026 — la voie prestataire n'est plus un repérage, c'est une décision.**
+Cinq entreprises consultées le 4 septembre, **deux réponses** le 7, **un installateur retenu** :
+**AOC**, à 15 km, **1 869 € TTC** le rang I complet (siège Booster + deux embases + socle + pose,
+attestation de montage comprise) contre 2 508 € chez Equipage sur le même périmètre
+→ [ADR-0019](adr/0019-aoc-installateur-retenu-sieges.md) et
+[installateurs/](installateurs/courriel-devis-2026-09-04.md). Le repérage ci-dessous garde sa valeur
+d'inventaire, mais il est **clos** : les trois autres entreprises n'ont pas répondu.
+🔴 **Et il n'y a plus d'auto-pose** : l'homologation impose le montage par l'installateur.
+
 - **Equipage Camper Van** (Flourens, 31 — banlieue de Toulouse, ~450 km) : annonce explicitement le
   **remplacement de banquettes avant par des sièges individuels**, et surtout *« nous prenons en
   charge toutes les démarches d'homologation auprès de la DREAL »*, carte grise mise à jour avec le

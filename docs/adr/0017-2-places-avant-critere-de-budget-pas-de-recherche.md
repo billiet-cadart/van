@@ -57,6 +57,12 @@ Concrètement :
    Il ne justifie **ni une prime sur le prix du porteur, ni d'attendre**.
 4. Le chip vert du [comparateur](../marche/comparateur-2026-08-31.html) reste : c'est un **repère**
    à la lecture, plus une cible de recherche.
+   🗄️ **Revu le 7 septembre 2026 : le chip est retiré du comparateur.** Le repère à la lecture n'a
+   plus d'objet une fois l'installateur choisi et la conversion budgétée
+   ([ADR-0019](0019-aoc-installateur-retenu-sieges.md)) — il ne restait qu'une couleur qui attirait
+   l'œil sur un critère dont cet ADR dit précisément qu'il ne doit plus piloter la lecture. Les
+   valeurs `seats`/`seatsSrc` **restent dans les données** du fichier : c'est l'affichage qui tombe,
+   pas le relevé.
 
 ## Pourquoi
 
@@ -87,6 +93,24 @@ Concrètement :
   confirmée** — les modèles annoncés sur sa page sont des compacts
   ([recherche-marche-sieges.md](../recherche-marche-sieges.md)). Les devis en cours
   ([installateurs/](../installateurs/)) doivent le confirmer ou le corriger.
+  ♻️ **Confirmé et complété le 7 septembre 2026 — devis Equipage n° D-2026-09623**
+  ([installateurs/courriel-devis-2026-09-04.md](../installateurs/courriel-devis-2026-09-04.md)).
+  Trois choses :
+  **(1)** la compatibilité Ducato L3H2 **est** confirmée, le devis est établi pour ce porteur ;
+  **(2)** le repère tenait — le poste équivalent (siège Booster + embase + adaptation caisson)
+  ressort à **2 090 € HT = 2 508 € TTC** ;
+  **(3)** 🔴 mais il **ne couvrait que le rang I**. La banquette-lit arrière ajoute **4 092 € HT =
+  4 910 € TTC**, portant le poste sièges complet à **7 418,40 € TTC**, homologation DREAL **non
+  comprise** dans ce devis. La provision de cet ADR n'est donc pas fausse, elle est **partielle** :
+  elle ne dit rien de la banquette, qui relève de l'[ADR-0009](0009-layout-lit-fixe-banquette-lit.md).
+  ⚠️ Chiffres d'un seul installateur, le second (AOC) n'ayant pas communiqué ses tarifs.
+- ♻️ **7 septembre 2026, au soir — la provision du rang I devient un tarif relevé.** L'installateur
+  est choisi ([ADR-0019](0019-aoc-installateur-retenu-sieges.md)) et son configurateur chiffre le
+  rang I complet — siège Booster + les **deux** embases pivotantes + socle et glissières + pose,
+  attestation de montage comprise — à **1 869 € TTC**. Le repère de ~2 600 € de cet ADR était donc
+  **majorant**, comme annoncé : la conversion coûte **moins** que la prime demandée sur un porteur
+  déjà en 2 places, et l'écart s'en trouve élargi. Le raisonnement de l'ADR n'est pas seulement
+  confirmé, il l'est avec plus de marge.
 - Cet ADR **ne réhabilite pas** `3230965149` ni `3194008684` : le premier reste un bon candidat,
   jugé désormais sur son prix comme les 72 autres, le second reste écarté par son état.
 - 🔴 Le budget total du van reste non chiffré (voir [README.md](../../README.md) § écart) ; cet ADR
