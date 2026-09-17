@@ -1,0 +1,54 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer Fg 335 L3H2 2.2 BlueHDi S&S 140ch Premium",
+ "description": "Peugeot Boxer Fg 335 L3H2 2.2 BlueHDi S&S 140ch Premium, (Fourgon), Blanc Banquise, 7cv, 4 portes, mise en circulation le 23-03-2021, garantie 12 mois (Spoticar-Premium 12 Mois). 3 places, couleur intérieur : A, longueur : 6,00 mètres, poids en charge 3500 Kg, contrôle technique : 26-03-2025, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - Commandes du système audio au volant - Ecran tactile - Fonction MP3 - Kit mains-libres Bluetooth - Radio - Radio numérique DAB Conduite - Aide au démarrage en côte - Arrêt et redémarrage auto. du moteur - Limiteur de vitesse - Régulateur de vitesse Extérieur - Double portes arrière de chargement - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Portes arrière battantes - Radar de stationnement AR - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Clim manuelle - Compte tours - Filtre à Pollen - Lampe de coffre - Ordinateur de bord - Ouverture des vitres séquentielle - Paroi séparation - Porte-gobelets avant - Prise 12V - Rangement sous siège conducteur - Rangement sous siège passager avant - Siège conducteur avec réglage lombaire - Siège conducteur réglable en hauteur - Siège passager avec dossier repliable - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées Spécifique VUL - Cloison pleine Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - EBD - ESP - Témoin de bouclage ceinture conducteur Autres équipements et informations : - Blanc Banquise - Tissu C&T Darko Gris Kilométrage non garanti. Référence annonce : 004961",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/59/9e/75/599e75ca4ba14ed9861928a81a267802c0f7cf88.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1a/c2/f8/1ac2f8bee37e9f0524842004ef685c1486e5135e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/62/fe/b6/62feb62793203ff5e3516cbe564c9be85ab5d151.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/02/50/db/0250db6cab8a1e37f93ed590e34ecc2a341ef8ad.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fa/5b/35/fa5b35c3d60fdcb6419a21575587f82d7b01ddc7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/5e/4c/055e4c65f22ef73831e5646d5226e066babc12fc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/41/f4/ee/41f4ee72842f62f8d553d97082df4b49913eebdd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d8/49/8a/d8498a1a903014af6e3c78291397bed765edd7ff.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/71/f2/58/71f25884f766f5e0f0e5766eff66619bc3dc2784.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/3d/c1/5b3dc151dd9b2b2ecf3082f15fa4b00c76b7138c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/34/b7/33/34b7336a6b94ce900f2945210305217d1b8de40c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/90/12/a3/9012a3461f76de3691887083db816ed5f72a9136.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a3/e9/7d/a3e97d0e6669712ef059e5a7cff5eebb24c9ca21.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9b/59/a1/9b59a18b2a8a9b0fa9a4ff1ce6f01d3fbe9f0d4b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/c7/eb/70c7eb18d5bf67d230a3b4992c5b904936989acd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/35/64/74/356474965cb9bae0cf400eb972e20b74a156324c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/0b/02/7d0b02971d725c0dbc0ba2bb04965df800d01d22.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5d/60/b0/5d60b00e919ec4a195f2f0df7d911db6cbd2419b.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3211235827",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 17990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "101796",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

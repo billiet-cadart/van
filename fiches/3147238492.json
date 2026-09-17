@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Jumper 2.0hdi L3H2",
+ "description": "vds boxer L3H2 2.0 hdi 160cv année 10.2019, 89000kms ct ok, entretien à jour, kit distribution changé, gps, régulateur de vitesses, camera de recul, interface bluetooth téléphone et multimédia, attache remorque etc... contact de préférence pat téléphone.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/72/ef/14/72ef1468fbc0b89dbf100341ab55a7b6f8c23d9d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b5/6d/14/b56d141998a540e353323c00e1c68b0f5fbc9388.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/29/8b/ce/298bceba43216c25aa7ceef498871ff9e43bb023.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3147238492",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 13000,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "89000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 5,
+ "vehicleSeatingCapacity": 3
+}

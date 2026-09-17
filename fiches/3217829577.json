@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Master l3h2",
+ "description": "MASTER L3H2 - 2019 - 2.3 DCI - 170Ch Équipements : Crochet, Régulateur de vitesse, Climatisation, Fermeture centralisée, Autoradio Bluetooth, Vitres électriques, serrures sécurisée, capitonnage bois, mode sol meuble, caméra de recul Prix HT = 14000 € / Prix TTC = 16800 €",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/30/22/e3/3022e363e5490dfd48028b43c245e18d0fbe3b92.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/5c/79/7a5c7971ab5f0fe2b91ca49db36d8db10ef0f6dc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/18/5d/8c/185d8cf35e7523c7dfaaee7595557418672165a7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/23/6c/2d/236c2dc1af028f65a72f472da864c60b90386a9c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/de/be/ec/debeecdc39aca7af83f35d645615c2890dbd8cb7.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3217829577",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14000,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "130000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}

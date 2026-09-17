@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer Fg 335 L3H2 2.2 BlueHDi S&S 140ch Premium",
+ "description": "Peugeot Boxer Fg 335 L3H2 2.2 BlueHDi S&S 140ch Premium, (Fourgon), Blanc Icy, 7cv, 4 portes, mise en circulation le 25-05-2022, garantie 12 mois (Spoticar-Premium 12 Mois). 3 places, couleur intérieur : D, longueur : 6,00 mètres, poids en charge 3500 Kg, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - Kit mains-libres Bluetooth - Radio - Radio numérique DAB Conduite - Aide au démarrage en côte - Arrêt et redémarrage auto. du moteur - Chronotachygraphe - Limiteur de vitesse - Régulateur de vitesse Extérieur - Double portes arrière de chargement - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Portes arrière battantes - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Clim manuelle - Compte tours - Filtre à Pollen - Lampe de coffre - Ordinateur de bord - Ouverture des vitres séquentielle - Paroi séparation - Porte-gobelets avant - Prise 12V - Rangement sous siège conducteur - Rangement sous siège passager avant - Siège conducteur réglable en hauteur - Siège passager avec dossier repliable - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées Spécifique VUL - Cloison pleine Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - EBD - ESP Autres équipements et informations : - Blanc Icy - Tissu C&T Darko Gris Kilométrage non garanti. Sous réserve d'erreurs de saisies ou omissions. Référence annonce : 260860",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4d/51/de/4d51de0af18d6a19f87b919c6569c9d880ef116e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/12/f0/b1/12f0b1b499fa44366b1ea4ec24e14209c231cfb4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/74/f6/dd74f61678695bf3419b53ba1650d612b8c5ef02.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7e/af/25/7eaf25c705116cb8b46682585b7f8efbb6851b65.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7b/7f/86/7b7f86f16d0132def2ff594068dc41595491cca9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f7/02/94/f70294bcd0321f1d1e48513dac700e4fc618ad78.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9d/84/33/9d8433b1371372732ca8b87f9173f1d02679aaa2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/2e/8f/e12e8f5addf99f4cd674aaebf04df3757b6b02c8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/78/13/b17813b6c450747d5bcba44a6c0a6321c21032a5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ab/d1/7b/abd17bf3080bb419be0daa2461c5b9c859d7db98.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3a/b6/09/3ab609c52eebb670e2af9bfc1dd5dacef34f0090.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/3a/af/c93aaf0a12d7b11184533b70b474fffdbb59f3f8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e7/d3/a6/e7d3a6d67c26dccdca35e3a0187c9b686c467f55.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3258090808",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "80633",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

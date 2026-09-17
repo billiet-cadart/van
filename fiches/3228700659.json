@@ -1,0 +1,66 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "RENAULT MASTER BEN 3 R3500 L3H2 DCI 145 CONFORT 2019 ttc",
+ "description": "Le véhicule RENAULT MASTER 3 2019 est un utilitaire spacieux et polyvalent. Son moteur est Diesel, ce qui le rend économique en carburant. Son modèle de finition est R3500 L3H2 DCI 145 CONFORT, offrant un niveau de confort et d'équipement appréciable. Il dispose d'une grande capacité de stockage et est idéal pour le transport de marchandises ou pour une utilisation professionnelle. Avec sa puissance de 145 chevaux, il offre de bonnes performances sur la route. Le RENAULT MASTER 3 2019 est un choix fiable et pratique pour les professionnels en quête d'un véhicule adapté à leurs besoins. OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Autoradio bluetooth avec commandes au volant - Pack R-Link Evolution avec navigation GPS Europe - Prise USB Conduite : - ESP avec Extended Grip et aide au démarrage en côte Extérieur : - Aide au parking arrière - Feux de jour à LED - Jantes acier 16 pouces avec enjoliveurs - Porte latérale droite coulissante tôlée - Portes arrière ouvrantes à 180° tôlées Intérieur : - Banquette passager avant 2 places - Climatisation manuelle - Ordinateur de bord - Plancher bois antidérapant - Prise 12V cabine et espace de chargement - Siège conducteur avec réglage lombaire et accoudoir - Vitres avant électriques Pack : - Crochet d'arrimage - Kit de gonflage - Régulateur et limiteur de vitesse - Réservoir AdBlue 28L - Rétroviseurs extérieurs électriques et dégivrants Spécifique VUL : - Cloison complète tôlée Sécurité : - ABS avec aide au freinage d'urgence - Airbags conducteur et passager Véhicule vendu révisé et garantie 3 mois ! Vidange ok ! Distribution ok ! Controle technique ok ! Reprise possible de votre ancien véhicule !",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/18/e2/b118e2358a411d9304697a39eef56d694ed3ceba.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6d/53/c9/6d53c90ba2cf3e126e562d43ec7f931f2040056c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/02/25/2e0225d2ef31e69bd58bd2558cfa3687d155d988.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/da/da/a1dadab7133d8cb5a3fda1a79c0817352cf5dd06.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c8/8c/e9/c88ce93073c5c391ff69edf688c258a2f5225c8b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bd/c1/8f/bdc18f1a89a32c630626ad4a9922e481a770fe8c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e2/7a/3d/e27a3daefdad0f16016d1821bba66b37f575ec8b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0f/45/1c/0f451c470fcf058e43f6e2ed112475b026ecd77b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/ff/b1/a7ffb11b5acc91b204d1381058ea424e67601ea0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/53/99/df5399883649fde3e64be84c41450a772239390b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b8/2f/e1/b82fe1b023988c4f49750198e545520a31afb126.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9f/d0/00/9fd000c43f93a91e114f0c4dc244c0b8e2dd4e08.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c2/97/1fc2979f591b2ceb1bb46786bd860c4bb919e23a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/46/23/ca/4623cae7f57c1f9b3b002c4813d12c869b6c4e4c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3e/fa/a4/3efaa449a094a7d488643a74c9dde15c8d4cef74.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/46/e0/c8/46e0c8d8ec4e6dc841ef51b54cf4b1f6de3463c0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/81/ff/df81ff3aa4ba48aed5ee4dee4b1c8986bb3f3e1a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/e0/7b/d6e07b8bbd5485cddf83dea6116ccf64cbcedfc4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/be/0c/aa/be0caaff828bfa74c255f5eaf77de739bad63e05.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/b7/0b/47b70b6664178811d905f9b788a9b0300600cc63.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/fe/15/83fe15143ee701b2d9e2d7a4dd7f5a2daf04f2cb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/5a/8f/585a8f1ee167abf053ca6fbb9e138294e90f6fa1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ae/c6/0a/aec60a526c1d8aec89776c03359abd0f768ebca1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/82/76/82/82768239d7bb685682509df63c209dda23272316.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/70/a3/8770a3e9096f444ac024a410437abb0e426e1a83.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/dd/56/75dd5612e5171ab0b732a7e1705644bda417ac6c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4f/77/c9/4f77c97ac01e7b5bcbc357c3186725562fbb6bb3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6c/e4/a5/6ce4a59ae7ec0ddd180a35da4209452ad4f2637f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/13/62/c6/1362c69cbf1140066a2135cd8febf0eb35dd0c5d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/77/05/43770562d1aaabccfb1878a5d4998758d29e4605.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3228700659",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "108000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": null,
+ "vehicleSeatingCapacity": null
+}

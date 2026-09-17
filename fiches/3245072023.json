@@ -1,0 +1,46 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot boxer l3h2 phase 3 fourgon 2.2l bhdi",
+ "description": "PEUGEOT BOXER L3H2 PHASE 3 FOURGON 2.2L BHDI Intérieur/Extérieur Très bon état Contrôle technique OK Année : 01/2020 Kilométrage : 157.133 140 cv 3 places/4 portes Carburant : Diesel Boîte de vitesse : Manuelle GARANTIE 3 MOIS : MOTEUR - BOÎTE DE VITESSE - PONT -----ATTENTION : DES ERREURS PEUVENT SE GLISSER DANS L'ANNONCE------ -------PRIX INDIQUÉ HORS IMMATRICULATION CARTE GRISE ET HORS FRAIS DE MISE À LA ROUTE------- ---Véhicule visible en VISIO/VIDEO (WhatsApp, FaceTime…) sur demande---- -----TVA NON RÉCUPÉRABLE ---- ---OPTIONS ET ÉQUIPEMENTS--- Audio - Télécommunications : - Bluetooth - Prise audio auxilliaire : usb - Téléphone Bluetooth - commande - radio Conduite : - Allumage automatique des feux - détecteur de pluie - limiteur de vitesse - régulateur de vitesse Extérieur : - Radar de recul - caméra de recul - feux de détresse - porte latérale - radar d'aide au stationnement - rétroviseurs dégivrants - rétroviseurs rabattables - rétroviseurs électriques Intérieur : - Accoudoir central - climatisation : manuelle - fermeture centralisée - ordinateur de bord - sieges reglables en hauteur - verrouillage automatique des portes en roulant - vitres électriques Pack : - Anti démarrage - GPS couleur - volant multifonctions - volant réglable - Écran multifonction Sécurité : - ABS - Aide au demarrage en pente - Airbags frontaux - Système d'aide au freinage d'urgence - phares antibrouillard - roue de secours - répartiteur électronique de freinage Autres équipements et informations : - GPS 16/9ème - GPS tactile - commandes à contrôle vocal (auto-radio, navigation ou autre) - pré équipement Ipod - warning Ce véhicule est à présent disponible à la vente sur notre parc ! Horaires : Lundi au samedi 09h00-12h00 / 14h00-19h00 Adresse : 88 rue de l’Artisanat, Z.A De Lanveur, 56440 Languidic Tél : [Coordonnées masquées] [Coordonnées masquées]",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/06/94/1a/06941a876d08d5b727ab0df3ec0100465d3b1c96.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/22/07/07/220707e81364c770c7eb14e5788a4d42d671af98.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a8/f9/5b/a8f95bdcd9d9fa2ad2691ac1ef1706b5b5d2c0b8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e6/2a/12/e62a12adc1f3e1f39c8db66f81f26511197c17bd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/99/8d/09/998d09b38c7a2d9e4d85b77143e173863f9c70dc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/be/ac/e0/beace0c184b3486d9300edc902d7e9c09c71d6e4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/74/76/46/747646f3075aab39c7fcbdd5d932cc50abb47cbb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e9/90/3a/e9903aa8b88adfdd7191231597d6b2224bb02664.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/21/29/c921299508350b517b5e3b8ad4e3eb80790f0b47.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/60/d3/3f/60d33fd3ebbbbe8595eccf9c97249bd2345408ce.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3245072023",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "157133",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

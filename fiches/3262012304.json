@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Citroën jumper L3H2",
+ "description": "Vends Citroën Jumper, mars 2002, avec 205 000 km, entretien tous les 25 000 km, clim, GPS, commande au volant et clim",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c7/dd/7f/c7dd7f1cc935caad0a81324a25fd042bcf3a0a7b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5d/7f/6f/5d7f6ff8918dd2f72bfbe397e7fa6e3262c96fd2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/54/5c/76/545c76dc72d88402a855e08e459f2928eb87ce79.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3262012304",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 9500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "205000",
+  "unitCode": "KMT"
+ },
+ "color": "autre",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}

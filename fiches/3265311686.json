@@ -1,0 +1,43 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault master fourgon l3h2",
+ "description": "RENAULT MASTER FOURGON L3H2, blanc, 8 cv, 4 portes, première mise en circulation le 19/02/2024, garantie : 3 mois. Prix TTC : 19 999 € OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Ecran tactile - Interface Bluetooth - Système de navigation Conduite : - Allumage automatique des phares - Détecteur pluie - Système Start/Stop Extérieur : - Caméra de recul - Feux avant LED - Feux de jour - Filtre à particules - Portes arrière battantes tôlées - Radar de stationnement arrière - Rétroviseurs extérieurs dégivrants - Rétroviseurs extérieurs électriques Intérieur : - Accoudoir avant - Banquette avant 2 places - Climatisation manuelle - Siège conducteur à réglage lombaire - Système information conducteur Pack : - Cloison de séparation Sécurité : - Aide au démarrage en pente - Airbag conducteur - ESP (programme de stabilité électronique) - Roue de secours standard Autres équipements et informations : - Filtre d'habitacle - Système anti bloquage (ABS) - USB jack - consommation extra urbaine: 0.00l/100 - consommation urbaine: 0.00l/100 - consommation mixte: 0.00l/100 SAS A.B.U AUTOS 86 Rue des Hayettes 95340 Bernes sur Oise Horaires d ouverture : Du Lundi au Vendredi de 9h00 à 19h00 ET Samedi de 9h00 à 17h00 ************************************** Services cartes grises et plaques d'immatriculation sur place !!! ************************************** Tous nos véhicules sont vendus: * Avec une GARANTIE 3 Mois * Révisés pour la vente * Vidange et filtre effectué pour la vente * Avec un contrôle technique de moins de - 6 mois * Nettoyer intérieur et extérieur * Kilométrage garantie * Plusieurs point de contrôle vérifié ************************************ Idéal pour un jeune permis, économique et pas cher en assurance. N hésitez pas à appeler si vous avez besoin de renseignements complémentaires. Reprise possible de votre ancien véhicule. Référence annonce : 3864",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/e6/d5/70e6d524fabbc30240a021c8802b8a0b2bff2091.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4e/4c/9b/4e4c9b7a15ac1562132d02e72db19b46c77b07d3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/51/10/53/511053cb121a0f3966e555a36b30f66742a56c87.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b7/99/d3/b799d3f56b6ea7845d8d23ae653cb89c2bfd701f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/39/5c/21/395c21feeb01581f095503b88c865a4a58577319.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/7a/82/737a822d4372eb4c35568b43d4701437bd00dbc9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/31/ee/f0/31eef0a21bde60739be1e30308ccf1353f3f1f7d.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3265311686",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 19999,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2024",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "60000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": null
+}

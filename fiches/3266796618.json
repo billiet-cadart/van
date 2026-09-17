@@ -1,0 +1,44 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault master l3h2 blue dci 135 grand confort",
+ "description": "RENAULT MASTER L3H2 BLUE DCI 135 GRAND CONFORT Mise en circulation : 07/2013 Puissance fiscale : 06cv Kilométrage : 493 000 kms ***OPTIONS*** ° CLIMATISATION ° VITRES ELECTRIQUES ° AIDE AU STATIONNEMENT ARR ° B.V.M 6 VITESSES ° BLUETOOTH ° PRISE AUX/USB ° COMMANDE AU VOLANT ° RETROVISEUR ELECTRIQUE ° RETROVISURS CHAUFFANT ° REGULATEUR LIMITEUR VITESSE ° FEUX AUTO ° ESSUIE GLACE AUTO ° CENTRALISATION A DISTANCE ° DOUBLE DES CLEFS ***ENTRETIEN*** °VEHICULE REVISION A JOUR **CONTACT** PROMECA AUTO 161 RUE RONSARD 69400 VILLEFRANCHE S/S *OUVERT* LUNDI AU VENDREDI DE 8H A 12H ET DE 14H A 18H LE SAMEDI DE 8H A 15H",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/02/a5/fe/02a5fe8f1ded70d2f6523826776845df8f19e3b8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/61/7b/b4617baa45c0f6303ce80fb4a3ddc3670a38eb6b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/45/34/d14534b5e99f8533e09a60f1e8e6c2210d404ad2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/eb/8b/b3/eb8bb38838085cc5e5e4c049f1c9c97997f39e9e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2c/9a/34/2c9a34f1fc60b8961cd0d969df3e539b8c592ec7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4b/b5/9d/4bb59da98e3f270889801d3d09845d92665de8e7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/36/26/e4/3626e4192c5161a8c496a04b3bb7fa4d6b9853fc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/a7/a6/15a7a6650372806ca5558ddfad72b5510f1d15f4.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3266796618",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 7800,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "493000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

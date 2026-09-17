@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Jumper L3H2 très bon état",
+ "description": "Je vends mon jumper L3H2 en excellent état pour cause de changement de projet. Je l’ai acheté à une entreprise de nettoyage. Il n’a donc pas été changer lourdement et est en parfait état dans la cabine et dans la caisse. Tout fonctionne parfaitement, Radar de recul Climatisation Poste écran gps/bluetooth Rétroviseurs électrique avec commande pour les replier Régulateur d’allure Boîte 6 vitesses Aide au démarrage en côtes Sièges en parfait états Véhicule suivi avec entretien à jour Contrôle technique ok. Carte grise à mon nom. Parfait pour projet van ou artisan. Prix 15500€",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7b/a4/ef/7ba4effa0dd889f5e636d5d1f5ec0c7e319b4ad3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/4a/4a/384a4ad68b4d34414c9e12163f5cf8e9f181d2ee.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/5f/50/705f50ae1043a05d23db9046dc674c96e550dd3d.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3270623189",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "103000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,38 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Pgt BOXER L3H2",
+ "description": "🚐 PEUGEOT BOXER FOURGON L3H2 140ch BVM6 – 2022 – 165 770 km 12 500 € – Prix ferme / À débattre Vente Peugeot Boxer Fourgon L3H2, 2.2 BlueHDI 140 ch, boîte manuelle 6 vitesses, diesel Euro 6. Véhicule : 1ère mise en circulation : mars 2022 Kilométrage : 165 770 km (photo compteur disponible) Couleur : blanc PTAC : 3 500 kg Équipements : Climatisation Cloison de séparation cabine/caisse Grand volume L3H2 — idéal artisans, bâtiment, déménagement Entretien : Révision récente effectuée Nettoyage FAP réalisé CT en cours Véhicule utilisé en usage professionnel bâtiment (kilométrage justifié, entretenu)",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/65/fd/92/65fd92ad9096d93971063b4da8dde85350531df1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/96/e5/e6/96e5e676200be4db583a664f612577190df36436.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3266553843",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "168000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

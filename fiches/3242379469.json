@@ -1,0 +1,46 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer L3H2 PORTE-VERRE",
+ "description": "Peugeot Boxer L3H2 PORTE-VERRE utilitaire, blanc, 7 cv, première mise en circulation le 28/01/2021, première main. Prix TTC : 16 990,00 € Prix HT : 14 158,00 € La TVA est récupérable sur ce véhicule. 3 places, poids en charge : 2010 kg, contrôle technique : OK boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Pack : - nombre de rapports : 6 vitesses Spécifique VUL : - type carrosserie : Fourgon Autres équipements et informations : - Classe Crit'air : 2 - Puissance kilowatt : 121 kw - puissance réelle : 165 ch - émission CO2 : 242 g/km Référence annonce : 1453",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/ec/26/58ec266e3e86e23f11d7deb2fc44ff015a9a992f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f3/03/75/f30375c825dc6b1e38008d4623132f52bca62473.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/27/ae/1927ae5b1118abd46a856e98132db44a566731c1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ee/df/c0/eedfc05f3261387c21aecf05db333580e492a37c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f3/25/60/f32560ff8ffc25ccf9ba3983d624401820645799.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/79/4a/30/794a30f5b9dca3743ff04f3100784d06b5a1e72a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/dc/0b/ac/dc0bac40c5b109db398df3c81e87977f86b9ba80.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/3b/06/043b06f8ca114fd18335111812dc4938ceee896a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4b/6e/16/4b6e16a373929b23d99a113880c5cd5f050502a1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e6/47/4b/e6474b5fbffe22f273cd030e3adc4b00eb9fdb69.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3242379469",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 16990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "108313",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": null,
+ "vehicleSeatingCapacity": 3
+}

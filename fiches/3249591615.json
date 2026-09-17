@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer (2) BLUEHDI 160 PREMIUM PA 335 L3H2",
+ "description": "Peugeot Boxer (2) BLUEHDI 160 PREMIUM PA 335 L3H2, blanc, 7 cv, 4 portes, première mise en circulation le 27/03/2019, garantie : 6 mois. Prix TTC : 15 020 € Prix HT : 12 516 € 3 places OPTIONS ET ÉQUIPEMENTS : Conduite : - Limiteur de vitesse - Régulateur de vitesse Extérieur : - Capteurs de distance au stationnement emplacement : AR. de type radar - Marchepied(s) AR - Rétroviseurs rabattables électriquement Intérieur : - Crochets de retenue des bagages - Prise(s) 12V : coffre et AV - Rangement sous siège : conducteur et passager - Spots de lecture AV - Volant réglable en profondeur Pack : - Rangement réfrigéré: boîte à gants - Récupération d'énergie au freinage - Réservoir principal 90 litres Spécifique VUL : - Cloison pleine. largeur : pleine. hauteur : pleine Sécurité : - Antibrouillards AV - Antipatinage - Assistance au freinage d'urgence - ESP - Roue de secours: taille normale. jante acier - 1 airbag Autres équipements et informations : - Affichage multi-fonctions: 5.0 pouces. tableau de bord 1 et 12.7 - Compartiment de surélévation de cabine - Condamnation centralisée à distance - Connexion Bluetooth inclut connexion téléphone. inclut musique en streaming - Contrôle des phares: réglage en hauteur manuel - Dimensions cloison : hauteur pleine. largeur pleine - Dimensions de chargement (mm) : longueur : 3 705. largeur : 1 870. largeur entre passages de roue : 1 422. hauteur : 1 932. seuil de chargement : 602. volume de chargement (l) : 13 000. norme de mesure : appellation constructeur - Essuie-glaces à intermittence variable - Mémoire interne/disque durde - Phares à surface complexe. ampoules feux de croisement : halogènes. ampoules feux de route : halogènes - Rétroviseurs extérieurs: côté conducteur. côté passager. électriques. chauffants. rappels de clignotants intégrés - Système de navigation: guidage par carte & voix. info trafic. affichage couleur. 5.0 pouces. données sur mémoire interne/disque dur et 12.7 Référence annonce : 1013003",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/41/1b/ff/411bfff5feb9dc5487f9ea634befca4dae7c9025.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/91/7b/75/917b7555c5f31b2ae4f9f80c035d63c66a4bf7ea.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/24/d8/80/24d880c1476bdcd7d30ac2d2dd31b6db711437da.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/88/86/91/888691d579618579eb79ab6116607230830d8151.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c8/32/27/c83227560675dea2feb66188d3e48fe2a062eae5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/67/65/65/676565a89a95ba8aac1f4abb077879e04dd6c0d9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c3/b7/98/c3b7985181bf3f4e4b603221b5cd4198eabe9cad.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2b/cc/57/2bcc579a1d2d6a90b648d67b276a2b183b3b5b43.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/8d/0e/a18d0e618fec8ea5a27130a14d6eedd7f240c730.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/34/2e/2a/342e2a8c7b101646985f5578d1a275686a07e85d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ba/49/a6/ba49a6251bf015b746b907d5efc2a35b097de301.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3249591615",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15020,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "106800",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,36 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master Fg F3500 L3H2 2.3 dCi 135ch Cabine Approfondie Confort Euro6",
+ "description": "Renault Master Fg F3500 L3H2 2.3 dCi 135ch Cabine Approfondie Confort Euro6, (Fourgon), B00, 6cv, 1 portes, mise en circulation le 02-07-2020. 7 places, couleur intérieur : D, longueur : 6,20 mètres, poids en charge 3500 Kg, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - 2 Haut parleurs - Commandes du système audio au volant - Fonction MP3 - Kit mains-libres Bluetooth - Prise Jack - Prise USB - Radio Conduite - Aide au démarrage en côte Extérieur - Double portes arrière de chargement - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Appui-tête conducteur réglable hauteur - Appui-tête passager réglable en hauteur - Bacs de portes avant - Banquette AR rabattable - Banquette AV 2 places monobloc - Banquette arrière monobloc - Boite à gants fermée - Compte tours - Lampe de coffre - Porte-gobelets avant - Prise 12V - Siège passager avec dossier repliable - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres latérales fixes sur rang 2 - Vitres teintées - Volant réglable en hauteur Spécifique VUL - Cloison vitrée Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Alarme d'oubli d'extinction des feux - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - Contrôle electronique de stabilité - EBD - ESP Autres équipements et informations : - Tissu Kaleido Carbone Kilométrage garanti. Référence annonce : 510107",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/46/e7/1b46e74096db595b8d1689a8cc8065cacba2aafd.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3139682644",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14900,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "185587",
+  "unitCode": "KMT"
+ },
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": null,
+ "vehicleSeatingCapacity": 999999
+}

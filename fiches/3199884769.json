@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "CITROEN JUMPER 4-35 L3H2 2.2 BlueHDI 16V S&S - 140",
+ "description": "🚘 Votre agent Autotransfert vous présente nos véhicules uniquement sur rendez-vous. 🚀NOS SERVICES 🏦 FINANCEMENT 👨‍🔧 GARANTIE JUSQU'A 60 MOIS 📍LIVRAISON DANS TOUTE LA FRANCE 🎥VIDÉO VISIBLE SUR NOTRE SITE WEB AUTOTRANSFERT 📄RAPPORT D'INSPECTION ET CARNET D'ENTRETIEN SUR NOTRE SITE WEB PRIX HORS FRAIS DE DOSSIER (294 EUROS TTC) INCLUANT : - Garantie 6 mois EU - Enregistrement de cession - Paiement sécurisé - Protection juridique Des erreurs peuvent se glisser dans nos annonces OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Système audio MP3, Kit mains libres Bluetooth et prise USB Extérieur : - Porte latérale droite coulissante tôlée Intérieur : - Ordinateur de bord - Prise 12 V dans l'espace de chargement - Volant réglable en profondeur Pack : - Régulateur et limiteur de vitesse - Rétroviseurs extérieurs électriques et dégivrants Sécurité : - ABS avec aide au freinage d'urgence - Airbag conducteur - ESP incluant l'antipatinage ASR et l'aide au démarrage en pente - Jantes tôle 16\" grises avec cabochon Autres équipements et informations : - Déverrouillage/verrouillage des ouvrants automatiques par plip et lève-vitres électriques",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/ed/27/e3ed27d42fa420b548679ef49b0f6e363308cc38.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/f4/5f/1ff45f1e5dbb1c5e5f86c27133c0f3870a49064a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0e/70/0c/0e700c750910edd82d20634130c19e52dee5277e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f3/03/f7/f303f7899f3684defe51ed961ecfad2776fd3467.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ae/9d/a9/ae9da93648278bcd502f1044781bc2d20d0cd218.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/06/f9/2f/06f92f633edbeaf982326707073778c162ab6e5c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e5/83/7e/e5837e7d75280099c5670f5629e568b46dbc5f94.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f8/00/93/f800935686e9ea7b3e75656f9590587fab4be959.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/60/da/48/60da48550136148f4b8e9c2fd553dbe0031a4d6e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/70/b9/d670b9f48d3e7badc5daeee6d781f138205b0045.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/74/f8/cc74f86b990870c2c4db83a459422a71540eac5e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/1d/28/ce1d280913e8e33b9432c3d24013bb09a6e4b402.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c6/72/79/c67279f2968f33a631ff5877f3a6961ff9bdd57f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/54/e8/df54e84c6203cd19a5c858e6747ef9b75ac24902.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/85/b4/7085b4194332308c448ea45fa74fba5826e15a75.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/08/52/cf08528035ad864335fda95fea591773e6ee42c5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/39/48/5a/39485a7b7969c60f009f616d494b05ff6115ace1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/ef/42/edef42a1b808e1b402f80a13a426b35623f09aaf.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/53/83/55/538355ac3c8ed09936226daa96d774fe5b5f9fb7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/e3/da/b6e3da2b7145d551e71da81b35eddd2406d72bb9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/40/4a/d3/404ad3e2429cc4a9e40f51ddf8a4903535c3f4f1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6c/73/6e/6c736efcbdc55601c98c1e09aada491a99bf4a9d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/91/39/5c/91395cf5691f307689170b0a94ac6ab5491781a5.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3199884769",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 11990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "176475",
+  "unitCode": "KMT"
+ },
+ "color": "gris",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 5,
+ "vehicleSeatingCapacity": 3
+}

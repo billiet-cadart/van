@@ -1,0 +1,48 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master Fourgon Fg F3500 L3H2 2.3 dCi 150ch Energy Confort Euro6",
+ "description": "Renault Master Fourgon Fg F3500 L3H2 2.3 dCi 150ch Energy Confort Euro6 camionnette, blanc, 8 cv, première mise en circulation le 21/08/2020, garantie 6 mois. - Prix HT : 13000 € / Prix TTC : 15600 € 3 places boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - 2 Haut parleurs - Prise Jack - Radio - Bluetooth - Prise audio usb - auto-radio commandé au volant Conduite : - Stop & Start Extérieur : - Double portes arrière de chargement - Répétiteurs de clignotant dans rétro ext - filtre à particules - phares halogènes - porte latérale - rétroviseurs dégivrants - rétroviseurs électriques Intérieur : - Appui-tête conducteur réglable hauteur - Appui-tête passager réglable en hauteur - Banquette AV 2 places monobloc - Boite à gants fermée - Lampe de coffre - Porte-gobelets avant - Siège passager avec dossier repliable - Verrouillage centralisé des portes - Manuelle - compte tours - fermeture centralisée - prise 12V - réglages du volant : hauteur - verrouillage automatique des portes en roulant - verrouillage à distance - vitres avant éléctriques - vitres surteintées Pack : - anti démarrage - avertisseur sonore feux allumés - volant réglable Spécifique VUL : - Cloison pleine - type carrosserie : Fourgon Sécurité : - Ceintures avant ajustables en hauteur - Contrôle electronique de stabilité - ABS - Aide au demarrage en pente - ESP - aide au freinage d'urgence - airbag conducteur - anti-patinage - répartiteur électronique de freinage Autres équipements et informations : - MP3 - Puissance kilowatt : 110 kw - USB - puissance réelle : 150 ch - vide poche porte avant Référence annonce : 61002",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/54/56/c4/5456c4d000ca56fa554aaeb8365596dcd7c20d18.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e9/4f/4a/e94f4af31a4baf47f90e4bfe492de5a3b9ac5a16.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e6/54/41/e6544116f5f96416f4a47f3660cd9440604ac851.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/64/c3/7564c3d01696bfaf4541f7586d75799007cb0439.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/da/60/65/da60656d368158addd3664aac76582ef77c0feff.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/11/c2/ed11c27ab3a04a9b3298969e5e708ddeff79ce51.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1a/b2/25/1ab22565ff8e1e0a227fed74b84d1a68f1c847da.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/91/34/739134ca62da26cef2ade09a6cc274fd989cf78e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/84/85/708485d82e36b669e06b712ef2595cbff2168efe.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9f/9d/a6/9f9da614b17a05070de8d77af5f7d97816ea71a7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/8c/57/878c57f1c32ff9eb776d5f911e76bc445bb7985a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/81/4b/93/814b93d263fdfc180a156b713350472fd13f6132.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3240602323",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15600,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "134000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": null,
+ "vehicleSeatingCapacity": 3
+}

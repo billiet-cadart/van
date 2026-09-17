@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot boxer 3 435 l3h2 2.2 blue hdi 140 premium",
+ "description": "TOP VO Rue de la Fontaine à l’Auge 57245 JURY SERVICE CARTE GRISE : - Se munir d une pièce d identité en cours de validité - Justificatif de domicile de moins de 3 mois - Permis de conduire de l acheteur Pour visualiser notre STOCK de plus de 50 véhicules tapez Top vo dans la barre de recherche Leboncoin ou sur Google TOP VO VOUS ACCUEILLE TOUT LES JOURS Du lundi au vendredi : 9H00 - 12H00 / 14h00 - 18H00 Samedi : 10H00 - 12h00 / 14H00 - 16H00 REPRISE POSSIBLE DE VOTRE ANCIEN VÉHICULE MÊME FORT KILOMÉTRÉ RACHAT VÉHICULE SANS OBLIGATION D'ACHAT LIVRAISON POSSIBLE DANS TOUTE LA FRANCE PRISE EN CHARGE POSSIBLE DE LA GARE DE METZ Contactez Mr Dominique OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Bluetooth - Commande vocale - Kit mains-libres Bluetooth - Prise USB - Radio Conduite : - Aide au démarrage en côte - Allumage automatique des feux - Capteur de pluie - Limitateur de vitesse - Régulateur de vitesse - Système Start & Stop Couleur : - Peinture opaque Extérieur : - Enjoliveurs de roues - Feux de jour LED Intérieur : - Banquette passagers 2 places - Climatisation manuelle - Direction assistée - Lève-vitres électriques avant - Ordinateur de bord - Prise 12V cabine et espace de chargement - Siège conducteur réglable en hauteur - Volant réglable en hauteur et en profondeur Pack : - Condamnation centralisée des portes - Rétroviseurs extérieurs électriques et dégivrants - Verrouillage automatique en roulant Sellerie : - Sellerie tissu Sécurité : - ABS - Airbags conducteur - Airbags passager désactivables - Contrôle de pression des pneus - Contrôle de stabilité (ESP) - Détecteur de sous-gonflage - Phares antibrouillard avant - Roue de secours Autres équipements et informations : - Paroi latérale tôlée pleine",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/b5/9b/33b59bad7a24c16bf33ebbcaf82fd028ad90353f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/dc/3a/21/dc3a21ae86907cd2c93ed38b28d4ff61367e3138.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0c/2f/7d/0c2f7ded8e99afde85844d6ce88e2302f814ae5b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/42/04/fe/4204fe967e21ca1652b8f13678cff8e0fa3d0f8e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/98/19/0a/98190a0d99c584bd019c08bd32895b1f120400da.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/92/17/b69217385eb6a3b4b229a7bc3c7bcd0e3b1e3a0e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ca/89/c5/ca89c5355fdd8e94a74e1bd7493b52930e822a91.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b9/14/ea/b914ea2217edf94fac74715cb3d33c2c75f84e2d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/99/13/ba/9913baaea57c9db1990a86df8de362fa263911d7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b3/cb/64/b3cb645b3d58792d5e8b0d47388d9a16ec10a088.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/07/6e/f5076e21d5043ae409ccd522134337ca2850f28c.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3255802016",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 13490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "164940",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Master L3H2 165cv R3500RJ",
+ "description": "Renault master L3H2 Energy Roues jumelles Pack électrique climatisation Régulateur limiteur Téléphone Bluetooth écran navigation Radar de recul Caméra Crochet attelage équipement atelier Prix 15250€ht",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/11/b2/15/11b2158031a13ab78297e94fbdc6af9681696863.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/d1/fe/ced1fe785e90b27a80619f77ee8e39bd9132004f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/64/11/86/641186f026a80e421b340d8fccbdc6ea23787f89.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3c/03/ed/3c03ed9f50deb92e68432b192ddf29a7b8a7a06b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9e/8a/d3/9e8ad3986e9565453496e65f04e1bcbf9b8d1337.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3262591825",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18300,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "154000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

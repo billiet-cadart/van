@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Boxer l3h2 165cv",
+ "description": "🚐 PEUGEOT BOXER L3H2 – 2.2 HDI 165 CV 💼 Utilitaire robuste et fiable – prêt à travailler 📅 Année : 2021 🛣 Kilométrage : 146 000 km ⛽ Carburant : Diesel ⚙️ Boîte : Manuelle 6 rapports 🔧 Motorisation : 2.2 HDI – 165 ch 📦 Version : L3H2 (grand volume) ✅ Équipements : Radar de recul GPS intégré Bluetooth Direction assistée Fermeture centralisée Ordinateur de bord 🔍 État & entretien : Contrôle technique OK Entretien à jour Aucun frais à prévoir 🌱 Environnement : Crit’Air 2 💰 Prix : 👉 12500€ TTC ✔️ TVA récupérable 📍 Visible sur rendez-vous 📞 Idéal pour artisan, société ou auto-entrepreneur",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/29/f1/6329f17b7b62f4ad78a8972d9b60b9111d566d37.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/11/91/47/119147a75b02efdba5ace0199b80ad0a4fb50363.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/14/f4/0514f4de4063f6428b80067ff581587f1d691f0f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/61/e6/59/61e6591430bab404610c3150ff3169e57a3f145a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/da/d9/66/dad966b3bea265ff2950f32c85bd85ade140ac10.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3177458965",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "146000",
+  "unitCode": "KMT"
+ },
+ "color": "autre",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

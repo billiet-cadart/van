@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Fiat Ducato L3H2 140 ch 2019 – 44 132 km – Aménagement en cours + Kit solaire – 20 000",
+ "description": "Fiat Ducato L3H2 140 ch – 2019 – En cours d’aménagement – Kit solaire complet inclus Prix : 20 000 € Je vends mon Fiat Ducato L3H2 de 2019, idéal pour un projet de van aménagé. Le véhicule est en très bon état général, avec une carrosserie impeccable. L’aménagement est déjà bien avancé, ce qui vous permettra de le personnaliser selon vos envies tout en profitant d’un travail déjà réalisé. Caractéristiques du véhicule * Année : 2019 * Kilométrage : 44 132 km * Motorisation : 140 ch * Énergie : GNC + démarrage à l’essence (réservoir 20 L) * Boîte de vitesses : Manuelle 6 rapports * Contrôle technique : sera réalisé pour la vente Aménagement déjà effectué * Installation de 2 fenêtres arrière. * Installation de 2 fenêtres latérales, dont 1 ouvrante sur le côté droit. * Début de l’isolation en Armaflex. * Pose des tasseaux en bois. * Passage des câbles électriques déjà réalisé. Inclus dans la vente * Kit électrique complet comprenant : * 2 panneaux solaires, * batterie(s), * régulateur et tout le matériel nécessaire au branchement. * Le reste de l’isolation Armaflex (rouleaux et chutes pour terminer l’isolation). * 1 lanterneau neuf à installer. L’ensemble représente un investissement important en matériel et de nombreuses heures de travail déjà réalisées. C’est une excellente base pour finaliser un fourgon aménagé à votre goût. N’hésitez pas à me contacter pour plus de renseignements, des photos supplémentaires ou pour venir voir le véhicule.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/91/48/10/914810ac170ece71919b8227a7974b7eb8f36cde.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fa/24/a9/fa24a9c2619fe89d54b906acb081398fabc2c51a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c0/47/24/c0472403998e0ea211eacf0d41a081e7de6641e6.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3234530816",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 20000,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "FIAT"
+ },
+ "model": "Ducato",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "44142",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "5"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 2
+}

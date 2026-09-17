@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault MASTER III FG F3500 L3H2 2.3 BLUE DCI 135CH CABINE APPROFONDIE GRAND CONFORT",
+ "description": "Renault MASTER III FG F3500 L3H2 2.3 BLUE DCI 135CH CABINE APPROFONDIE GRAND CONFORT, (Fourgon), BLANC, 6cv, 4 portes, mise en circulation le 21-07-2020, première main, garantie 12 mois (GARANTIE 12 MOIS). 6 places, couleur intérieur : NOIR, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - GPS Cartographique - Interface Media Conduite - Aide au démarrage en côte - Capteur de luminosité - Capteur de pluie - Limiteur de vitesse - Régulateur de vitesse Extérieur - Calandre chromée - Enjoliveurs - Feux de jour à LED - Filtre à particules - Portes arrière battantes - Radar de stationnement AR - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Boite à gants fermée - Clim manuelle - Filtre à Pollen - Ouverture des vitres séquentielle - Prise 12V - Siège conducteur avec réglage lombaire - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Contrôle de Traction Intelligent - ESP - Témoin de bouclage des ceintures AV Autres équipements et informations : - TVA RECUPERABLE Kilométrage garanti. Tous nos véhicules bénéficient d'une garantie panne mécanique de 12 mois incluse, en complément vous avez la possibilité de renforcer votre garantie, + de pièces couvertes, + de kilomètres parcourus couverts, plafond financier + important. N'hésitez pas à vous renseigner auprès de nos conseillers. L'équipe BCI Chartres Référence annonce : 14992",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/af/a8/7b/afa87bb28b0a1ef2da3d93cf5a0c4c6a3ed538e2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/40/0e/6b/400e6b0b2394b9a00c0ee0da100d94e0194fb205.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/36/1f/6b/361f6ba3e279042e93c92c07eeb99cb055916369.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/3a/c7/633ac7629a7051e5542eded1a86da2b0e232355a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d0/7f/6e/d07f6e156f102372f44ed4cea206d7b2929d044c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/12/f8/ed12f849c24c29cf1470df418bd20e099c9f305a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/33/51/333351ac8f31bd50bc792e21252b9e3f2111255b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b9/f9/a9/b9f9a9a267c5f9f76d5e6a0acedc7a48e3b29cd1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c1/62/fa/c162fadb90f1f9073d66a2bd5843d030901339f1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8a/a4/89/8aa489946fc93962bfde672e44c7c3e71c0f3371.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4a/87/42/4a8742059d0bd3cab9bfd3f74157f9cc03d281e0.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3244340428",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 19690,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "49778",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 6
+}

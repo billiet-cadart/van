@@ -1,0 +1,40 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Jumper L3H2 140 cv",
+ "description": "Citroën Jumper L3H2 35 – 2.2 BlueHDi 140 ch – 1ère main – Très bon état À saisir ! Je vends ce Citroën Jumper L3H2 140 ch, première main, mis en circulation en septembre 2022. Le véhicule est en très bon état, entretenu exclusivement dans le réseau Citroën avec un suivi complet. Caractéristiques : ✔️ Citroën Jumper L3H2 ✔️ Moteur 2.2 BlueHDi 140 ch ✔️ Première mise en circulation : 09/2022 ✔️ 78 300 km ✔️ Première main ✔️ Suspensions renforcées 3,5tonnes Équipements : Galerie de toit aluminium Échelle arrière Attelage Aménagement intérieur en bois (plancher et habillage) Porte latérale coulissante Cloison de séparation Direction assistée Climatisation Régulateur / limiteur de vitesse Bluetooth / USB Vitres électriques Entretien : Entretien suivi dans le réseau Citroën. Véhicule prêt à travailler, aucun frais à prévoir. Vente pour renouvellement de flotte. Visible sur rendez-vous. N'hésitez pas à me contacter pour plus d'informations ou pour convenir d'une visite. Disponible immédiatement, TVA récupérable, 17000€ HT / 20400€ TTC",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/6b/3f/dd6b3fab02afa28ef4ed8c8c521f35c8ad0c6c55.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/c0/79/7ac079d1da5102bc206cdf5fbe752ca2c45df65e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/49/e8/18/49e81888815048bc5f5eb2632d69e63529437e14.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/02/40/a102405ca3f0dc3f90562af6be3ba1051ae56a13.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3236675457",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 17000,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "78300",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

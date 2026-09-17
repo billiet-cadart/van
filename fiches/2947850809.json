@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer L3H2 BLUEHDI 130",
+ "description": "Peugeot Boxer L3H2 2.0 BlueHdi 130 Idéal pour menuisier - poseur de fenêtre/porte de garages - poseur de véranda/pergola Options et équipements : - GPS - Bluetooth - Accoudoir Central - Volant multifonctions - Caméra de recul - Attelage - Capteurs de stationnements arrière - Climatisation automatique - Galerie de toit - Galerie latérale - Étagère complète en Alu (Würth) Prix affiché 14.490€. Plus de photos/vidéos sur demande. Visite sur RDV uniquement. Reprise et financement possible. Garantie 3 mois extensible sur demande. Cop Automobile France galerie automobile situé à Keskastel (10 min autoroute A4) Possibilité de venir vous cherchez à l’aéroport de Strasbourg ou aux gares les plus proches.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/22/b1/a7/22b1a7ebf313f8e3e2200997c33ac7f1d9a2ba26.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/f8/74/b1f874e48efa9820257922df559fdf6b3f5bf24a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e7/0e/3f/e70e3fbb4303924a8d0ce1fe13ef26498b1536d5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/e2/e0/87e2e00e4ba3699ffed772d9c9d41d305abdc672.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/82/f6/5582f6b73e53c9a9ced8eeb1be44ea7a5969b61a.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/2947850809",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "134300",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

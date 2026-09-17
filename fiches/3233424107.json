@@ -1,0 +1,51 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Opel movano l3h2",
+ "description": "PRIX DE VENTE H.T : 15 300 € TVA 20 % : 3 060 € PRIX DE VENTE T.T.C : 18 360 € TVA récupérable pour les sociétés assujetties -Cabine 3 places -Climatisation -Régulateur et limiteur de vitesse -Caméra de recul -Aide au stationnement -Bluetooth -Cloison de séparation -Commandes du système audio au volant -ESP Véhicule visible sur notre site de Liévin (62)",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/a8/5c/37a85cd5f341e1f6b75b30686210be70171e0c9c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8c/dc/0e/8cdc0e2b907351347b47e080ba6e33ba40f190c0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/48/6f/f1/486ff1b617175693c7d86b4678f13b3377f2045c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/0e/75/1f0e75125cd3d711d6d52319f3524d76e3149279.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/d5/d1/87d5d1e8c1926ff5976de8fe30ead1d5e2e9777b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/54/0a/f8/540af8ba411f951d68381f1524749c6707be5b1a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/24/19/43241956541879351ac310319e0fc0b17970d13c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/76/be/29/76be29c0e3bc3832f646c4ab5d2239bbcca6779c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/7f/3d/e17f3dcafc82ed0fcc0610716191b9574cb588ab.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/90/cd/de/90cddeac70a475e22d97b7a1ef87cebe727a9daa.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/07/02/33070226d64c120fccf944d5df69abef5005f919.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ae/91/48/ae91488de78ede325aab580a3c8597bc5b4c7207.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/eb/74/54/eb7454c015c5d147552db07ca6cd2bfdb72b8402.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d3/5f/d5/d35fd5818c20b51e193c78ce1af80707efab6920.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/4b/3e/374b3e44e3178625165390e6247e1ba6f7a69941.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3233424107",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18360,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "OPEL"
+ },
+ "model": "Movano",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "87700",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}

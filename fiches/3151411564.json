@@ -1,0 +1,56 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master III 15408 euros HT FG GCf Trac F3500 L3H2 Energy 2.3 dCi 145 E6",
+ "description": "Renault Master III 15408 euros HT FG GCf Trac F3500 L3H2 Energy 2.3 dCi 145 E6 utilitaire, blanc, 8 cv, 4 portes, première mise en circulation le 08/04/2019, première main, garantie 6 mois. 3 places boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Bluetooth Conduite : - limiteur de vitesse - régulateur de vitesse Intérieur : - Air conditionné - Crochets de retenue des bagages - Prise s 12V coffre et AV - Rangement sous siège passager - Spots de lecture AV - Température extérieure - fermeture centralisée - réglages du volant : hauteur Pack : - Rangement réfrigéré boîte à gants - Récupération d énergie au freinage - Réservoir principal 105 litres - jantes : classiques - volant réglable Spécifique VUL : - Cloison pleine. largeur pleine. hauteur pleine Sécurité : - 1 airbag - ESP - aide au freinage d'urgence - anti-patinage - roue de secours Autres équipements et informations : - Compartiment de surélévation de cabine - Contrôle des phares réglage en hauteur manuel - Dimensions cloison hauteur pleine. largeur pleine - Dimensions de chargement mm longueur 3 680. largeur 1 765. largeur entre passages de roue 1 765. hauteur 1 894. seuil de chargement 557. volume de chargement l 12 480. norme de mesure appellation constructeur - Essuie-glaces à intermittence variable - Phares à surface complexe. ampoules feux de croisement halogènes. ampoules feux de route halogènes - Rétroviseurs extérieurs côté conducteur. côté passager. électriques. chauffants. rappels de clignotants intégrés - Classe Crit'air : 2 - Puissance kilowatt : 107 kw - TARIF 15408€ HT soit 18490€ TTC - origine pays : FRA - puissance réelle : 145 ch - émission CO2 : 186 g/km Référence annonce : 32966",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/5f/a8/955fa89edd240a76dc13210466037fa10672cfb7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/94/a9/d7/94a9d7df67719d7f6a2e12615918a668f489d5c4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c8/c9/c5/c8c9c5a85a171598fce5436c0873b9e208bfcbce.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d8/30/93/d830936a8fbeb5084ed6c6533ccdc811d2ddafcc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/28/7d/2d287dd0d7f033ea9d3b1a6bfa0c47ed1d48a1b0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e7/5a/86/e75a86b18e71ce3a8a9190f532bdf606555d421b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/e3/4c/ede34ce6f763dbb5ee25cf8c7186868340263c15.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/97/80/179780678cc48e2cf85b7b3c4a0885eef1380df6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/70/c8/a0/70c8a045b550148b78bf662b5e0123375391086d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/30/b0/66/30b0669c9a97270577db9e8a050838955aa7c119.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/20/79/7d20796fdcbd5bfe7205b4e6d1bc7a615dd1adb1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3f/27/3d/3f273dfc43d3eba82eca7ed36c6903f4f2560d25.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/77/1a/79/771a795f84a6aff8a74c1f64af281acc88afc834.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/71/5d/95715d46ef87d09086dc87f6fb58e7ff65abeaf1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/3c/46/d63c46c76533cb6b014cb1f746a29f993ac71da5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e5/61/14/e56114d86f0064c471d165f01d7b2dc259f44da5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/54/d0/bc/54d0bcbed9bb8a9aa4598b6870367ccf92e3792d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/db/20/92/db20924d307ff342a28ca89fd84469230f711500.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/f5/f9/9cf5f98fefa6984c2ccc04c15111c118be0d3758.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7e/a4/89/7ea48956363f5be6fafecadb1a8c993d251ac40f.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3151411564",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "88560",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,66 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Fiat ducato l3h2 2.3 140",
+ "description": "MCT CONSULTING c'est plus de 10 ans d'expériences dans l'automobile. Des véhicules triés sur le volet, et des propriétaires sérieux ! Aujourd'hui nous avons le plaisir de vous proposer cette magnifique : FIAT DUCATO L3H2 2.3 140 CV de Septembre 2021 Extérieur et Châssis : - aide parking avec caméra de recul - attelage - radar de recul - rétroviseurs électriques et dégivrants Intérieur : - vitres électriques - boite 6 vitesses - climatisation - direction assistée - GPS - intérieur tout cuir - kit téléphone main libre - ordinateur de bord - volant multifonctions Sécurité : - 6 airbags - ABS - airbags front. + lat. - ESP - projecteurs antibrouillard Autres : - carnet d'entretien - factures d'entretien Les données présentées dans cette annonce peuvent être sujettes à des erreurs. Pour toutes informations, contactez le numéro ci-dessous. Véhicule visible sur RDV à l'agence MCT CONSULTING : 14 bis Rue de la Ferté Gaucher, 77169 Boissy-le-Châtel --- Tarif hors frais de mise à la route et hors carte grise. --- - Garantie assimilée constructeur disponible de 3 à 24 mois. - Financement possible - Reprise possible - Livraison possible dans toute la France (Sur devis)",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2a/a9/c9/2aa9c9af7422d8d0b57361f49170b53b3e97b23d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/be/5c/a6/be5ca6e7d2912f430d9b23951070f29bb7ef98fb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/13/b7/43/13b74310bec7fe3d2efd6b0f14f5e7a8b4c9a223.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/3a/56/e33a562f9dd663ff3b5a23de559218e207f921e9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f4/74/c5/f474c58a2ae6f823e4ebd6febb23e1bbc5279665.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3a/ae/ec/3aaeecbc8d852d6c468167ac388b66ba46a73f82.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/67/96/ce/6796cef2474bb5aeac53c4b1727e2e998bf1f8e1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/89/f6/00/89f60007bfba47b6658064496edd2db0749b1cc9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/08/ba/1508bae1b56b83393eed4e61644b9580a12387fd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bb/f6/82/bbf682003cb45d03b994f4eb7f3bcb8327b96b7e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/31/ca/ed31ca89a13a8c10d09fcc7db2e3467545da77e9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/84/28/17842852a957f5f39b0a9a92c7f2762b693130db.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c1/94/ff/c194ffddace33753771306032725b3371abec9cd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/05/f4/9c05f42ca5bcdde0e746aaa5ebef78316ed67bbd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/32/ce/5d/32ce5ded813f1cfe3b2b8e6a5270a86008595fc2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/48/b0/8b48b0e3fec3b145b56a7021cd87bb15fecdb913.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e2/73/4b/e2734bc983a94c0f61d964fc71fe437387c3939b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f6/a4/1b/f6a41b40ecdc14741f04f55cc2a099ca94fbeb13.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5c/5a/ce/5c5ace2db19d7a9673028c8c1c7ffc09519bf6d6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/41/66/b041663c7cf9acbfb2bc751da268dfe7f264a00d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/29/b3/8729b354882a09e1f6502b621f6ed4e8cdc41e51.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6e/58/a9/6e58a91bef58417768473ba6dfba9d58a6243e36.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9e/57/ba/9e57ba364beab059de729e48b6b99f60dcec6b9d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/26/ce/7b/26ce7b4e371184866f70a5e0a0fd0eae0b398dcc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/12/cf/1b12cfecf1b524cbd239ccb81a59987f7074ef7f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8c/6f/e4/8c6fe4ccfc84c03334d778f75c93605ced86c760.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/66/e6/a166e6c61c577c1813cfa300ae8cf80dbf61d6d2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d7/11/89/d711899dec3e2b4998cd48ccab9a78029d406e59.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/09/ec/90/09ec90cca94902af3238822629c0b86c4a7f7157.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/93/5e/b1935e50ce37d9759d7d95e43316402e75d94728.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3227572786",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "FIAT"
+ },
+ "model": "Ducato",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "96000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 5,
+ "vehicleSeatingCapacity": 3
+}

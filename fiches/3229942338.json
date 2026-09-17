@@ -1,0 +1,61 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master Fg F3500 L3H2 2.3 dCi 135ch Confort Euro6",
+ "description": "Renault Master Fg F3500 L3H2 2.3 dCi 135ch Confort Euro6, (Fourgon), Blanc Mineral, 8cv, 1 portes, mise en circulation le 18-05-2020. 3 places, longueur : 6,20 mètres, poids en charge 3500 Kg, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - 2 Haut parleurs - Commandes du système audio au volant - Fonction MP3 - Kit mains-libres Bluetooth - Prise Jack - Prise USB - Radio Conduite - Aide au démarrage en côte Extérieur - Double portes arrière de chargement - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Appui-tête conducteur réglable hauteur - Appui-tête passager réglable en hauteur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Compte tours - Lampe de coffre - Porte-gobelets avant - Prise 12V - Siège passager avec dossier repliable - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées - Volant réglable en hauteur Spécifique VUL - Cloison pleine Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Alarme d'oubli d'extinction des feux - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - Contrôle electronique de stabilité - EBD - ESP Autres équipements et informations : - Blanc Mineral - Tissu Kaleido Carbone Kilométrage non garanti. Référence annonce : PO44921532",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/46/a3/df46a3d9cb9f0fa47f8fda404d14a699549aada6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/13/76/fe/1376fe0447ba6f1e0d2d8c1b8dec320430fc7f38.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/28/96/1d2896e21b709066ef74e2220d7eb4dd93347799.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/53/73/a9/5373a9c541345bcaef38d0189ac046a830e5a6ab.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/93/15/15931598d7efbc89fbdbf88447b3e3c89630b5b3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/da/73/edda7345facf9056afd1901b80a855d68b95b485.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ae/95/73/ae957385f4e6b26a477ad655da7da4648d7c915b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/09/53/61/0953613f58b9ec5b327d016ca0b541c249184a8b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/85/84/dd858444e694c52f2a4c5d4a35ea9db2c18fd1a1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b5/f7/5a/b5f75ac3769c749bb0664663fd987881d4ded512.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ac/d3/37/acd337411def4dc3da3e5708253d264b8d262437.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a3/6e/e0/a36ee0b144ea0eea9c2fb49f2dfdd5148b20f66d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/ba/8e/9cba8e160b757701407ae4ddd09ce7e2e107424f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/e5/fd/cce5fd694bdef116c25527295e09a50bfdc9c2ea.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cb/de/81/cbde815429ef8ce1f6852a65f86fb5c593168aba.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/32/36/3832360fdb8cb7035cacc7caf27529da5cd761f0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/ad/82/19ad82cf3fdc4be2bbe3eb9db186ea1fae66e708.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2c/57/2a/2c572adcffc527cc520e5cb16fa830876b50417a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/22/cc/e322cc7746819736d68bc2169111e774515db23c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/74/da/77/74da770f7f31f611f6967beed6504150badde6cc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/04/b6/90/04b6902a3eb9107f20bd8de92e842d6b5c712923.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/87/ff/7387ff4f694eab7f407c31372a5b49b8f08a8f86.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/c2/5a/b4c25a445c96d2fcb9eb96a5385d302ac4ec80f8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/24/d1/df24d1f9ca9ed31de69325b3a1bbd0f21e633aa7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e6/a3/ac/e6a3acbd34ec11d5316894c1c91c76792ac408d3.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3229942338",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "216726",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": null,
+ "vehicleSeatingCapacity": 3
+}

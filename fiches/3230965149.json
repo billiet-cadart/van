@@ -1,0 +1,59 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Fiat DUCATO FG 3.3 L3H2 2.3 L 130 MJT 13M3",
+ "description": "Fiat DUCATO FG 3.3 L3H2 2.3 L 130 MJT 13M3, (Fourgon), BLANC, 7cv, 2 portes, mise en circulation le 07-01-2020, garantie 3 mois (3 MOIS). 2 places, couleur intérieur : NOIR, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Kilométrage garanti. DUCATO FG 3T3 2.3 L 130 MJT L3H2 13M3 [Coordonnées masquées] 319 kms - 07cv Climatisation - régulateur de vitesse Pack électrique - radio Bluetooth Caméra de recul - GPS 2 places Porte coulissante Galerie + échelle Caisse : 3705mm - 1870mm - 1932 mm CU : 1325 kg Révisé - Garantie 3 mois IMMAT : FM-576-XV Référence annonce : 150",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/gh/59/ed/gh59ed34d1903b1ecbb70e68d1c4a5d66dea7492.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c6/da/ef/c6daefe95b5c72196de9cdbb81df46eecce0e0e0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4d/b9/57/4db957efe008ba1f99995cc12114e95b98456825.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/5e/78/e15e781e64dc24e4402158a541c3170ebf4f3d3a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/ba/75/a1ba75e83f988d9866494bc5f24f42f5135a4a12.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/55/05/e15505cb944e8c7fb859bf26207375cf29c09f2c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e5/ed/a2/e5eda269363ceb07c4b3bc1941fcc9d1d0a518c4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b7/e3/b5/b7e3b5e703cc51f2df7398695d94e6514e624122.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d8/62/e2/d862e2662f2d157f0711251e7e395f7bbd264f9d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c4/31/b2/c431b2a06ce9928b212f026ac125f1dbbbe5a1f6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/ea/21/0aea2123e402188d3e5453294b7492246c7c8d01.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e0/82/b1/e082b152e236e7a2794ecd5b9d9fb788e42a1112.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/eb/09/a9eb09ac30acc7ad6213f34f13b63de7740da7fe.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/94/1e/77/941e7786f4a53ee53aa3cc58436d2d8241e82e9e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5e/32/a0/5e32a0b61d8788cfe12ee114ae5d922d35588cef.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d9/fd/f8/d9fdf84fa508849d480526ac2001a3a20fef57cc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9f/00/75/9f00753e267fe1790eca8cb08e737df7117509c7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9b/c9/12/9bc91255f2ef70b0584b169aa183969b62038df7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e8/ee/14/e8ee14dfcce75856c1e94a00c8df54cac54eda44.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/56/9c/f9/569cf987c69d4117077e389dadf7ce0e789b2299.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/68/89/ba/6889bada82efe620fe68270e0d0c048684b378f5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/e2/87/38e287adaa4946a2b5cb8bdb86944368d3f9102a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/18/03/a5/1803a53d43575d0969478908e2f49f13ec98d48e.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3230965149",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18960,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "FIAT"
+ },
+ "model": "Ducato",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "93319",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 2
+}

@@ -1,0 +1,42 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master III Fourgon Cabine Approfondie L3H2 3,5 Grand Confort r link",
+ "description": "Renault Master III Fourgon Cabine Approfondie L3H2 3,5 Grand Confort r link, première mise en circulation 27/05/2020. OPTIONS ET ÉQUIPEMENTS : Extérieur : - Portes à battants AR sans Vitrage - Rétroviseur ext à réglage électrique et dégivrant - éclairage diurne LED Intérieur : - Bandeaux de protection lat - Colonne de direction (Volant de direction) réglable(s) en hauteur - Compte-tours - Direction assistée - Filtre d'habitacle Filtre à pollen - Indicateur de passage des rapports - Indicateur de température Ext. - Lève-vitre électrique AV - Sièges de cabine : Siège conducteur réglable(s) en hauteur - Sièges de cabine : Siège passager deux places multifonctionnel - Verrouillage centralisé avec Cde à distance - Vitrage athermique Pack : - Alternateur 185 A - Anneaux d'arrimage Plancher de charge - Antidémarrage - Assistant de freinage - Boîte de vitesses 6 rapports - Capucine - Détecteur de pluie / luminosité - Feux de gabarit Lat - Pare-boue AV - Réservoir à carburant: 105 litre(s) - Sièges de cabine : 2ème rang Banquette 4 places Sellerie : - Sellerie : Tissu Sécurité : - Airbag conducteur - Répartition électronique de freinage Autres équipements et informations : - Carosserie/structure : Fourgon Double cabine Standard - Carosserie/structure : Fourgon Surélevé Standard - Empattement 3682 mm - Mode de transmission roues AR motrices - Moteur 2,3 litre(s) - 99 kW dCi Diesel Catalyseur - Pare-soleil droit avec Rétroviseur grand angle - Porte coulissante compartiment de passager/coffre droit avec Vitrage - Système d'antiblocage de frein (ABS) - Vitre dans comp. de charge/habitacle - fixe, AV gauche",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/ca/a5/58caa53493a1f108e5f27bda0b7d81ab73615c7b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3b/e2/45/3be2455c1192a111015c6c964d0d986e4be6a500.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b7/76/32/b776329887c142d371fccb5da7e5d660a1106f3a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bc/44/5c/bc445c79a4087735a1ef0d8133f90e6ae83d236e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/d1/2c/05d12cdda8abc3744e3ce38a7c0a088638e5ea32.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/00/e1/a7/00e1a7cc6882c3dc2792008cbd4cfb0019ec37fd.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3240961961",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 19990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "50000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 3,
+ "vehicleSeatingCapacity": 999999
+}

@@ -1,0 +1,51 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master Vu FG 2.3 DCI 135CH L3H2 ENERGY GRAND CONFORT 1ERE MAIN",
+ "description": "Renault Master Vu FG 2.3 DCI 135CH L3H2 ENERGY GRAND CONFORT 1ERE MAIN, blanc, 8 cv, 4 portes, première mise en circulation le 24/08/2020. 3 places TRES PROPRE , 1 ERE MAIN , HISTORIQUE D'ENTRETIEN COMPLET . MODELE RALLONGE L3 H2 , MOTORISATION 150 cv . OPTIONS & EQUIPEMENTS : Extérieur et Chassis Attelage Porte sécurisée Intérieur Climatisation GPS COULEUR 16/9 Pack chrome Prise audio USB Régulateur de vitesse Régulateur limiteur de vitesse Confort Bluetooth Sécurité Aide au démarrage en côte ESP Phares av. de jour à LED Autre 3 places Projecteurs antibrouillard PRIX 13 499 € TTC FERME NON NEGOCIABLE MERCI D'AVANCE TVA RECUPÉRABLE GARAGE BR AUTO 23 AVENUE DE LA DIVISION LECLERC 91620 LA VILLE DU BOIS SIMILAIRE SPRINTER , CRAFTER , BOXER , MAN , JUMPER Référence annonce : VRZ_1678FE",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6d/76/d0/6d76d0a575d43d072041d0acb8c881a1893e339b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f2/44/c5/f244c5538d493f61a2bb1dd5c5299d6211395106.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/96/97/12/969712cbed365ae88931d21ebf4f770a6e5214a6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8a/30/28/8a30286f6d1866ced2f512170aa41ceab79e74e9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/90/af/71/90af710e4b083ec668059868113e3896faccdd3b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/40/66/9e/40669e0621594893181a3d35cf1ac1a565aa3678.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/4c/bd/b14cbd20e61c52df3678879aa7f140b291fbbe42.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/78/7d/59/787d591f0050ae601fea8d9a820a0fc91354d2fb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/b9/11/e3b91177b70c9524ea238dc1abd35a351f996826.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/47/05/834705a8425abbca0b8613153d180d315542f360.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f8/f9/40/f8f940d5b2c000f79497826497b3fbd6ca795976.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5d/3e/a9/5d3ea92733d9e1b1798f050a412a4b61fde56709.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/82/77/8b/82778b1c4b1a840d977ab911e65dbf7a66951eb4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/17/99/b1179910ffcd8621a3afc9cb1fdd331a9dc29fdb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/76/0c/1f760c07218f9e8546897a1f39e0be3c5c257965.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3261699225",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 13499,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "196600",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

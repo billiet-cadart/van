@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Citroen jumper l3h2",
+ "description": "CAR’S AVENUE VOUS PROPOSE Garantie 6 mois Kit main libre ABS Airbag phare automatique Clim Direction assistée ESP Système de navigation Cartographique Bluetooth téléphone Ordinateur de bord Phares antibrouillard Radar de recul avec camera Radio Régulateur de vitesse Verrouillage centralisé des portes Vitres électriques avant Prise Audio auxiliaire Prise USB Start and Stop Limiteur de vitesse Galette de secours Grip contrôle Ecran électrique Accoudoir Ouverture à distance Rétroviseur intérieur jour/nuit VOITURES REVISEES ET GARANTIES. REPRISE ET CREDIT POSSIBLE. GARAGE CAR'S AVENUE 2 AVENUE DU 69 ème RI 54270 ESSEY-LES-NANCY 18 ans d’expérience et d’existence dans la vente automobiles 33 ans d’expérience en tant que mécanicien automobiles Horaires d'ouverture : Du lundi au vendredi de 8h00 à 12h00 et 14h00 à 18h30 Samedi de 9h00 à 17h00 sur rendez-vous Votre garagiste vente, achat et réparations véhicules toutes marques, vous propose des véhicules à petits prix. Prise en charge des formalités d'immatriculation. Nous sommes habilités et agréés pour faire votre carte grise pour tous départements. Tous nos véhicules sont révisés, garantis et essayés sur route. Toutes nos distributions avec pompe à eau sont remplacées par nos soins, si nécessaire! Rotule et roulement , disques, plaquettes, échappements, etc... sont contrôlés et échangés, si nécessaire. Un atelier mécanique sur place Un large choix de 80 véhicules Extension de garantis possible Des financements pare cofidis adaptés Reprise possible de votre ancien véhicule. Nous pouvons vous rendre de l'argent si votre véhicule est de valeur supérieure. Pour être tenu informé des ventes comme des nouvelles occasions, cliquez sur \" j'aime \" à la page CAR'S AVENUE Pas de contact par mail merci de votre compréhension Pensez à visiter notre Boutique sur Le Bon Coin. RETROUVEZ NOS ANNONCES EN TAPANT CAR'S AVENUE SUR [URL masquée pour votre sécurité] . L’intégralité de notre stock n’est pas affichée sur le site. Nous vous invitons à nous contacter pour toute information complémentaire.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/08/fd/6e/08fd6e91fcd1ee82446a607eebdb24d7c9449656.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/1e/39/2e1e39376473063b72464bff0ac8a5aa58509e5e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ca/c0/5d/cac05dac879c4dd213a1256cb57c72e8ec4fb81a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/22/e1/da/22e1dab52126af1103a8b3177f52fe1cacd34365.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/bf/d5/a9bfd5aa4807f7d3dd7c42ec6749a010a9dc0cd6.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3177200597",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "93603",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

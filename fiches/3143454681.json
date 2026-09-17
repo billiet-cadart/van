@@ -1,0 +1,45 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "PEUGEOT BOXER L3H2 2.2 BlueHDi 140 CV 2022 80 000 KM TVA RECUPERABLE",
+ "description": "LATTES VO acteur majeur dans la vente automobile montpelliéraine depuis 20 ans, est heureux de mettre à la vente ce PEUGEOT BOXER. ----------------------------------------------------------- Kilométrage : 88151 KM 1ère mise en circulation : 28-04-2022 ------------------------------------------------------------ Tous nos véhicules sont français, révisés et garantis. ------------------------------------------------------------- * Climatisation automatique * Hill descent control + grip control * Peinture métallisée * Système de surveillance d'angle mort * Aide au stationnement arrière * Caméra de recul * Chargeur USB * Projecteurs antibrouillard * Régulateur et limiteur de vitesse * Système de navigation ------------------------------------------------------------- CE VÉHICULE EST VISIBLE SUR NOTRE PARC, au 1 CHEMIN DE SORIECH À LATTES DU LUNDI AU SAMEDI DE 9H30 À 12H00 ET DE 14H00 À 18H30. Pour un ACCUEIL PRIVILÉGIÉ et une présentation détaillée du véhicule, MERCI DE PRENDRE RENDEZ-VOUS. Nous vous recevons dans les meilleures conditions pour vous accompagner dans votre projet automobile. LATTES VO, LE VÉHICULE QU’IL VOUS FAUT !",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/gh/9e/74/gh9e74813a4d5312877d36c3b00e30a54498c4ef.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cd/f4/cb/cdf4cb395e65a017dff954f6c1309a094ccba884.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f9/1d/74/f91d74c40c6b6cd0fcfa0e6538cfb25cccbe1b0f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/13/48/c5/1348c5a4a98cc1c76de7881e7a6401293d14b3fe.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/15/47/ff1547212c0b68b36f0e4893c3539f4bae780e8a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/bc/8a/63bc8acfbebf2b7e06b6e6f383c976e42eda15fb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/08/7d/3d/087d3dc3a4bca1db619d25913f27894cdc8aa304.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/29/57/34/2957345400a252487c0c2f7ad57e4367d4535a1e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/0d/c6/150dc63b0aaa191b643653ef941a6aaefb45bb44.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3143454681",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "88151",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 5,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,47 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault MASTER III FG F3500 L3H2 2.3 BLUE DCI 135CH GRAND CONFORT EURO6",
+ "description": "Renault MASTER III FG F3500 L3H2 2.3 BLUE DCI 135CH GRAND CONFORT EURO6, (Fourgon), BLANC, 8cv, 4 portes, mise en circulation le 10-09-2020, première main, garantie 12 mois (GARANTIE 12 MOIS). 3 places, couleur intérieur : NOIR, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - 2 Haut parleurs - Commandes du système audio au volant - Fonction MP3 - GPS Cartographique - Interface Media - Prise Jack Conduite - Aide au démarrage en côte - Capteur de luminosité - Capteur de pluie - Limiteur de vitesse - Régulateur de vitesse Extérieur - Calandre chromée - Double portes arrière de chargement - Eclairage au sol - Enjoliveurs - Feux de jour à LED - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Portes arrière battantes - Radar de stationnement AR - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Appui-tête conducteur réglable hauteur - Appui-tête passager réglable en hauteur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Clim manuelle - Compte tours - Filtre à Pollen - Habillage latéral espace de chgt - Lampe de coffre - Ordinateur de bord - Ouverture des vitres séquentielle - Porte-gobelets avant - Prise 12V - Rangement sous siège passager avant - Siège conducteur avec réglage lombaire - Siège passager avec dossier repliable - Température extérieure - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées - Volant réglable en hauteur Spécifique VUL - Cloison pleine Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Alarme d'oubli d'extinction des feux - Antidémarrage électronique - Antipatinage - Assistance de maintien de trajectoire - Ceintures avant ajustables en hauteur - Contrôle de Traction Intelligent - Contrôle electronique de stabilité - EBD - ESP - Système de contrôle des angles morts - Témoin de bouclage des ceintures AV Kilométrage garanti. Tous nos véhicules bénéficient d'une garantie panne mécanique de 12 mois incluse, en complément vous avez la possibilité de renforcer votre garantie, + de pièces couvertes, + de kilomètres parcourus couverts, plafond financier + important. N'hésitez pas à vous renseigner auprès de nos conseillers. L'équipe BCI Chartres Référence annonce : 15187",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/65/98/eb/6598eb5a1038c5a4734451384bdac6c08101607c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/92/5e/c1/925ec1dfaf89e8e31a062660f71580c2260b986d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/da/b7/6adab746ae555d6e753701559990970ce38d87f9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/36/0d/a5/360da521721ebf379766ad6bf68d92f1ed668613.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/b0/ec/38b0ec7c285293f0f0587425eb063bf7c3f6c9f5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/00/7f/f9/007ff970f1bdbda3d85b1aea3d5eaec72082e09c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9d/35/04/9d350401da99259e26702c27649c386225c976d7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/26/71/58/267158ab79ac7846a5b6d5aeca43bcad6f3a62dc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/05/d5/1705d5e39eecd61c4fd05fa4a669e40c6522d5e3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ca/b1/2a/cab12ac221a55ae29b283ec9b4f27675333bfb01.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/a2/95/1da295aafd2b13f020f25099a2f164b4230e62fb.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3244340431",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18900,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "94310",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

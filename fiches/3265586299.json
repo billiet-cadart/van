@@ -1,0 +1,65 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Opel Movano Fourgon L3H2 2.2 CDTi 165 Pack Clim",
+ "description": "Opel Movano Fourgon L3H2 2.2 CDTi 165 Pack Clim utilitaire, blanc, 7 cv, 4 portes, couleur intérieure : noir, première mise en circulation le 13/03/2023, garantie 6 mois. Prix hors frais de dossier de 299€ TTC et hors carte grise. ——— 🎥 Visite virtuelle du véhicule disponible sur le site CapCar ✅ Garantie 6 mois incluse pour un achat en toute sérénité 🔒 Paiement 100 % sécurisé 🚚 Livraison possible à domicile 📝 Démarches de carte grise simplifiées ——— 📞 Contactez notre agent pour réserver ou en savoir plus. 3 places boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Bluetooth - Prise audio usb - auto-radio Conduite : - limiteur de vitesse - régulateur de vitesse Extérieur : - jantes alliage - radar arrière de détection d'obstacles - radar d'aide au stationnement - rétroviseurs électriques Intérieur : - vitres électriques Pack : - intérieur : tissu - nombre de rapports : 6 vitesses Autres équipements et informations : - Classe Crit'air : 2 - Nombre de roues motrices : 2 - Puissance kilowatt : 121 kw - date de disponibilité : 03/09/2026 - puissance réelle : 165 ch - émission CO2 : 239 g/km - état : excellent Référence annonce : r0116902",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6c/1b/02/6c1b0258ece39e2c63ad1aeff1d6ffe63fa547d5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c3/98/07/c398078bb06073d9df2bafd01200b29b87e4e926.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/da/89/2e/da892eaf6916dc0bd3258e2307e25a5d37bda4e7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/e8/5b/b6e85b0957f737b516f8628f103e2a57604013b9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f8/d4/24/f8d42437084b9a393e581edb7f6e78b936e3f6f5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ef/7f/d4/ef7fd4d8a2ad05028879ea5c3414affc072f5911.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/84/ba/75/84ba75a5a0d953be7c14898d0e963eece460739b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d9/29/79/d92979218cded59ee0c2da0d733310ef67801deb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/df/58/75df5858538ac13908c4b86ffa9908e388245f86.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/35/ee/e1/35eee183985fa2f61da483be233abda1038bfb19.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/3b/2a/cc3b2a395b5926350b8161659cf05c16a75228c8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fb/fb/c5/fbfbc5d739a5aef489fee980baa08ec321998abe.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/21/a5/21/21a521d899e1bd3d5d29278229620eab52395b4b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6e/bb/36/6ebb36c41ab7365b88b600adbe45939fe5b01bb7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/53/c9/10/53c9104916527da32faccb695e9b3c937d5b029e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/08/73/61/0873612f910c4d1bd7d5e4b4de72f791054e7a0c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6c/c5/28/6cc52864557e13fcbf43d5bcc25789c9e2429602.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/65/2f/7a652f9a2538495556c656270096fa0a48d25d36.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/9c/d8/d19cd8879ef19c7d747cd91b7ec59b3ccfb6fe6e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/35/ad/ed35adefaec1d2784fe68b4ac6815fedf44306d5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0c/c7/ee/0cc7ee2786f97bba1764a234c8401696957f23f0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9c/eb/14/9ceb144734d24ad4f9e9788272787d955de1de6a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ae/9e/5a/ae9e5ac7fa553bf9f88b063794987b68f88d6c2c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/ee/36/63ee36f3ddbd6f6cd01fce7a86d09331bcfec857.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/be/7a/febe7ad4f6f5b8dc9f45bea1e1152d78893db0f1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/25/78/b62578394f7316c300661b949d6e4354e99a15f5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3d/7e/cc/3d7ecca21743b169be8194c47b8c3dded9e9b67d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/49/da/13/49da13bcd94ad511c4d4dec616468469600a7a50.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/2b/f4/d22bf48d52d937afa3b54cc22fc5704779561edd.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3265586299",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 11990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "OPEL"
+ },
+ "model": "Movano",
+ "vehicleModelDate": "2023",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "188458",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

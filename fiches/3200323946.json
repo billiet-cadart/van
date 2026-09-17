@@ -1,0 +1,50 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot Boxer PREMIUM 3T5 L3H2 2.2 BLUEHDI 140 SS BVM6",
+ "description": "Peugeot Boxer PREMIUM 3T5 L3H2 2.2 BLUEHDI 140 SS BVM6 utilitaire, blanc, 7 cv, 4 portes, première mise en circulation le 15/12/2021. boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Intérieur : - air conditionné manuel - boîte à gants - ordinateur de bord - prise 12V Pack : - financement / extension de garantie - nombre de rapports : 6 vitesses Autres équipements et informations : - equivalent / master / boxer / jumper / crafter / transit / ducato / nv400 / interstar / sprinter - fourgon - gabarit l3h2 / l h2 / lh2 / long - reprise possible - véhicule révisé et garanti 12 mois - Classe Crit'air : 2 - Puissance kilowatt : 103 kw - prix ht - puissance réelle : 140 ch Référence annonce : 1009737",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d5/04/16/d50416c927e28ac0b626f230965ed93325a1ea65.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/76/0a/d6760aa80ca2c4149cc6d9a3037020c43530e1a6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/68/ba/cf68baa012d2367ac4cb6c5b07e43bd0a31fb3ca.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/df/27/15/df2715dd2679ee97d2ab1a4f0bac2e599009b426.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/70/09/b47009b988edb50ba64dfaebffefaa0ea8720fe0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/35/e6/e4/35e6e4460e63b3ebdedadc608a58447b3867c959.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/e3/c3/cfe3c3bcd5ded4189658bdf70938668f8c562036.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ab/b0/a8/abb0a8db1092e1c082cf9fb794515feaf0814d51.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/8a/bc/2d8abc9e325892ce9233d7e103ab99af4aeddfa1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/4f/eb/5a4febc83dd20065e6bbfa5792c9503c37604342.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/c7/57/d6c7571beabddabf0475d06acd12d41b84cf06e8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0d/fa/75/0dfa75b47c1a8aabde61a37e58d465b053ec6428.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bf/e0/dc/bfe0dc50d029d739a76279a2f72bcf82a9186a9f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/96/dd/ef/96ddefde3c8e03a79b83e885bcd7637000792d3f.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3200323946",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12890,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "117957",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": null
+}

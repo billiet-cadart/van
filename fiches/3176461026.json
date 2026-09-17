@@ -1,0 +1,43 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault master l3h2 3.5t 2.3dci",
+ "description": "VEND RENAULT MASTER L3H2 3.5T 2.3DCI 02/06/2022 95000KM RÉVISION COMPLÈTE 4 PNEUS NEUF GARANTIE PRIX 18900.00€ TTC TVA RECUPERABLE",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f9/aa/1d/f9aa1d56fe2490a8c4fc608672c0aa99335fd325.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/76/ea/8e/76ea8e720588ebf1c2b95ccff1ef9595f069f111.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/9f/a4/e2/9fa4e2371feb9ab1695d04c39eff2799f1a096b6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5e/23/35/5e23354adc7862baa4c3f0d142fa884fd2089f29.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/1a/b8/0a1ab81eb1b7af713c990ddb5403624b2d8581a2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/10/70/25/107025dca863dfa97da8306973c9ee07fc1e4053.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/62/cd/69/62cd69eb1c5703c63eafb34647f4936cff857ba8.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3176461026",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18900,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "95000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

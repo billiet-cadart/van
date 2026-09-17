@@ -1,0 +1,69 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot boxer ii (2) 2.2 bluehdi 120 s&s premium 335 l3h2 prix ttc",
+ "description": "Retrouvez ci-dessous toutes les caractéristiques de notre PEUGEOT BOXER FOURGON Alvergnas Automobiles, c’est + de 500 véhicules disponible immédiatement, une équipe à l’écoute et des clients fidèles qui nous recommandent. Chaque auto bénéficie d’une garantie 6 MOIS avec assistance 24/7, prolongeable jusqu’à 72 MOIS pour un budget maîtrisé et une sérénité totale. Passez nous voir et repartez confiant au volant de votre future voiture ! OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - Radio CD MP3, écran tactile et Bluetooth®, Prise USB Extérieur : - Aide au stationnement AR - Caméra de recul - Porte latérale droite tôlée - Porte latérale gauche coulissante tôlée - Rétroviseurs extérieurs électriques, chauffants et rabattables électriquement Intérieur : - Air conditionné manuel - Lève-vitres électriques Pack : - Capucine de rangement - Régulateur et Limiteur de vitesse Sécurité : - ABS - Aide au Freinage d' Urgence (AFU) - ESP - Projecteurs antibrouillard",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6f/f2/7c/6ff27c60075cee23d274eaa64fcb5359094449f4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a0/23/c5/a023c5f0d27cface036796d5af11df186af6edd1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c2/ea/4d/c2ea4d579fa4b0cfc35d0eff8b6df7d2abcf62c7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/28/b5/5828b5ed4393a23b2ef0e71125fc0d2fc5ce11fc.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ac/aa/0e/acaa0eabe738a4f4b7342bbe29f06dc95e48f34b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/cb/bb/1fcbbba2752879279f1dbf2ab3f27d2de2e6dcc8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/95/fe/b9/95feb9d67685719803f4c7af95daf3ca0c0c8be4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/35/ba/36/35ba366271f5f4c38c9920b526e940342937fc0c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/39/cd/df/39cddfc89edcd15e90628942a04973768fc7b9a5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b5/16/3f/b5163f2944157e4faceaa5f13fcb027dd84169b3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/71/a7/3e/71a73e14e83257f6e5bc32b0f0852fc360997e7e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/36/3c/95/363c951bc476f50861ed0d39755bdc1a7d9e6f87.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/1a/07/751a07312a57d8e3903a1033f1394ff1f2d6178f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ca/62/09/ca6209ebf0eee54b7d2e902412debccb3de1b720.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/12/83/ff/1283ff5f9ad89201da3c1433871305744ea4b427.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/e6/17/ede6171ffc03c563bd74055e406e10b1b7c1f51c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/60/19/8b/60198bfdcbceaea10e594a067ba1e07dc47dc0c7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/aa/07/a7/aa07a731159a71971de830494faf2269f4edc4fb.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/32/a9/99/32a999003c4879740481e11cc03cb65cf7b2587a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/09/6b/f5/096bf52c418fdfa05210aabb5bd7756f87d7f8f9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b2/d3/ef/b2d3ef3d343ca79352a36b0f84740439edecfbf0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2b/19/b2/2b19b2fd3842e8f774d59132c965003b67d03403.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c1/3e/f4/c13ef47c5c8d2713ab3336af34308d2cda52a57d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4e/7b/6d/4e7b6d907b25059b559ba2610c760e4dfee1a1e6.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ea/9f/17/ea9f172e3598a9553f13b3e6165781ba13385b21.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b0/82/6f/b0826fa1d01f6d981533b6dd2e7987b489f9e727.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b2/4e/26/b24e26722dce104cc4a08e44fb9c78e818bb7c16.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bb/09/e6/bb09e6a62852cd15d78d57d95b205e6f74de016e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/85/d3/e0/85d3e0238125e978bc072b1ccfc84be9141cf7a0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/56/40/52/564052738dde482cc1da40aa5001d9c5856f39f2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/e6/f1/1ce6f1ced2a66ed078522fb77a1b85d2a59c026c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/09/14/c7/0914c7d29497f7e0ac3237930c5741df8d049b20.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/98/6e/da/986edafb96a8afb28ab7545e76ae4cbe6f25b0b7.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3211588819",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14980,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "127000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Citroen Jumper L3h2",
+ "description": "Jumper Fg 35 L3H2 2.2 BlueHDi 120 S&S Driver, Diesel, juin/2020, 3places Premier main véhicule très trés propre intérieur et extérieur Prix afficher 1490€ ttc TVA récupérable Reprise possible avec votre ancien véhicule Contrôle technique ok Kit de distribution neuf Vidange moteur plus les filtres neuf Aucun problème à signaler Garantie 3 mois moteur et boite de vitesse possibilité d’extension à 12 mois Options et Équipements : - Caméra de recul - Siège chauffeur a suspension - Climatisation - Régulateur de vitesse - Limiteur de vitesse - Radar de recul - Ecran Gps - Rétroviseurs électriques - ABS - Airbag - Antidémarrage - Verrouillage centralisé - Direction assistée - Lève-vitres électriques - Ordinateur de bord - Volant réglable ATS AUTO vente achat reprise automobile 1 rue Lavoisier 77330 Ozoir-la-ferriere Ouvert de lundi au samedi de 09h00 a 19h N'hésitez pas à nous contacter pour plus de renseignements",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/bf/5c/7abf5cc737751dede087a6dc2c14c76353528e67.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0a/2c/c2/0a2cc2e48595437a5feb7ba04f99d383a9b3515d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/4c/d0/4c4cd0f482230e9efa12629fa808f60ffb288120.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fc/35/3e/fc353e02d7958ecc2f570898353740a9c82a700d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e7/46/68/e746680e5bf71ca04ccfa17da744cad5f8893805.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3265041049",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "118832",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

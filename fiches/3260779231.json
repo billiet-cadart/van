@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master L3H2",
+ "description": "🚐 Visible sur le 13 et 05 À vendre – Renault Master L3H2 – 2019 Je vends mon Renault Master L3H2 de 2019, en très bon état général. ✅ Toujours entretenu avec soin ✅ Pneus neufs ✅ Contrôle technique OK ✅ Prêt à prendre la route Idéal pour un artisan, un professionnel ou un projet d'aménagement en van. 💬 Plus de renseignements, photos et prix en message privé.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d4/f4/ec/d4f4ec72dfc8fb9b2c9412eed9935ff48a818f8e.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/97/f2/75/97f2753c2672012d0ee8f636d31a6d8e454e06ba.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/ee/63/ccee637dc4b8bcc0bb44c5a801b8de6d5fbe409a.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3260779231",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 14800,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "209000",
+  "unitCode": "KMT"
+ },
+ "color": "autre",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}

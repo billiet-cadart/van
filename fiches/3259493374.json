@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Boxer L3H2",
+ "description": "Bonjour, je mets en vente un Peugeot boxer L3H2 en tres bon état général. -Clim -Vitres électriques -Verrouillage centralisé ....ect Prix a débattre dans le raisonnable.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/49/6b/5b496b82922777bb4669a2abdd5f20881ae0d00c.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/35/c0/16/35c0169b8a3c2fea02d57c423d0d45bce56deb96.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/d5/a1/cfd5a10c63ce53eb043cad1faa461ee8f4e2e6f4.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3259493374",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 11000,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "94600",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

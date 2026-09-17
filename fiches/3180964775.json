@@ -1,0 +1,46 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot BOXER FG 333 L3H2 2.0 BLUEHDI 130 PREMIUM",
+ "description": "Peugeot BOXER FG 333 L3H2 2.0 BLUEHDI 130 PREMIUM, (Fourgon), BLANC, 7cv, 4 portes, mise en circulation le 27-05-2019. 3 places, longueur : 6,00 mètres, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - Commandes du système audio au volant - Ecran tactile - Fonction MP3 - Kit mains-libres Bluetooth - Prise USB - Prise auxiliaire de connexion audio - Radio Conduite - Aide au démarrage en côte - Limiteur de vitesse - Régulateur de vitesse Extérieur - Double portes arrière de chargement - Filtre à particules - Phares halogènes - Porte latérale arrière droite - Portes arrière battantes - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Clim manuelle - Compte tours - Direction assistée asservie à la vitesse - Kit Fumeur - Lampe de coffre - Ordinateur de bord - Ouverture des vitres séquentielle - Paroi séparation - Porte-gobelets avant - Prise 12V - Rangement sous siège conducteur - Rangement sous siège passager avant - Siège conducteur avec réglage lombaire - Siège conducteur réglable en hauteur - Siège passager avec dossier repliable - Verrouillage auto. des portes en roulant - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées - Volant multifonction - Volant réglable en profondeur et hauteur Spécifique VUL - Cloison pleine Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - EBD - ESP Autres équipements et informations : - Tissu C&T Darko Gris Kilométrage non garanti. Référence annonce : 543",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/10/86/46/1086468a977dcae62bd05448a1301b7e16eb4305.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5e/84/52/5e84527040ff3ad497b82e2a4f2c1f532a258e03.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a0/b5/4e/a0b54e31a6932137a8ab6de91f2858f3a30fc0b2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5d/ef/b0/5defb081afa3652b82a92841c0cd842f4a8f3cf8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/eb/f0/02/ebf0029bc7cb80595d1edbb27006cfb52e26ba93.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/53/d3/16/53d31667847821432cb1b1eb070a43f4e39b4a51.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/0f/73/5f/0f735ff11fcc6bb7973c0cb58e400e1c2b7c8301.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/62/93/80/6293805f334b70d36d7d08bdb67262453556777a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/be/a4/f3/bea4f3446d6df53aa2dcb93ae03ee6924746922b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/db/2e/5adb2ed69128859837e22d7349a2a944af45b5fb.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3180964775",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "91416",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

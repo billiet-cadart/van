@@ -1,0 +1,37 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Fiat Ducato FG 3.3 LH2 L3H2 MJT 140 PACK LOUNGE CABINE APPROFONDIE 7 PLACES",
+ "description": "Fiat Ducato FG 3.3 LH2 L3H2 MJT 140 PACK LOUNGE CABINE APPROFONDIE 7 PLACES utilitaire, 7 cv, 4 portes, première mise en circulation le 06/08/2021. boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - apple carplay/android auto - radio - Prise audio usb - bluetooth Conduite : - Stop & Start - limiteur de vitesse Extérieur : - reglage des retoviseurs electriques - attelage - caméra de recul - radar arrière de détection d'obstacles - radar d'aide au stationnement Intérieur : - 7 places - cabine approfondie - climatisation - prise 12V Pack : - mode eco - nombre de rapports : 6 vitesses Autres équipements et informations : - assistance vocal - doublage bois - financement et reprise possible - fourgon - gabarit : l3h2 - prix hors taxe - révisé et garantie 12 mois - Classe Crit'air : 2 - Puissance kilowatt : 103 kw - USB - les autres modèles équivalents : iveco daily / renault master / opel movano / nissan nv400 / fiat ducato / citroen jumper / peugeot boxer / mercedes sprinter / volkswagen crafter - puissance réelle : 140 ch Référence annonce : 1012142",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/92/0d/93920d0b1dd434ebffcee1e4b538d9afe64644b1.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3265612682",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 16490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "FIAT"
+ },
+ "model": "Ducato",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "73190",
+  "unitCode": "KMT"
+ },
+ "color": "autre",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": null
+}

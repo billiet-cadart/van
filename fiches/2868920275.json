@@ -1,0 +1,60 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "CITROEN JUMPER 2.2 BlueHDI 140 L3H2 Club Fourgon Tolé 33 (tva récupérable 11241 euros HT)",
+ "description": "CITROEN JUMPER 2.2 BlueHDI 140 L3H2 Club Fourgon Tolé 33 (tva récupérable 11241 euros HT), blanc, 7 cv, 5 portes, première mise en circulation le 28/09/2022. Prix TTC : 13 490 € 3 places Emission de CO2 : 215 g CO2/km Consommation mixte : 9.2 L/100 Kilométrage compteur OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - bluetooth Conduite : - limiteur de vitesse - régulateur de vitesse Extérieur : - caméra de recul - rétroviseurs rabattables - rétroviseurs électriques Intérieur : - accoudoir central - climatisation - ordinateur de bord - verrouillage automatique des portes en roulant - vitres électriques Pack : - volant multifonctions Autres équipements et informations : - GPS couleur - tactile Référence annonce : 0264-0003365",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/ea/6e/d2ea6eb443702fb94091780fed2a52d337e89b26.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/62/bb/72/62bb729c7319623b0effd0c0ae08df0de77ccf27.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/60/08/cf/6008cf8b8f085ca5742d11f8b751efb694af74e3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b2/45/7f/b2457f0d57ed7a56958a280c91c02c6a09de9cfa.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c8/5b/57/c85b577163cddbaf7b6db3c1047da9e8881ee9b7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/68/37/6368376e26cdd37c803c7f6c31635f703a61a99f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/21/f3/9f/21f39f96afe5b00d3cd32e2dc634464f4dddeb5b.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bd/23/a4/bd23a46b8c3067a412b5aec16fecaade3477f4f4.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fb/a3/32/fba332fa146272b117f5fa53a2705db54aea24d7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8f/fb/1e/8ffb1ebff99b3430efbdda98504b13804dd64c60.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/eb/b5/5a/ebb55a660603c76a945f83f0679049fa758b7737.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/28/e7/ac/28e7ac73f33a1564d05697f33d952086fec2dbf3.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/07/c4/0d/07c40d21e6d414788fea7ddb70eebb206ab67282.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/20/88/3f/20883f77115600e51a73040f3ad73480bfa78965.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/25/8d/55/258d5511257e095aa3ad02d5ffea055b68540548.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c1/cb/1fc1cbb20cc2a68cef425aae80d8b2b118eee655.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/f9/f4/d2f9f4d58b3d25fe3658201423f9cd125464ade5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6f/dc/3a/6fdc3a7a4758a1a6dbda4583debe795487250ee2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/56/df/04/56df04252882de2d02f25fc827127f90261453e0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/81/94/2a/81942ad0f1f90da879e5aa0894b923889b2cf9c8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e4/6e/36/e46e36593767981658f2980393786436abd53710.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/38/08/43/3808437a822ba8ed78ebef3b2f18cc748fee7abe.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f4/c7/22/f4c7229278fc637f7ea30152deedae386123f42d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fe/69/bf/fe69bf4bdaedc5f6409c529f4c968a7705e8b594.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/2868920275",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 13490,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2022",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "162450",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 5,
+ "vehicleSeatingCapacity": 3
+}

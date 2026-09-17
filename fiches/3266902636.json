@@ -1,0 +1,44 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Peugeot boxer 33 -l3h2 -160 -2019",
+ "description": "AV BOXER PEUGEOT L3H2 160 CV de 2019 suite changement de projet . CT fait , révision entretien 04/26 Distribution faite a 195000 KM en 2025 S&S , camera de recule long 5998 largeur 2050 hauteur 2522 vendu en complément avec 2 roues pneus hiver et 4 roues standard . me contacter si besoin renseignement.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/03/2e/77/032e7799317ec07a1760a1c67257313fc42c32ad.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/2e/8e/332e8e05957c009d4a8a1cb42163a95af20b99c9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/b7/44/b1b7442c69048b8152ec936329e96529724d0250.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/18/1a/92/181a92d9abc71cf8c9ead9649f2b19cb07579133.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/3d/08/19/3d0819f8ddecd0d3dbd564746579244c0a69b956.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/66/b3/ec/66b3ec5de337446d68f84634110fb2031ff5dbfd.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4d/9f/39/4d9f39e64cef34ff23f42a1b4f94c3f9e8855229.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c6/d5/00/c6d500f3e916a23ecd1d4c35328799021b0d4473.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3266902636",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 12500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "PEUGEOT"
+ },
+ "model": "Boxer",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "201000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

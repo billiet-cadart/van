@@ -1,0 +1,51 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "13.750ht Opel Movano L3H2 3.5T 140ch 80.580KM",
+ "description": "Opel Movano L3H2 2.2D 140 PACK CLIM utilitaire, blanc, 7 cv, 4 portes, première mise en circulation le 26/04/2023, Garantie 12 mois. Prix 13.750 € HT soit 16.500 € TTC. 3 places boîte de vitesse : manuelle OPTIONS ET ÉQUIPEMENTS : Audio - Télécommunications : - - RADIO - Bluetooth - GPS - Prise audio usb Conduite : - allumage automatique des feux - détecteur de pluie - limiteur de vitesse - régulateur de vitesse Extérieur : - - AIDE AU STATIONNEMENT AR - galerie Intérieur : - climatisation : automatique - fermeture centralisée - intérieur bois - ordinateur de bord - vitres électriques Pack : - - BOITE 6 VITESSES - - EXTENSION GARANTIE POSSIBLE - nombre de rapports : 6 vitesses Spécifique VUL : - type carrosserie : Fourgon Sécurité : - - AIRBAGS - ABS - phares antibrouillard Idem: Citroën jumper / Peugeot Boxer/ Renault master/ L2H2/ L3H2",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/74/92/b5/7492b5923083821eb3e17ec5e36b207a397f7c88.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/0f/77/270f77d8e5469a82c43e8f7e9f1bb295c97df663.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/c6/95/1bc6953157f266b3f35b591c298b18658f2b9bec.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/de/4b/05de4b248eb1de385250bbc51cf4f54dc0f570db.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/65/bb/c2/65bbc26466e2776117d1b260b72614da2451bcff.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/68/7c/18/687c184808e5420651a24bc7465fe0ac760abbe5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/79/36/1f79365b6f08b769fdfc75280ded503678056b31.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ef/cc/5e/efcc5eeadebe87c5b0f4476f6242293e2278a777.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/41/46/3c/41463ca3c899e435d04fe9d7ddcd55ed9eb44810.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/de/0c/7b/de0c7bc9cdc69d3943ee00c77c26c018931f9a0d.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/52/9e/7e/529e7ee06c870ebc79b4893a44061931f885d207.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/52/84/055284c39a637f955e49dbe2555136ede7510513.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/10/a9/1f10a9d3099e93244acca8645592bb21b8dbdf06.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/59/0f/67/590f67ff105bfd851401b11357858807ce40b065.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/45/71/95/457195288d27e7a93e3024397d2a9bfca57c9bd2.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3253146432",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 16500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "OPEL"
+ },
+ "model": "Movano",
+ "vehicleModelDate": "2023",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "80580",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

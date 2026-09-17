@@ -1,0 +1,41 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Citroën Jumper L3H2 Club 120 ch",
+ "description": "Vend Citroën Jumper L3H2 Club 120 ch - 2021 – 110 709 km - Très bon état 15 500 € TTC – 12 917 € HT (TVA récupérable) – PRIX A DÉBATTRE Véhicule mis en circulation le 23/04/2021. Équipement : - Finition Club - Moteur 2.2 BlueHDI - 120 h - Boîte manuelle - 110 709 km - Attelage de remorque - Radar de recul - Régulateur de vitesse - Bluetooth - Tous les entretiens ont été réalisé en concession Premier contact par mail pour renseignements complémentaires.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/26/49/09/264909c60988913bf7f8a9966940d2ae8ad1f425.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/d7/40/47d740654ecba6d70729b7c997c0716fe1be5261.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/52/58/72/525872da59a54af5a365ee20b65e6899b9e60748.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ee/53/d8/ee53d82a8f38a6a76990cf6108b73e04d093e830.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/a7/95/f0a79540ed703f4e4b0fda6b718bd8b801adc29d.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3264873506",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2021",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "110709",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

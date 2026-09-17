@@ -1,0 +1,46 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault MASTER L3H2 6 places 135CV TVA RECUPERABLE",
+ "description": "TARTARIN UTILITAIRES VOUS PROPOSE : RENAULT MASTER III 2.3 DCI F3500 135ch L3H2 Cabine approfondie 6 Places - Diesel - Mise en circulation 12/2020 - 118 400km Vendu Révisé, Nettoyé et Garanti. Cabine Approfondie 6 Places - Caméra de recul - Attelage - Marche pied acier - Doublage bois partie arrière - Tablette repas & porte gobelet - Bluetooth/USB - Rétroviseurs réglables - Régulateur/limitateur de vitesse - Climatisation - Accoudoir conducteur - Surélevé Vendu Révisé, Nettoyé et Garantie. 15 200€ ht - 18 240€ ttc (TVA Récupérable) Reprise possible de votre ancien véhicule. Nous proposons des financements. Dossier photos sur demande.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/12/5d/c9125d447a4c6f3f8129f56c3d2102bda1158d79.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/60/89/586089a58b0f096155309edaf9a239c55e9e1c0f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/85/5c/6a/855c6a17bb687a193e86d4ba3fd2fd726202c3f1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/25/91/a1259136ff9949ebb2c3be5410f758defb8ff5c8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ef/47/b0/ef47b0b0b44a4eb56386cf2412021ecfaafa7b34.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/70/69/277069dcd7636ba6fa589f403a9779337753c8a5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/21/02/b62102472e3ce516541b1f2493960ba7f7240189.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/77/1d/81/771d8126d039bd2c6a3368ca1c93da27e35ab683.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f8/d6/6d/f8d66d94f504441799f12ad1efaecb9f55306fa5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/cd/20/79/cd2079ab3c69823df3bcabcbd6962ac9c32cfaf5.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3266944262",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 18240,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2020",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "118400",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 6
+}

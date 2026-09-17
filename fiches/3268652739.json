@@ -1,0 +1,39 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Citroën jumpe L3H2",
+ "description": "Citroën Jumper L3H2 2.0 BlueHDi 110 – 2019 – 131 000 km Vends Citroën Jumper L3H2 2.0 BlueHDi 110 ch, première mise en circulation le 08/02/2019, affichant actuellement 131 000 km. Fourgon grand volume L3H2, idéal artisan, entreprise, aménagement professionnel ou transformation en van/camping-car. Caractéristiques : * 2.0 BlueHDi Diesel – 110 ch * Boîte manuelle 6 rapports * 3 places * Norme Euro 6 * 7 CV fiscaux * PTAC : 3 500 kg * PTRA : 5 500 kg * Grand volume L3H2 – environ 13 m³ * Longueur utile d’environ 3,70 m * Hauteur utile d’environ 1,93 m * Porte latérale coulissante * Doubles portes arrière * Commandes au volant * Autoradio * Rétroviseurs grand format * Gyrophares orange sur le toit État / entretien : Véhicule en bon état mécanique, aucun frais mécanique à prévoir à ma connaissance. Il roule parfaitement et est utilisé régulièrement. Quelques traces, rayures et frottements de carrosserie liés à l’utilisation d’un véhicule utilitaire, visibles sur les photos. Je préfère les signaler afin d’être totalement transparent. Le contrôle technique sera effectué pour la vente. Kilométrage susceptible d’évoluer légèrement. Prix : 13 500 € Véhicule visible sur rendez-vous. Pas d’échange. Curieux et offres fantaisistes, merci de s’abstenir.",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/43/cb/c2/43cbc2948310fce3404abfcccd71011256d119a9.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/44/a8/8b44a8006009bc084dc0f11ee45ef539237b9ad5.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/50/fd/11/50fd11db68b7307038f680b9a2463a2a5d4ef895.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3268652739",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 13500,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "CITROEN"
+ },
+ "model": "Jumper",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "131000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 4,
+ "vehicleSeatingCapacity": 3
+}

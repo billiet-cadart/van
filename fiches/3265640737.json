@@ -1,0 +1,58 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "RENAULT Master 2.3 DCi 150ch L3H2 Grand Confort",
+ "description": "RENAULT Master 2.3 DCi 150ch L3H2 Grand Confort, Blanc, 8CV, portes, 31/12/2019 Historique d'Entretiens Disponible. 3500 KG TVA RECUPERABLE SOIT 13325 € HT >>> Visite et essai sur RDV à l’agence < << *** L’Agence Automobilière, Réseau numéro 1 en Europe avec plus de 120 agences *** >> Prix hors Frais de mise à la route à 199 € + coût de carte grise < < *Les frais de mise à la route comprennent la préparation du véhicule et réalisation de carte grise >>> Visite et essai sur RDV à l’agence < << Rapport Histovec disponible Extension de garantie jusqu'à 60 mois Reprise de votre véhicule actuel possible Livraison dans toute la France (Devis sur demande) Visio 360 sur demande. Pour vous garantir un accueil personnalisé et un accompagnement de qualité, tous nos véhicules sont visibles uniquement sur rendez-vous. L’AGENCE AUTOMOBILIÈRE accompagne chaque vente dans un esprit de confiance, d’honnêteté et de transparence. Découvrez plus de 5 000 véhicules d'occasion rigoureusement sélectionnés sur notre site. La garantie légale de conformité ne s'applique pas dans une vente entre particuliers. Référence annonce : 508224",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/99/af/46/99af46d81ff3c104d6846b4a60998e0d567f0fe2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/ee/14/63/ee1463f77de943117d69c7a9f9bb23eff3780d1a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e0/8c/6f/e08c6f2f4cfa4000963bd0b8a003f2e75e5d0c00.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/82/cd/21/82cd216763c376a6bf83263d539949f93f7a7a72.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/34/f1/41/34f141a879d5e129a61cb5ce695bbf63f42621ef.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/77/5a/3f/775a3fe761328d3359539d05eb66294ddf6a6c31.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/07/20/f9/0720f92b11e07aa1cc34ebb35ee771dc4aeedc22.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/de/60/4a/de604a97b374f87e9e2ab3cee027910df295cbec.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/28/64/0c/28640c37d9a55b546886678f75c76d578a0c5b42.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/4a/5f/e34a5fe99143ab4fb543f7568ca3b8fa68737ed0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4d/bf/51/4dbf51c57b2574dc7ecfa4d92c65d958b7b22169.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/c5/d6/60/c5d660a6d9c1eb34d8115598022e152970999827.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5c/a8/29/5ca82950b10f1d7c3c6a1aeb4a1502854c380d19.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/2b/69/e2/2b69e2a682f5c527e288555642cea0bbef68a5e8.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/82/2c/51/822c51160bc978a288e6f90d29e46977852a8553.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/5e/26/b7/5e26b7aab05aa0afb709bf9174209d2df0fbdd52.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/7d/02/9d/7d029d27097de0f395248fe33d41c28793e6b5a2.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/98/37/ff/9837ff414fc4942bdfba04c88cad2ecdd139a329.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/fa/de/91/fade9116777749b0d1237cbeab281c5d70e56586.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/e5/3c/1b/e53c1b92de42c980bd0e722f2cef6224b7162496.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/19/ee/81/19ee8148575c27bf392b50c06679bc81959b9d23.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/83/e7/1d83e738a05d8ffb458fa06b3d4ea12e96f7a14d.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3265640737",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 15990,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "159000",
+  "unitCode": "KMT"
+ },
+ "color": "blanc",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 999999,
+ "vehicleSeatingCapacity": 3
+}

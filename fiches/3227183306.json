@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Vehicle",
+ "name": "Renault Master PlanCb 14 900 HT L3H2 2.3 dCi 110ch Grand Confort HAYON",
+ "description": "Renault Master PlanCb 14 900€ HT L3H2 2.3 dCi 110ch Grand Confort HAYON, (Fourgon), Jaune Citron, 8cv, 2 portes, mise en circulation le 10-05-2019, garantie 3 mois (3 mois pièces et main d'oeuvre). 3 places, longueur : 6,18 mètres, poids en charge 3500 Kg, boîte de vitesse : manuelle OPTIONS ET EQUIPEMENTS : Audio - Télécommunications - 2 Haut parleurs - Fonction MP3 - Kit mains-libres Bluetooth - Prise Jack - Prise USB - Radio Conduite - Aide au démarrage en côte - Limiteur de vitesse - Régulateur de vitesse Extérieur - Eclairage au sol - Filtre à particules - Phares halogènes - Répétiteurs de clignotant dans rétro ext - Rétroviseurs dégivrants - Rétroviseurs électriques Intérieur - Appui-tête conducteur réglable hauteur - Appui-tête passager réglable en hauteur - Bacs de portes avant - Banquette AV 2 places monobloc - Boite à gants fermée - Clim manuelle - Compte tours - Filtre à Pollen - Ordinateur de bord - Porte-gobelets avant - Prise 12V - Rangement sous siège passager avant - Siège conducteur avec réglage lombaire - Siège passager avec dossier repliable - Température extérieure - Verrouillage auto. des portes en roulant - Verrouillage centralisé des portes - Verrouillage centralisé à distance - Vitres avant électriques - Vitres teintées - Volant réglable en hauteur Spécifique VUL - Plancher Sécurité - ABS - Aide au freinage d'urgence - Airbag conducteur - Alarme d'oubli d'extinction des feux - Antidémarrage électronique - Antipatinage - Ceintures avant ajustables en hauteur - Contrôle electronique de stabilité - EBD - ESP - Système de contrôle des angles morts Autres équipements et informations : - 2 PLACES - GPS - HAYON - TVA RECUPERABLE, PRIX HT : 14 900€ - Jaune Citron - Tissu Kaleido Carbone Foncé Kilométrage non garanti. Référence annonce : 6142",
+ "image": [
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/c8/f8/63c8f8f0f054f03bd61f575d3f23726f13d6ddf0.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/31/e0/85/31e085c827657125c9c4dffcc43a6fbf271bb897.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/bc/5c/9d/bc5c9d881eaf74b1e58d16306cf5327835893190.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/16/92/e4/1692e43fe521caf5bce71ecb456568b07a590f35.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/a6/4e/b6a64e9c409d8181f8f7517952d072d8e2a214d7.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/e4/28/a7e4280b97a31d69c32ef7d0a6ab43db1963c97f.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f8/a0/0f/f8a00f4cbdd49dbe73f881383743c9dbfabb962a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/b5/ef/19/b5ef19b72af76272132fa4f25b872337b2399068.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/b0/a8/47b0a8f5454bb6dfe6a829bb2e20d21aa33dde1a.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/f4/d6/2d/f4d62df6d095869f4200628c219ed67603f0dd55.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/4d/a3/78/4da378a7eb43b58da868ca86d24610aa067905f1.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/d6/1d/84/d61d84d3f9f91d55879124d91c0a0d1c82ccd919.jpg?rule=ad-image",
+  "https://img.leboncoin.fr/api/v1/lbcpb1/images/6d/60/d3/6d60d3851e5b06cacac08d7feb0fcf17500acd26.jpg?rule=ad-image"
+ ],
+ "url": "https://www.leboncoin.fr/ad/utilitaires/3227183306",
+ "offers": {
+  "@type": "Offer",
+  "availability": "http://schema.org/InStock",
+  "price": 17880,
+  "priceCurrency": "EUR"
+ },
+ "itemCondition": "https://schema.org/UsedCondition",
+ "brand": {
+  "@type": "Brand",
+  "name": "RENAULT"
+ },
+ "model": "Master",
+ "vehicleModelDate": "2019",
+ "mileageFromOdometer": {
+  "@type": "QuantitativeValue",
+  "value": "211100",
+  "unitCode": "KMT"
+ },
+ "color": "jaune",
+ "bodyType": null,
+ "vehicleEngine": {
+  "@type": "EngineSpecification",
+  "fuelType": "2"
+ },
+ "vehicleTransmission": "Manuelle",
+ "numberOfDoors": 2,
+ "vehicleSeatingCapacity": 3
+}
