@@ -1,20 +1,12 @@
-import fs from 'fs/promises'
-import path from 'path'
 import { z } from 'zod'
 import FicheSchema from '../utils/FicheSchema'
 import getExtendedProperties from '../utils/getExtendedProperties'
 import fitPriceRegression from '../utils/fitPriceRegression'
 
-const directory = './fiches'
-
 export default defineEventHandler(async () => {
-  const files = await fs.readdir(directory)
+  const keys = await useStorage('assets:server').getKeys('fiches')
 
-  const promises = files.map(async (file) => {
-    return JSON.parse(await fs.readFile(path.join(directory, file), 'utf-8'))
-  })
-
-  const data = await Promise.all(promises)
+  const data = await Promise.all(keys.map(async key => useStorage('assets:server').getItem(key)))
 
   const parsed = z.parse(z.array(FicheSchema), data).filter((van) => {
     if (van.vehicleEngine.fuelType !== '2') return false
